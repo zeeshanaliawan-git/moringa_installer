@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> CSS Grid Designer</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../img/logo.png">
+
+	<!-- jQuery -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/moment.min.js"></script>
+
+	<!-- jQuery UI -->
+	<link href="../css/jquery-ui.min.css" rel="stylesheet">
+	<script src="../js/jquery-ui-1.12.1.min.js"></script>
+
+	<!-- Bootstrap 4 -->
+	<link href="../css/bootstrap413.min.css" rel="stylesheet">
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap413.min.js"></script>
+
+	<script src="../js/bootbox.min.js"></script>
+	<link href="../css/animate.min.css" rel="stylesheet">
+	<script src="../js/bootstrap-notify.min.js"></script>
+
+	<!-- core ui -->
+	<link href="../css/coreui-icons.min.css" rel="stylesheet">
+	<link href="../css/coreui.214.min.css" rel="stylesheet">
+	<script src="../js/coreui.min.js"></script>
+
+	<!-- Icons -->
+	<link href="../css/font-awesome-all.min.css" rel="stylesheet">
+	<link href="../css/open-iconic-bootstrap.css" rel="stylesheet">
+	<link href="../css/orangeIcons.min.css" rel="stylesheet">
+
+	<!-- Datetimepicker -->
+	<link href="../css/jquery.datetimepicker.min.css" rel="stylesheet">
+	<script src="../js/jquery.datetimepicker.full.js"></script>
+
+	<!-- Datatables -->
+	<link href="../css/datatables.min.css" rel="stylesheet">
+	<script src="../js/datatables.min.js"></script>
+
+	<!-- Feather icons (svg icons) -->
+	<script src="../js/feather.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			feather.replace();
+		});
+	</script>
+
+	<!-- Misc -->
+	<link href="../css/menu.css" rel="stylesheet">
+	<link href="../css/my.css" rel="stylesheet">
+	<link href="../css/moringa-cms.css" rel="stylesheet">
+	<!-- <link href="../css/navbar-fixed-top.css" rel="stylesheet"> -->
+
+	<!-- <script src="/dev_catalog/js/support_proxy.jsp"></script> -->
+	<script src="../js/common.js"></script>
+
+	<script src="../js/uuidv4.min.js"></script>
+
+	<style type="text/css">
+		#gridContainer .grid {
+			background-color: lightgray;
+			height: 100%;
+			width: 100%;
+		}
+
+		.grid > .grid {
+			position: relative;
+			border: 1px solid lightskyblue;
+		}
+
+		.grid > .gridItem {
+			background-color: lightblue;
+			z-index: 100;
+			position: relative;
+			border: 1px solid #0099cc;
+			border-radius: 2px;
+		}
+
+		.grid > .gridItemPlaceholder {
+			background-color: white;
+			z-index: 50;
+			border: dashed 1px grey;
+			border-radius: 2px;
+			padding-left: 5px;
+			cursor: pointer;
+		}
+
+		.gridItem > .gridEditBar {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			z-index: 100;
+			width: max-content;
+		}
+
+		.grid.gridItem > .gridEditBar {
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			z-index: 101;
+		}
+
+		.gridItem.edit > .gridEditBar {
+			z-index: 110;
+		}
+
+		.grid > .gridEditBar  .gridIcon {
+			display: inline-block !important;
+		}
+
+		.grid > .gridEditBar > .convertToGridBtn  {
+			display: none;
+		}
+
+		.grid > .gridEditBar > .convertToItemBtn {
+			display: inline-block !important;
+		}
+
+		.grid > .gridEditBar > .deleteGridItemBtn {
+			display: none;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<!-- editor -->
+		<!-- <div class="row">
+			<div id="gridEditor" class="col gridEditor">
+				<button type="button" class="btn btn-primary btn-sm" onclick="grid.showEditModal()">Editor</button>
+			</div>
+		</div> -->
+
+		<!-- grid container -->
+		<div class="row">
+			<div class="col">
+				<div id="gridContainer" class="" style="width: 100%; min-height: 99vh; height: 100%;">
+
+				</div>
+			</div>
+		</div>
+
+	</div><!-- container -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalEditGrid" tabindex="" data-backdrop="" role="dialog" style="pointer-events: none;">
+		<div class="modal-dialog modal-sm " role="document" style="margin: 0 !important;">
+			<div class="modal-content">
+				<div class="modal-header" style="cursor: move;">
+					<button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body p-2">
+					<form class="" onsubmit="return false;">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-3 px-2 m-auto">Selected</div>
+								<div class="col">
+									<input class="form-control form-control-sm" type="text" name="curSelectedName" readonly="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col p-0">
+									<span style="transform: rotate(90deg); display: inline-block;">≑</span>Grid Columns
+								</div>
+							</div>
+							<div class="row">
+								<div class="col py-0 px-1 ">
+									<div class="pb-1">
+										<button type="button" class="btn btn-primary btn-sm w-100"
+											onclick="grid.addGridColRow('col',true)">Add</button>
+									</div>
+									<div class="gridColumnsList"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col p-0">
+									<span>≑</span>Grid Rows
+								</div>
+							</div>
+							<div class="row">
+								<div class="col py-0 px-1 ">
+									<div class="pb-1">
+										<button type="button" class="btn btn-primary btn-sm w-100"
+											onclick="grid.addGridColRow('row',true)">Add</button>
+									</div>
+									<div class="gridRowsList"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col p-0">
+									<span>⊞</span>Grid Gap
+								</div>
+							</div>
+							<div class="row">
+								<div class="col py-0 px-1">
+									<div class="form-group row mb-1">
+										<label class="col-3">Columns</label>
+										<div class="input-group input-group-sm col">
+											<!-- <div class="input-group-prepend"></div> -->
+											<input class="form-control" type="number" min="0" step="0.5"
+												name="gridGapColumnSize"
+												oninput="grid.onInputGridSize(this, 'columnGap')">
+											<select class="form-control custom-select" name="gridGapColumnSizeUnit"
+												onchange="grid.onChangeGridSizeUnit('columnGap')">
+												<option value="px">px</option>
+												<option value="%">%</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group row mb-1">
+										<label class="col-3">Rows</label>
+										<div class="input-group input-group-sm col">
+											<!-- <div class="input-group-prepend"></div> -->
+											<input class="form-control" type="number" min="0" step="0.5"
+												name="gridGapRowSize" oninput="grid.onInputGridSize(this, 'rowGap')">
+											<select class="form-control custom-select" name="gridGapRowSizeUnit"
+												onchange="grid.onChangeGridSizeUnit('rowGap')">
+												<option value="px">px</option>
+												<option value="%">%</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- contiainer -->
+					</form>
+				</div>
+				<!-- <div class="modal-footer d-none">
+					<button type="button" class="btn btn-primary|secondary|success|danger|warning|info|light|dark" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary|secondary|success|danger|warning|info|light|dark">Save changes</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- /Modal -->
+	<div class="d-none">
+		<!-- templates -->
+		<div id="template_grid_input" class="input-group input-group-sm mb-1 gridInputDiv">
+			<input class="form-control" type="number" min="0" step="0.5" name="size"
+				oninput="grid.onInputGridSize(this)">
+			<select class="form-control custom-select" name="sizeUnit" onchange="grid.onChangeGridSizeUnit(this)">
+				<option value="fr">fr</option>
+				<option value="px">px</option>
+				<option value="%">%</option>
+				<option value="em">em</option>
+				<option value="auto">auto</option>
+				<option value="min-content">min-content</option>
+				<option value="max-content">max-content</option>
+				<option value="minmax">minmax</option>
+			</select>
+			<div class="input-group-append">
+				<button type="button" class="btn btn-danger" onclick="grid.deleteGridColRow(this)">x</button>
+			</div>
+		</div>
+
+
+		<div id="template_grid_edit_bar">
+			<div class="gridEditBar">
+				<span class="mr-1">
+					<span class="gridIcon" style="display: none;">⊞ <i class="cil-grid"></i> </span>
+					<span class="itemName"></span>
+					<input type="text" class="itemNameInput form-control form-control-sm" value=""
+						style="width:auto; display: none;" onclick="event.stopPropagation();"
+						oninput="grid.onInputItemName(this)">
+				</span>
+				<button class="showOnEdit saveItemBtn btn btn-sm btn-primary mr-1 py-0 px-1" type="button"
+					onclick="grid.saveGridItem(this);" style="display: none;"
+					title="Save" data-toggle="tooltip" >
+					<i data-feather="save"></i>
+				</button>
+				<button class="hideOnEdit editItemBtn btn btn-sm btn-primary mr-1 py-0 px-1" type="button"
+					onclick="grid.editGridItem(this);"
+					title="Edit" data-toggle="tooltip" >
+					<i data-feather="edit"></i>
+				</button>
+				<button class="convertToGridBtn btn btn-sm btn-primary mr-1 py-0 px-1" type="button"
+					onclick="grid.convertToGrid(this);"
+					title="Convert to grid" data-toggle="tooltip" >
+					<i data-feather="grid"></i>
+				</button>
+				<button class="deleteGridItemBtn btn btn-sm btn-danger mr-1 py-0 px-1" type="button"
+					onclick="grid.deleteGridItem(this);"
+					title="Delete" data-toggle="tooltip" >
+					<i data-feather="trash"></i>
+				</button>
+				<button class="convertToItemBtn btn btn-sm btn-danger mr-1 py-0 px-1" type="button"
+					onclick="grid.convertToItem(this);" style="display: none;"
+					title="Convert to item"  data-toggle="tooltip" >
+					<i data-feather="x"></i>
+				</button>
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		if (!$ch) {
+			$ch = {};
+		}
+
+		var grid = {};
+
+		$(document).ready(function () {
+
+			grid.init();
+
+		});
+
+		grid.init = function () {
+			grid.gridContainer = $('#gridContainer');
+			grid.rootGridData = {};
+			grid.rootGridDiv = null;
+			grid._curSelected = false;
+			grid.isEditing = false;
+
+			grid.nextGridItemNum = 0;
+
+
+			grid.editorModal = $('#modalEditGrid');
+			// grid.editorModal.modal()
+
+			grid.editorModal.draggable({
+				handle: '.modal-header'
+			}).css({
+				top: '10%',
+				left: '10%'
+			});
+
+			grid.rootGridData = grid.initGridData();
+			grid.rootGridDiv = grid.render(grid.rootGridData);
+
+			grid.setCurSelected(grid.rootGridData);
+
+			grid.gridContainer.on('click', grid.gridClickHandler);
+
+			grid.showEditModal();
+		};
+
+		grid.initGridData = function () {
+
+			var rootId = uuidv4();
+
+			var gridObj = {
+				id: rootId,
+				name: 'page',
+				type: 'grid',
+				parent: '',
+				children: [
+					{
+						id: uuidv4(),
+						name: 'Grid Item 1',
+						type: 'gridItem',
+						parent: rootId,
+						itemProps: {
+							'grid-row-start': 1,
+							'grid-row-end': 2,
+							'grid-column-start': 1,
+							'grid-column-end': 2,
+						},
+						gridProps: {},
+						children: [],
+					},
+					{
+						id: uuidv4(),
+						name: 'gridItem_2',
+						type: 'grid',
+						parent: rootId,
+						itemProps: {
+							'grid-row-start': 1,
+							'grid-row-end': 2,
+							'grid-column-start': 2,
+							'grid-column-end': 3,
+						},
+						gridProps: grid.getDefaultGridProps(),
+						children: [],
+					},
+				],
+				gridProps: grid.getDefaultGridProps(),
+				itemProps: {},
+			};
+
+			return gridObj;
+		}
+
+		grid.setCurSelected = function (obj) {
+			if(obj.id !== grid._curSelected.id){
+				grid._curSelected = obj;
+				grid.showEditModal();
+			}
+		};
+
+		grid.getCurSelected = function () {
+			return grid._curSelected;
+		};
+
+		grid.getCurSelectedGrid = function () {
+			var gridObj = grid._curSelected;
+			if (gridObj.type === 'gridItem') {
+				gridObj = $('#' + gridObj.parent).data('gridData');
+			}
+
+			return gridObj;
+		};
+
+		grid.deleteById = function(deleteId, gridObj){
+			if(!gridObj){
+				gridObj = grid.rootGridData;
+			}
+			if(gridObj.type === 'grid'){
+				$(gridObj.children).each(function(index, curChild) {
+					if(curChild.id === deleteId){
+						//remove
+						gridObj.children.splice(index,1);
+						grid.setCurSelected(gridObj);
+						grid.render(gridObj);
+						return false;
+					}
+					else{
+						return grid.deleteById(deleteId, curChild);
+					}
+				});
+
+			}
+
+			return true;
+		};
+
+		grid.getDefaultGridProps = function(){
+			return {
+					columns: [['1', 'fr'], ['1', 'fr']],
+					rows: [['1', 'fr'], ['1', 'fr']],
+					columnGap: ['0', 'px'],
+					rowGap: ['0', 'px'],
+					justifyItems: 'stretch',
+					alignItems: 'stretch',
+				};
+		};
+
+		grid.checkIsEditing = function(){
+			if(grid.isEditing){
+				bootNotifyError("Save currenly editing item first.");
+				return false;
+			}
+			else{
+				return true;
+			}
+		};
+
+		grid.render = function (obj) {
+
+			var container = grid.gridContainer;
+
+			var isRootGrid = false;
+
+			if (obj.parent.length > 0) {
+				container = $('#' + obj.parent);
+			}
+			else{
+				isRootGrid = true;
+			}
+
+			if ($('#' + obj.id).length > 0) {
+				$('#' + obj.id).remove();
+			}
+
+			if (obj.type === 'grid'  || obj.type === 'gridItem') {
+
+				var gridObj = obj;
+
+				var gridDiv = $('<div>').attr({
+					'id': obj.id,     //??
+					'grid-id': obj.id, //??
+					'grid-name': obj.name,
+					'grid-type': obj.type,
+					'grid-parent': obj.parent,
+				});
+				gridDiv.on('click',grid.onClickGridItem);
+				gridDiv.data('gridData', obj);
+				var isGrid = (obj.type === 'grid' && !$.isEmptyObject(obj.gridProps));
+
+				gridDiv.addClass(obj.type);
+
+				if(isGrid){
+					var gridProps = obj.gridProps;
+					var columnRowReducer = function (accumulator, curValue) {
+						return accumulator + " " + curValue.join("");
+					};
+					var cssGridProps = {
+						'display': 'grid',
+						'grid-template-columns': gridProps.columns.reduce(columnRowReducer, '').trim(),
+						'grid-template-rows': gridProps.rows.reduce(columnRowReducer, '').trim(),
+						'grid-column-gap': gridProps.columnGap.join(''),
+						'grid-row-gap': gridProps.rowGap.join(''),
+						'justify-items': gridProps.justifyItems,
+						'align-items': gridProps.alignItems,
+					};
+					gridDiv.css(cssGridProps);
+
+					grid.addGridPlaceholders(gridDiv);
+				}
+
+				if (!isRootGrid) {
+					gridDiv.addClass('gridItem');
+					// because all divs except root grid div is a grid item
+					// even if its type == grid
+
+					grid.setItemProps(gridDiv, gridObj.itemProps);
+
+					var editBarTemplate = $('#template_grid_edit_bar');
+					gridDiv.append(editBarTemplate.html());
+					// gridDiv.find('[data-toggle=tooltip]').tooltip({
+					// 	trigger : 'hover'
+					// });
+					gridDiv.find('.itemName').text(gridObj.name);
+				}
+
+				$(container).append(gridDiv);
+				grid.nextGridItemNum += 1;
+
+				//renderChidren
+				if(isGrid){
+					$(gridObj.children).each(function (idx, child) {
+						grid.render(child);
+					});
+				}
+
+				//console.log(cssGridProps);
+				console.log(gridDiv);
+				console.log(gridObj);
+
+				return gridDiv;
+			}
+		};
+
+		// grid.renderGridItem = function (container, obj) {
+
+		// 	var itemObj = obj;
+		// 	var itemProps = obj.itemProps;
+
+		// 	var gridItemDiv = $('<div class="gridItem">').attr({
+		// 		'id': itemObj.id,     //??
+		// 		'grid-id': itemObj.id, //??
+		// 		'grid-name': itemObj.name,
+		// 		'grid-type': itemObj.type,
+		// 		'grid-parent': itemObj.parent,
+		// 	});;
+
+		// 	var editBarTemplate = $('#template_grid_edit_bar');
+		// 	gridItemDiv.append(editBarTemplate.html());
+
+		// 	grid.setItemProps(gridItemDiv, itemProps);
+
+		// 	gridItemDiv.find('.itemName').text(itemObj.name);
+
+		// 	container.append(gridItemDiv);
+		// 	gridItemDiv.data('gridData', itemObj);
+		// 	grid.nextGridItemNum += 1;
+
+		// 	return gridItemDiv;
+
+		// };
+
+		grid.setItemProps = function (ele, itemProps) {
+			$(ele).css({
+				'grid-row-start': '' + itemProps['grid-row-start'],
+				'grid-row-end': '' + itemProps['grid-row-end'],
+				'grid-column-start': '' + itemProps['grid-column-start'],
+				'grid-column-end': '' + itemProps['grid-column-end'],
+			});
+		};
+
+		grid.addGridPlaceholders = function (gridDiv) {
+
+			var gridData = gridDiv.data('gridData');
+
+			for (var rowIdx = 0; rowIdx < gridData.gridProps.rows.length; rowIdx++) {
+
+				for (var colIdx = 0; colIdx < gridData.gridProps.columns.length; colIdx++) {
+					var placeholderDiv = $('<div class="gridItemPlaceholder">');
+					placeholderDiv.css({
+						'grid-row-start': '' + (rowIdx + 1),
+						'grid-row-end': '' + (rowIdx + 2),
+						'grid-column-start': '' + (colIdx + 1),
+						'grid-column-end': '' + (colIdx + 2),
+					});
+					//placeholderDiv.text((rowIdx + 1) + " " + (colIdx + 1));
+					placeholderDiv.on('click', grid.onClickGridPlaceholder)
+					gridDiv.append(placeholderDiv);
+				}
+			}
+		};
+
+		grid.addNewGridItem = function (params) {
+			var curSelected = grid.getCurSelected();
+
+			if (curSelected.type === 'grid') {
+				var parentId = curSelected.id;
+
+				var gridItemObj = {
+					id: uuidv4(),
+					name: 'Grid item ' + grid.nextGridItemNum,
+					type: 'gridItem',
+					parent: parentId,
+					itemProps: {
+						'grid-row-start': '' + params.rowStart,
+						'grid-row-end': '' + params.rowEnd,
+						'grid-column-start': '' + params.colStart,
+						'grid-column-end': '' + params.colEnd,
+					},
+					grid: {},
+					children: [],
+				};
+
+				curSelected.children.push(gridItemObj);
+
+				var gridItemDiv = grid.render(gridItemObj);
+				grid.editGridItem(gridItemDiv.find('.editItemBtn'));
+			}
+		};
+
+		grid.showEditModal = function () {
+
+			// reset modal if it isn't visible
+			if (!(grid.editorModal.is(':visible'))) {
+				grid.editorModal.find('.modal-dialog').css({
+					top: 0,
+					left: 0
+				});
+			}
+			grid.editorModal.modal({
+				backdrop: false,
+				show: true,
+			});
+
+			grid.renderEditModal();
+		};
+
+		grid.renderEditModal = function () {
+
+			var gridObj = grid.getCurSelectedGrid();
+
+			var gridProps = gridObj.gridProps;
+
+			var modal = grid.editorModal;
+
+			modal.find('[name=curSelectedName]').val(gridObj.name);
+
+			modal.find('.gridColumnsList,.gridRowsList').html('');
+			//grid columns
+			$.each(gridProps.columns, function (index, curColumn) {
+				grid.addGridColRow('col', false, curColumn);
+			});
+			//grid rows
+			$.each(gridProps.rows, function (index, curRow) {
+				grid.addGridColRow('row', false, curRow);
+			});
+
+			modal.find('[name=gridGapColumnSize]').val(gridProps.columnGap[0]);
+			modal.find('[name=gridGapColumnSizeUnit]').val(gridProps.columnGap[1]);
+
+			modal.find('[name=gridGapRowSize]').val(gridProps.rowGap[0]);
+			modal.find('[name=gridGapRowSizeUnit]').val(gridProps.rowGap[1]);
+		};
+
+		grid.addGridColRow = function (type, isUpdate, data) {
+
+			var selector = type === "col" ? ".gridColumnsList" : ".gridRowsList";
+			var container = grid.editorModal.find(selector);
+			var template = $('#template_grid_input');
+			var inputRow = $(template.clone(true)).removeAttr('id');
+			container.append(inputRow);
+
+			inputRow.attr('data-type', type);
+
+			if (typeof data === 'undefined') {
+				data = ['1', 'fr'];//default value
+			}
+
+			inputRow.find('[name=size]').val(data[0]);
+			inputRow.find('[name=sizeUnit]').val(data[1]);
+
+			if (isUpdate) {
+				grid.updateGridProps(type);
+			}
+		};
+
+		grid.deleteGridColRow = function (btn) {
+			var isConfirm = confirm("Are you sure ?");
+
+			if (isConfirm) {
+				var gridInputDiv = $(btn).parents('.gridInputDiv:first');
+				var type = gridInputDiv.attr('data-type');
+				gridInputDiv.remove();
+				grid.updateGridProps(type);
+			}
+		};
+
+		grid.updateGridProps = function (type) {
+
+			console.log('updateGridProps', type);
+
+			var curGridObj = grid.getCurSelectedGrid();
+
+			var modal = grid.editorModal;
+
+			if (type === 'col') {
+				var columns = [];
+				modal.find('.gridColumnsList .gridInputDiv')
+					.each(function (index, el) {
+						el = $(el);
+						var size = el.find('[name=size]').val();
+						var sizeUnit = el.find('[name=sizeUnit]').val();
+
+						columns.push([size, sizeUnit]);
+					});
+				curGridObj.gridProps.columns = columns;
+			}
+
+			if (type === 'row') {
+				var rows = [];
+				modal.find('.gridRowsList .gridInputDiv')
+					.each(function (index, el) {
+						el = $(el);
+						var size = el.find('[name=size]').val();
+						var sizeUnit = el.find('[name=sizeUnit]').val();
+
+						rows.push([size, sizeUnit]);
+					});
+				curGridObj.gridProps.rows = rows;
+			}
+
+			if (type === 'columnGap') {
+				curGridObj.gridProps.columnGap = [
+					modal.find('[name=gridGapColumnSize]').val(),
+					modal.find('[name=gridGapColumnSizeUnit]').val(),
+				];
+			}
+
+			if (type === 'rowGap') {
+				curGridObj.gridProps.rowGap = [
+					modal.find('[name=gridGapRowSize]').val(),
+					modal.find('[name=gridGapRowSizeUnit]').val(),
+				];
+			}
+
+			grid.render(curGridObj);
+
+		};
+
+		grid.editGridItem = function (btn) {
+
+			if(!grid.checkIsEditing()){
+				return false;
+			}
+
+			var gridItemDiv = $(btn).parents('.gridItem:first');
+			var editBarDiv = gridItemDiv.find('.gridEditBar:first');
+
+			grid.setCurSelected(gridItemDiv.data('gridData'));
+			grid.isEditing = true;
+			gridItemDiv.addClass("edit");
+
+			gridItemDiv.find('.showOnEdit').show();
+			gridItemDiv.find('.hideOnEdit').hide();
+
+			var itemNameDiv = editBarDiv.find('.itemName:first');
+			var itemNameInput = editBarDiv.find('.itemNameInput:first');
+
+			itemNameInput.val(itemNameDiv.text());
+
+			itemNameDiv.hide();
+			itemNameInput.css('display', 'inline-block');
+			itemNameInput.focus();
+		};
+
+		grid.convertToGrid = function (btn) {
+
+			if(!grid.checkIsEditing()){
+				return false;
+			}
+
+			var gridItemDiv = $(btn).parents('.gridItem:first');
+			var editBarDiv = gridItemDiv.find('.gridEditBar:first');
+			var gridDataObj = gridItemDiv.data('gridData');
+
+			var type = gridDataObj.type;
+			if(type === 'gridItem'){
+				//convert to grid
+				gridDataObj.gridProps = grid.getDefaultGridProps();
+				gridDataObj.children = [];
+				gridDataObj.type = 'grid';
+				grid.setCurSelected(gridDataObj);
+				grid.render(gridDataObj);
+
+			}
+		};
+
+		grid.convertToItem = function (btn) {
+
+			if(!grid.checkIsEditing()){
+				return false;
+			}
+
+			var gridItemDiv = $(btn).parents('.gridItem:first');
+			var editBarDiv = gridItemDiv.find('.gridEditBar:first');
+			var gridDataObj = gridItemDiv.data('gridData');
+
+			var type = gridDataObj.type;
+			if(type === 'grid'){
+				//convert to grid
+				gridDataObj.gridProps = {};
+				gridDataObj.children = [];
+				gridDataObj.type = 'gridItem';
+				grid.setCurSelected(gridDataObj);
+				grid.render(gridDataObj);
+
+			}
+		};
+
+
+		grid.expandGridItem = function (gridItemObj, placeholderDiv) {
+			console.log("expandGridItem", gridItemObj, placeholderDiv);
+
+			var gridItemDiv = $('#' + gridItemObj.id);
+			var itemId = gridItemObj.id;
+			var itemProps = gridItemObj.itemProps;
+			// console.log(itemProps);
+
+			var minRowStart = Math.min(itemProps['grid-row-start'], placeholderDiv.css('grid-row-start'));
+			var minColStart = Math.min(itemProps['grid-column-start'], placeholderDiv.css('grid-column-start'));
+
+			var maxRowEnd = Math.max(itemProps['grid-row-end'], placeholderDiv.css('grid-row-end'));
+			var maxColEnd = Math.max(itemProps['grid-column-end'], placeholderDiv.css('grid-column-end'));
+
+			var isCollision = false;
+			var parentObj = gridItemDiv.parent().data('gridData');
+			$(parentObj.children).each(function(index, childObj) {
+				if(childObj.id === itemId){
+					return true; //skip
+				}
+
+				var curP = childObj.itemProps;
+				var rowCollision = ( (curP['grid-column-start'] > minColStart && curP['grid-column-start'] < maxColEnd)
+										|| (curP['grid-column-end'] > minColStart && curP['grid-column-end'] < maxColEnd));
+				var colCollision = (curP['grid-row-start'] > minRowStart && curP['grid-row-start'] < maxRowEnd)
+										|| (curP['grid-row-end'] > minRowStart && curP['grid-row-end'] < maxRowEnd);
+
+				if( rowCollision && colCollision ){
+					isCollision = true;
+					return false;
+				}
+
+			});
+
+			if (!isCollision) {
+				var itemProps = gridItemObj.itemProps;
+
+				itemProps['grid-row-start'] = minRowStart;
+				itemProps['grid-column-start'] = minColStart;
+
+				itemProps['grid-row-end'] = maxRowEnd;
+				itemProps['grid-column-end'] = maxColEnd;
+
+				grid.setItemProps(gridItemDiv, itemProps);
+				// console.log(itemProps);
+			}
+
+		};
+
+		grid.saveGridItem = function (btn) {
+			var gridItemDiv = $(btn).parents('.gridItem:first');
+			var gridObj = gridItemDiv.data('gridData');
+
+			var editBarDiv = gridItemDiv.find('.gridEditBar:first');
+
+			gridItemDiv.removeClass("edit");
+
+			gridItemDiv.find('.showOnEdit').hide();
+			gridItemDiv.find('.hideOnEdit').show();
+
+			var itemNameDiv = editBarDiv.find('.itemName:first');
+			var itemNameInput = editBarDiv.find('.itemNameInput:first');
+
+			var itemName = itemNameInput.val();
+			itemNameDiv.text(itemName);
+			gridObj.name = itemName;
+
+			itemNameInput.hide();
+			itemNameDiv.show();
+
+			grid.isEditing = false;
+			grid.setCurSelected(gridObj);
+		};
+
+		grid.deleteGridItem = function (btn) {
+			btn = $(btn);
+			var gridItemDiv = btn.parents('.gridItem:first');
+			var itemId = gridItemDiv.attr('grid-id');
+			if(grid.isEditing){
+				var curSelected = grid.getCurSelected();
+				if(curSelected.id === itemId){
+					grid.isEditing = false;
+				}
+			}
+			grid.deleteById(itemId);
+		};
+
+		grid.gridClickHandler = function (event) {
+			event.preventDefault();
+
+			console.log('clicked', event.target);
+			grid.showEditModal();
+		};
+
+		grid.onClickGridItem = function (event) {
+			var gridItemDiv = $(event.target);
+			if (!gridItemDiv.hasClass('gridItem')) {
+				return false;
+			}
+			console.log("gridItem click");
+
+			grid.setCurSelected(gridItemDiv.data('gridData'));
+		};
+
+		grid.onClickGridPlaceholder = function (event) {
+			var placeholderDiv = $(event.target);
+			if (!placeholderDiv.hasClass('gridItemPlaceholder')) {
+				return false;
+			}
+			console.log("placeholder click");
+
+
+			var curSelected = grid.getCurSelected();
+			if(grid.isEditing){
+				//check if clicked is sibling of curSelected item
+				var parentId = placeholderDiv.parent().attr('id');
+
+				if (curSelected.parent === parentId) {
+					grid.expandGridItem(curSelected, placeholderDiv);
+				}
+			}
+			else{
+				// if (curSelected.type === 'grid') {
+					//make placeholder parent grid as curSelected
+					var phParentObj = placeholderDiv.parent().data('gridData');
+					grid.setCurSelected(phParentObj);
+
+					grid.addNewGridItem({
+						rowStart: placeholderDiv.css('grid-row-start'),
+						colStart: placeholderDiv.css('grid-column-start'),
+						rowEnd: placeholderDiv.css('grid-row-end'),
+						colEnd: placeholderDiv.css('grid-column-end'),
+					});
+				// }
+			}
+
+		};
+
+		grid.onInputItemName = function (input) {
+			input = $(input);
+			var saveItemBtn = input.parents('.gridEditBar:first').find('.saveItemBtn');
+
+			saveItemBtn.prop('disabled', (input.val().trim() === ''));
+
+		};
+
+		grid.onInputGridSize = function (input, type) {
+			input = $(input);
+			console.log(input.val());
+
+			var val = input.val();
+			var validVal = grid.getValidNumber(val, 1);
+			if (parseFloat(val) !== parseFloat(validVal)) {
+				input.val(validVal);
+			}
+
+			if (typeof type == 'undefined') {
+				type = input.parents('.gridInputDiv:first').attr('data-type');
+			}
+
+			grid.updateGridProps(type);
+		};
+
+		grid.onChangeGridSizeUnit = function (input, type) {
+			if (typeof type == 'undefined') {
+				type = $(input).parents('.gridInputDiv:first').attr('data-type');
+			}
+			grid.updateGridProps(type);
+		};
+
+		grid.getValidNumber = function (num, precision) {
+			var floatVal = parseFloat(num);
+
+			if (isNaN(floatVal)) {
+				floatVal = 1.0;
+			}
+			var factor = (precision > 0) ? (precision * 10) : 1;
+			return Math.round(floatVal * factor) / (factor);
+		};
+
+
+	</script>
+</body>
+
+</html>

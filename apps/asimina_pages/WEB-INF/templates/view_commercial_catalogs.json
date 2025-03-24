@@ -1,0 +1,113 @@
+{
+  "internal_info": {
+    "created_by": "1",
+    "created_ts": "18/07/2019 16:01:12",
+    "id": "127",
+    "site_id": "1",
+    "updated_by": "1",
+    "updated_ts": "30/12/2020 14:47:15"
+  },
+  "item_type": "catalog",
+  "system_info": {
+    "name": "Catalog Name",
+    "type": "device",
+    "uuid": "4ab8f444-1503-1984-ad6d-20474771e1a6"
+  },
+  "details": {
+    "bottomban_hub": "0",
+    "bottomban_product_detail": "1",
+    "bottomban_product_list": "1",
+    "buy_status": "all",
+    "cart_prod_url": "",
+    "cart_url": "",
+    "cart_url_params": "",
+    "catalog_type": "device",
+    "catalog_uuid": "4ab8f444-1984-1984-ad6d-20474771e1a6",
+    "created_by": "1",
+    "created_on": "18/07/2019 16:01:12",
+    "default_sort": "promotion",
+    "hub_page_orientation": "",
+    "id": "127",
+    "invoice_nature": "",
+    "is_special": "0",
+    "manufacturers": "",
+    "name": "AA Dev Catalog",
+    "price_tax_included": "0",
+    "product_types_custom": "[]",
+    "show_amount_tax_included": "1",
+    "site_id": "1",
+    "store_locator_prod_url": "",
+    "store_locator_url": "",
+    "store_locator_url_params": "",
+    "tax_percentage": "10.00",
+    "topban_hub": "1",
+    "topban_product_detail": "1",
+    "topban_product_list": "1",
+    "updated_by": "1",
+    "updated_on": "30/12/2020 14:47:15",
+    "version": "61",
+    "view_name": "gridview"
+  },
+  "details_lang": [
+    {
+      "langue_code": "fr",
+      "url" : "published url of the product of lang",
+      "currency": "",
+      "essentials_alignment": "zig_zag_left",
+      "heading": "Catalog Title (fr)",
+      "description":{
+        "canonical_url": "aa-dev-catalog-fr.com",
+        "folder_name": "aa-dev-catalog-prefix-fr",
+        "page_path": "aa-dev-catalog-fr"
+      },
+      "essential_blocks": [
+        {
+          "actual_file_name": "404_page_cover.jpg",
+          "block_text": "<p><strong>Block 1 </strong><strong>Text (fr)</strong></p>\r\n\r\n<p>new line</p>",
+          "file_name": "404_page_cover.jpg",
+          "image_label": "Block 1 image (fr)",
+          "order_seq": "1"
+        }
+      ]
+    }
+  ],
+  "catalog_attributes": [
+    {
+      "catalog_attribute_values": [
+        {
+          "attribute_value": "Blue",
+          "color": "#0000ff",
+          "small_text": "blue",
+          "sort_order": "1"
+        },
+        {
+          "attribute_value": "Red",
+          "color": "#ff0000",
+          "small_text": "red",
+          "sort_order": "0"
+        }
+      ],
+      "detail_only": "0",
+      "is_fixed": "1",
+      "is_searchable": "0",
+      "migration_name": "",
+      "name": "Color",
+      "sort_order": "1",
+      "type": "selection",
+      "value_type": "color",
+      "visible_to": "all"
+    },
+    {
+      "catalog_attribute_values": [],
+      "detail_only": "1",
+      "is_fixed": "0",
+      "is_searchable": "0",
+      "migration_name": "Internal memory",
+      "name": "Internal memory",
+      "sort_order": "45",
+      "type": "specs",
+      "value_type": "text",
+      "visible_to": "all"
+    }
+  ]
+}

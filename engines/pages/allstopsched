@@ -1,0 +1,16 @@
+#!/bin/sh
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+
+echo "Stopping pages engine"
+"$BASEDIR"/stopsched
+
+echo "Stopping partoo engine"
+"$BASEDIR"/stopschedPartoo
+
+echo "Stopping import export engine"
+"$BASEDIR"/stopschedImportExport
+
+exit 0
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/communication/D-I/ic_Flag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-58.000000, -216.000000)" fill="#000000">
+            <g id="icons/communication/D-I/ic_Flag" transform="translate(56.000000, 215.000000)">
+                <path d="M21.312,6.59999998 L14.112,6.59999998 C13.1178875,6.59999998 12.312,5.79411252 12.312,4.79999996 C12.312,3.80588742 11.5061125,2.99999996 10.512,2.99999996 L4.51199997,2.99999996 L4.51199997,2.69999996 C4.51199997,2.20294368 4.10905624,1.79999996 3.61199997,1.79999996 L3.61199997,1.79999996 C3.11494369,1.79999996 2.71199996,2.20294368 2.71199996,2.69999996 L2.71199996,22.2 L4.51199997,22.2 L4.51199997,12.6 L9.91199999,12.6 C10.9061125,12.6 11.712,13.4058875 11.712,14.4 C11.712,15.3941126 12.5178875,16.2 13.512,16.2 L21.312,16.2 L16.812,11.4 L21.312,6.59999998 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

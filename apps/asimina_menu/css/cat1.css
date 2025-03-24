@@ -1,0 +1,23 @@
+table.resultat {
+	margin-top: 5px;
+	border: 1px solid white;
+}
+
+.resultat th {
+	vertical-align: top;
+	background-color: #B0A6A3; /*#dcb;*/
+	color: #444444;
+	font-size: 8pt;
+	cursor: pointer;
+	padding: 1px 1px 1px 1px;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.resultat td {
+	border-bottom: 1px solid #B0A6A3;
+	border-right: 1px solid white;
+	padding: 5px 2px 5px 2px;
+	font-size: 8pt;
+}
+

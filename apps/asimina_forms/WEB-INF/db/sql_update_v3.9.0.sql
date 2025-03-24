@@ -1,0 +1,1 @@
+insert into config (code, val) values ('EXPORT_SCRIPT','/home/etn/pjt/dev_engines/forms/execdbscript.sh');

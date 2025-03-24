@@ -1,0 +1,184 @@
+
+/*
+#col_filter{
+	background-color: silver;
+	height: 100%;
+}
+
+.modele_term{
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#aaa{
+	border: 1px solid yellow;
+	
+}
+
+.modele_term_info .modele_img{
+		
+	width:120px;
+	
+}*/
+
+
+.modele_img{
+	
+}
+
+.modele_term_info{
+	cursor: pointer;
+}
+
+.row-eq-height {
+-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;	
+  
+  
+}
+
+/*onglet liste terminaux et fiche */
+.onglet_fiche_g{
+	border: 1px black solid;
+	cursor: pointer;
+	border-bottom: 0;
+}
+
+.onglet_fiche2_g{
+	border-bottom: 1px black solid;
+	cursor: pointer;
+}
+
+
+/*onglet liste terminaux et fiche - fin */
+
+.modele_term{
+	height: 40px;
+	font-weight: bold;
+}
+
+.modele_term_g{
+	font-weight: bold;
+}
+
+.titre_rubrique_term{
+	
+}
+
+
+/* logo promo*/
+
+.promo{
+	position:absolute;
+	width:100%;
+	left:-1px;
+}
+
+.promo a{
+	float:right;
+	clear:right;
+	
+}
+
+
+.titre_rubrique_term h4{
+	border-bottom: 1px solid silver;
+	
+}
+
+.modele_term_info ul li{
+	/*margin-left: -20px;*/
+	
+}
+
+.d_prix1{
+	text-align: right;
+}
+.d_prix2{
+	text-align: right;
+	color: #FF6600;
+	font-size: 18px;
+	font-weight: bold;
+}
+.d_prix3{
+	text-align: right;
+}
+
+.c_mod_comp{
+	font-weight:normal;
+	
+}
+
+/* logo promo - fin */
+
+/* voir détails */ 
+
+
+.voir_details{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	display: none;
+	 top: 100px;
+	 z-index: 1;
+}
+
+
+
+.voir_details input[type=button] {
+	border:0;
+	background-color: #FF6600;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	width: 60%;
+	height: 30px;
+	cursor: pointer;
+	
+	
+	
+}
+
+
+.modele_term_info2 ul li,.modele_term_info2_g ul li{
+	list-style-type: disc;
+}
+
+/*vois détails - fin */
+
+/*
+.modele_term_info2{
+	position: absolute;
+	top: -75px;
+    
+}*/
+
+@media (min-width: 960px) {
+
+.modele_term{
+width:75% !important;
+}
+}
+
+
+@media only screen and (max-device-width:360px) {
+.modele_img{
+
+}
+}
+

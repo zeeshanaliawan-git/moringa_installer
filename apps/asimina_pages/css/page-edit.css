@@ -1,0 +1,130 @@
+.bloc_div{
+	min-height: 70px;
+}
+.bloc_edit{
+	position: relative;
+	border : 2px dashed white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bloc_edit:hover, .sort_start .bloc_edit{
+	border : 2px dashed lightgrey;
+}
+
+.bloc_div.form_div .btnEdit{
+	display: none;
+}
+/*.bloc_edit .bloc_edit_buttons {
+display : none;
+}*/
+/*.bloc_edit:hover .bloc_edit_buttons, .sort_start .bloc_edit_buttons{
+display : block !important;
+position: absolute;
+top : 10px;
+right : 10px;
+background-color: white;
+z-index: 99999 !important;
+}*/
+.bloc_edit_buttons .feather{
+	width: 16px;
+}
+.bloc_edit .bloc_edit_bg {
+	display : none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.bloc_edit:hover .bloc_edit_bg, .sort_start .bloc_edit_bg{
+	display : block !important;
+	background-color: #222 !important;
+	opacity: 0.8;
+	/*z-index: 1000;*/
+	z-index: 999999999 !important;
+}
+.bloc_edit .bloc_edit_buttons, .sort_start .bloc_edit_buttons{
+	display : block !important;
+	position: absolute;
+	top : 10px;
+	right : 10px;
+	color : white;
+}
+/*
+copied from boostrap based coreui css
+as page might or might not have bootstrap added to it
+*/
+.boot-btn {
+	display:inline-block;
+	font-weight:400;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	border:1px solid transparent;
+	padding:.1rem .5rem;
+	font-size:.875rem;
+	/*line-height:1.5;*/
+	border-radius:.25rem;
+	transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.boot-btn.boot-btn-primary {
+	color:#fff;
+	background-color:#20a8d8;
+	border-color:#20a8d8
+}
+.boot-btn.boot-btn-primary:hover {
+	color:#fff;
+	background-color:#1b8eb7;
+	border-color:#1985ac
+}
+.boot-btn.boot-btn-primary.focus,
+.boot-btn.boot-btn-primary:focus {
+	box-shadow:0 0 0 .2rem rgba(32,168,216,.5)
+}
+.boot-btn.boot-btn-primary:not(:disabled):not(.disabled).active,
+.boot-btn.boot-btn-primary:not(:disabled):not(.disabled):active,
+.show>.boot-btn.boot-btn-primary.dropdown-toggle {
+	color:#fff;
+	background-color:#1985ac;
+	border-color:#187da0
+}
+.boot-btn.boot-btn-primary:not(:disabled):not(.disabled).active:focus,
+.boot-btn.boot-btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.boot-btn.boot-btn-primary.dropdown-toggle:focus {
+	box-shadow:0 0 0 .2rem rgba(32,168,216,.5)
+}
+.boot-btn.boot-btn-danger {
+	color:#fff;
+	background-color:#f86c6b;
+	border-color:#f86c6b
+}
+.boot-btn.boot-btn-danger:hover {
+	color:#fff;
+	background-color:#f64846;
+	border-color:#f63c3a
+}
+.boot-btn.boot-btn-danger.focus,
+.boot-btn.boot-btn-danger:focus {
+	box-shadow:0 0 0 .2rem rgba(248,108,107,.5)
+}
+.boot-btn.boot-btn-danger.disabled,
+.boot-btn.boot-btn-danger:disabled {
+	color:#fff;
+	background-color:#f86c6b;
+	border-color:#f86c6b
+}
+.boot-btn.boot-btn-danger:not(:disabled):not(.disabled).active,
+.boot-btn.boot-btn-danger:not(:disabled):not(.disabled):active,
+.show>.boot-btn.boot-btn-danger.dropdown-toggle {
+	color:#fff;
+	background-color:#f63c3a;
+	border-color:#f5302e
+}
+.boot-btn.boot-btn-danger:not(:disabled):not(.disabled).active:focus,
+.boot-btn.boot-btn-danger:not(:disabled):not(.disabled):active:focus,
+.show>.boot-btn.boot-btn-danger.dropdown-toggle:focus {
+	box-shadow:0 0 0 .2rem rgba(248,108,107,.5)
+}

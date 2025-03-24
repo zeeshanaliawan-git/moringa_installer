@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Pas 2 instances
+ps ax | grep -v grep | grep ' asimina_selfcare.jar'
+if [ $? -eq 0 ]
+then
+exit 1
+fi
+
+PATH=/home/etn/bin:/usr/local/bin:/usr/bin:/bin
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+java -jar    asimina_selfcare.jar   >> sched.log 2>&1 & 
+echo $! >"$PWD"/sched.pid
+
+exit 0

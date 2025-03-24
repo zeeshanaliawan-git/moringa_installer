@@ -1,0 +1,48 @@
+div.overlay {
+	visibility:hidden;
+}
+
+div.modalBackground {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:#000000;
+	filter:alpha(opacity=60);
+	opacity:.60;
+	z-index:999; 
+}
+
+div.modalContainer {
+	position:absolute;
+	background:#FFFFFF;
+	z-index:1000;
+}
+
+div.modalTopbar {
+	height:20px;
+	font-size:12px;
+	background:orange;	
+	text-align:right;
+	margin:0px;
+}
+
+div.contents {
+	margin-top:2px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	overflow:auto;
+}
+
+iframe.modalFrame {
+	filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0); 
+	DISPLAY: visible;
+	z-index:998;
+	height:100%;
+	width:100%; 
+	LEFT: 0px; 
+	POSITION: absolute; 
+	TOP: 0px;
+}

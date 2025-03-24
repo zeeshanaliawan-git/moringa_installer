@@ -1,0 +1,158 @@
+#!/usr/bin/env bash
+
+now=$(date +"%d-%m-%Y %r")
+echo "Started at : $now" >> /home/amea/replication_done
+
+echo get db dumps on primary server >> /home/amea/replication_done
+ssh -q -i /home/amea/.ssh/id_rsa amea@172.18.2.24 'bash -s' < /home/amea/pjt/cote_engines/cachesync/dbbackupsOnPrimary
+
+echo copying db dumps >> /home/amea/replication_done
+scp -q -i /home/amea/.ssh/id_rsa amea@172.18.2.24:/home/amea/replication/*.sql /home/amea/replication/
+
+echo going to stop nginx till we restore db and cache folders
+/home/amea/pjt/cote_engines/cachesync/nginxstop
+
+echo restoring db cote_catalog >> /home/amea/replication_done
+mysql -u root cote_catalog < /home/amea/replication/cc.sql
+
+echo restoring db cote_portal >> /home/amea/replication_done
+mysql -u root cote_portal < /home/amea/replication/cp.sql
+
+echo restoring db cote_prod_catalog >> /home/amea/replication_done
+mysql -u root cote_prod_catalog < /home/amea/replication/cpc.sql
+
+echo restoring db cote_prod_portal >> /home/amea/replication_done
+mysql -u root cote_prod_portal < /home/amea/replication/cpp.sql
+
+echo restoring db cote_pages >> /home/amea/replication_done
+mysql -u root cote_pages < /home/amea/replication/cote_pages.sql
+
+echo restoring db cote_commons >> /home/amea/replication_done
+mysql -u root cote_commons < /home/amea/replication/cote_commons.sql
+
+echo restoring db cote_ckeditor >> /home/amea/replication_done
+mysql -u root cote_ckeditor < /home/amea/replication/cote_ckeditor.sql
+
+echo restoring db cote_shop >> /home/amea/replication_done
+mysql -u root cote_shop < /home/amea/replication/cote_shop.sql
+
+echo restoring db cote_prod_shop >> /home/amea/replication_done
+mysql -u root cote_prod_shop < /home/amea/replication/cote_prod_shop.sql
+
+echo restoring db cote_forms >> /home/amea/replication_done
+mysql -u root cote_forms < /home/amea/replication/cote_forms.sql
+
+echo updating cote_portal tables >> /home/amea/replication_done
+mysql -u root cote_portal  -e "update cached_pages set cached = 1 where url like 'http://127.0.0.1/drupal/%' or url like 'https://127.0.0.1/drupal/%' or url like 'http://127.0.0.1/oicpages/%' or url like 'http://127.0.0.1/cote_ckeditor/%'  or url like 'http://127.0.0.1/drupal8/%' or url like 'https://127.0.0.1/drupal8/%' "
+sleep 1
+
+echo updating cote_prod_portal tables >> /home/amea/replication_done
+mysql -u root cote_prod_portal  -e "update cached_pages set cached = 1 where url like 'http://127.0.0.1/drupal/%' or url like 'https://127.0.0.1/drupal/%' or url like 'http://127.0.0.1/oicpages/%' or url like 'http://127.0.0.1/cote_ckeditor/%'  or url like 'http://127.0.0.1/drupal8/%' or url like 'https://127.0.0.1/drupal8/%'  "
+sleep 1
+
+#echo create view contact_us cote_prod_portal >> /home/amea/replication_done
+#mysql -u root cote_prod_portal -e "create view contact_us as select * from cote_prod_selfcare.contact_us"
+#sleep 1
+
+#echo create view stat_log cote_prod_portal >> /home/amea/replication_done
+#mysql -u root cote_prod_portal -e "create view stat_log as select * from stats_prod_portal.stat_log"
+#sleep 1
+
+#echo create view open_innovation cote_forms >> /home/amea/replication_done
+#mysql -u root cote_forms -e "create view open_innovation as select * from cote_forms_data.open_innovation"
+#sleep 1
+
+#echo create view post_work cote_forms >> /home/amea/replication_done
+#mysql -u root cote_forms -e "create view post_work as select * from cote_forms_data.post_work"
+#sleep 1
+
+#echo create view reclamation cote_forms >> /home/amea/replication_done
+#mysql -u root cote_forms -e "create view reclamation as select * from cote_forms_data.reclamation"
+#sleep 1
+
+
+echo copying uploaded images to cote_catalog >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_catalog/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_catalog/uploads/ .
+
+echo copying uploaded images to cote_prodcatalog >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_prodcatalog/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_prodcatalog/uploads/ .
+
+echo copying menu images to cote_portal >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_portal/menu_resources/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_portal/menu_resources/uploads/ .
+
+echo copying menu images to cote_prodportal >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_prodportal/menu_resources/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_prodportal/menu_resources/uploads/ .
+
+#echo copying cached files to cote_portal >> /home/amea/replication_done
+#cd /home/amea/tomcat/webapps/cote_portal/
+#rm -r sites
+#scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_portal/sites/ .
+
+echo copying cached files to cote_prodportal >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_prodportal/
+rm -r sites
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_prodportal/sites/ .
+
+#echo copying cached files to cote_portal >> /home/amea/replication_done
+#cd /home/amea/tomcat/webapps/cote_portal/
+#rm -r mjs
+#scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_portal/mjs/ .
+
+echo copying cached files to cote_prodportal >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_prodportal/
+rm -r mjs
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_prodportal/mjs/ .
+
+echo copying cached files to cote_ckeditor >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_ckeditor/
+rm -r sites
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_ckeditor/sites/ .
+
+echo copying cached files to cote_ckeditor >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_ckeditor/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_ckeditor/uploads/ .
+
+echo copying smartbanner images to cote_prodportal >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_prodportal/img/
+rm -r smartbanner
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_prodportal/img/smartbanner/ .
+
+echo copying uploaded images to cote_pages >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_pages/
+rm -r uploads
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_pages/uploads/ .
+
+
+
+echo copying sitemap.xml >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/2/generatedSitemap/
+#scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/ROOT/sitemap.xml .
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/2/generatedSitemap/* .
+#scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/2/generatedSitemap/business-orange-ci-sitemap.xml .
+
+echo copying form module mails >> /home/amea/replication_done
+cd /home/amea/tomcat/webapps/cote_forms/mail_sms
+rm -r mail
+scp -q -i /home/amea/.ssh/id_rsa  -r amea@172.18.2.24:/home/amea/tomcat/webapps/cote_forms/mail_sms/mail/ .
+
+echo going to restart nginx
+/home/amea/pjt/cote_engines/cachesync/nginxrestart
+
+echo remove db backups from primary server to save space >> /home/amea/replication_done
+ssh -q -i /home/amea/.ssh/id_rsa amea@172.18.2.24 'bash -s' < /home/amea/pjt/cote_engines/cachesync/removedbbackupsFromPrimary
+
+echo remove db backups from this server >> /home/amea/replication_done
+cd /home/amea/replication/
+rm *.sql
+
+now=$(date +"%d-%m-%Y %r")
+echo "Finished at : $now">> /home/amea/replication_done

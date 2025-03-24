@@ -1,0 +1,1 @@
+<jsp:useBean id="Etn" scope="session" class="com.etn.beans.Contexte"/><%@ page import="com.etn.lang.ResultSet.*"%><%@ page import="com.etn.beans.organigramme.*"%><%@ page import="com.etn.beans.app.*"%><%@ page import="com.etn.beans.*"%><%@ page import="com.etn.requeteur.*"%><%String url = request.getContextPath();%>

@@ -1,0 +1,1 @@
+insert into config (code, val, comments) value ('KEEP_FORMS_ATTACHMENT_MONTHS', 3, 'Number of months data we want to keep for forms attachment');

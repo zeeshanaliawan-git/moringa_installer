@@ -1,0 +1,21 @@
+.d3_partition_chart {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 11px;
+}
+
+.d3_partition_rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+.d3_partition_rect.parent {
+  cursor: pointer;
+  fill: steelblue;
+}
+
+.d3_partition_text {
+  pointer-events: none;
+}

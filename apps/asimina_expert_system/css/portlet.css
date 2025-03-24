@@ -1,0 +1,202 @@
+
+.normalpuce {
+	color: black;
+	font-size: 8pt;
+	background: url("../img/puce.png") no-repeat top left;
+	padding-left: 10px;
+}
+
+.normalinfo {
+	color: black;
+	font-size: 8pt;
+	text-align: center;
+}
+
+.texte {
+	color: #474747;
+	font-size: 8pt;
+}
+.textecent {
+	color: #474747;
+	font-size: 8pt;
+	text-align: center;
+}
+
+.texteaide {
+	color: #474747;
+	font-size: 7pt;
+}
+.texteaide2 {
+	color: #8E8E8E;
+	font-size: 7pt;
+	text-align: center;
+}
+
+.textegr {
+	font-size: 8pt;
+	color: #353535;
+}
+
+.titlebl {color: #FF6600;font-size: 13pt;text-align: left;margin: 5px;}
+
+.titlelit {color: #818181;font-size: 11pt;margin-bottom: 5px;}
+
+.identity {
+	width: 260px;
+}
+.identity th ,.identity td span {font-size: 9pt;}
+.identity th {
+	height: 20px;
+	width: 60px;
+	color: #818181;
+	vertical-align: top;
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+.identity td {
+	vertical-align: top;
+}
+
+.tabparcours {
+	width: 98%;
+	margin: 2px;
+	/*border-left: 1px solid #EFEDED;
+	border-right: 1px solid #EFEDED;*/
+}
+
+.tabparcours th,.tabparcours td {
+	padding: 1px;
+}
+
+.tabparcours th {
+	color: #818181;font-size: 11pt;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 1px;
+	border: 0px;
+	border-bottom: 1px solid #E5E5E5;	
+	background: white /*#888888 #EBEAE9*/;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+}
+
+.tabparcours td {
+	
+	text-align: left;
+	height: 20px;	
+	border-right: 1px solid #F5F5F5;
+	vertical-align: top;	
+}
+
+
+tr.interselect td {color: #696565/*#333333*/;border-bottom: 10px solid #F5F5F5 /*#E5E5E5*/;}
+tr.interselecton td {color: black;border-bottom: 10px solid #F5F5F5;text-decoration: underline;}
+tr.interselecton td.comment {text-decoration: none;color: black;/*#FF6600;*/}
+
+.restab {border-left: 1px solid #C0C0C0;border-top: 1px solid #C0C0C0;background: white;border-collapse: collapse;empty-cells: show;font-family: arial;font-size: 8pt;}
+
+.restab thead th {
+	height: 20px;	
+	color: #FF6600;
+	vertical-align: bottom;	
+	font-weight: bold;
+	border-right: 1px solid #C0C0C0;
+	padding: 5px;
+}
+
+.restab tr td {
+	vertical-align: top;
+	border-right: 1px solid #C0C0C0;
+	border-bottom: 1px dotted #C0C0C0;
+	padding: 7px;
+}
+
+a.link_more,a.link_more:VISITED {
+	font-size: 7pt;
+	color: black;
+	text-decoration: underline;
+}
+
+a.link_more:HOVER {
+	font-size: 7pt;
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+a.arrowlink,a.arrowlink:HOVER {
+	background: url("../img/arrow.png") no-repeat 6px 3px;
+	font-size: 8pt;
+	padding-left: 18px;
+	margin-bottom: 5px;
+	line-height: 18px;
+}
+
+a.arrowlink {
+	color: #333333;
+	text-decoration: none;
+}
+
+a.arrowlink:HOVER {
+	color: black;
+	text-decoration: underline;
+}
+
+a.formlink,a.formlink:HOVER {
+	background: url("../img/detail.png") no-repeat 2px 1px;
+	font-size: 8pt;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	/*line-height: 20px;*/
+}
+
+a.formlink {
+	color: #333333;
+	text-decoration: none;
+}
+
+a.formlink:HOVER {
+	color: black;
+	text-decoration: underline;
+}
+
+a.arrowlink2,a.arrowlink2:HOVER {
+	background: url("../img/arrowsmal.png") no-repeat left;
+	font-size: 8pt;
+	padding-left: 8px;
+	margin-bottom: 5px;
+}
+
+a.arrowlink2 {
+	color: #333333;
+	text-decoration: none;
+}
+
+a.arrowlink2:HOVER {
+	color: black;
+	text-decoration: underline;
+}
+
+a.morelink,a.morelink:HOVER {
+	font-size: 8pt;
+	text-align: left;
+	padding-left: 25px;
+	background: url("../img/fleche.png") no-repeat 10px;
+}
+
+a.morelink {
+	text-decoration: none;
+	color: black;
+}
+
+a.morelink:HOVER {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+.vignette {display: inline;font-size: 7pt;border: 1px solid #DCDCDC;text-align: center;margin: 5px;padding: 10px;padding-bottom: 2px;padding-top: 2px;background: #F5F5F5;
+text-transform: uppercase;color: silver; 
+-moz-box-shadow: 8px 8px 12px #DCDEDE;
+	-webkit-box-shadow: 2px 2px 6px #DCDEDE; /*#aaa*/
+	box-shadow: 2px 2px 6px #DCDEDE; /*#aaa*/}

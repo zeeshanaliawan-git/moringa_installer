@@ -1,0 +1,31 @@
+/* Expert System css */ 
+
+
+/* following class is applied on the pagination bar */ 
+.es_pagination
+{
+	background-color:white;
+}
+
+/* following class is applied on page numbers showing in pagination */ 
+.es_page
+{
+	font-size:10px;
+	color:red;
+}
+
+/* following class is applied on the current page number */ 
+.es_current_page
+{
+	font-size:10px;
+	color:black;
+	font-weight:bold;
+}
+
+/* following class is applied on the text showing the total records in pagination bar */ 
+.es_pagination_records
+{
+	font-size:10px;
+	color:green;
+	font-weight:bold;
+}

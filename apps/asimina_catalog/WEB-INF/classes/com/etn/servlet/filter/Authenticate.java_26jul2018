@@ -1,0 +1,178 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package com.etn.servlet.filter;
+
+import com.etn.lang.ResultSet.Set;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.StringTokenizer;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.security.SecureRandom;
+import java.util.Random;
+import com.etn.sql.escape;
+
+/**
+ *
+ * @author umair
+ */
+public class Authenticate implements Filter
+{
+    private FilterConfig filterConfig;
+
+    public void init(FilterConfig filterConfig)
+    {
+        this.filterConfig = filterConfig;
+    }
+
+	private String getRandomInt(){
+		Random random = new SecureRandom();
+        int number = random.nextInt(1000);
+		while(number < 100){
+			number = random.nextInt(1000);
+		}
+		return String.valueOf(number);
+	}
+
+	private String getCode(){
+		return getRandomInt() + "-" + getRandomInt();
+	}
+
+    public void doFilter(ServletRequest _request, ServletResponse _response, FilterChain chain) throws IOException, ServletException
+    {
+
+        HttpServletRequest request = (HttpServletRequest)_request;
+        HttpServletResponse response = (HttpServletResponse)_response;
+        //please remove debug outputs after your testing
+		//System.out.println("##Authenticat.doFilter. Request from: " + request.getRemoteAddr());
+
+        if(request.getSession().getAttribute("Etn") == null)
+        {
+            //System.out.println("##################### Etn is null");
+            request.getSession().setAttribute("Etn", new com.etn.beans.Contexte());
+        }
+
+        com.etn.beans.Contexte Etn = (com.etn.beans.Contexte)request.getSession().getAttribute("Etn");
+        //System.out.println("##################### Etn found");
+
+		boolean isSuperAdminAuthenticated = false;
+        if(Etn.getId() == 0)
+        {
+			String accessid = request.getParameter("__aid");
+			if(accessid == null) accessid = "";
+			//System.out.println("Access id:" + accessid);
+			if(accessid.length() > 0)
+			{
+				String timeout = com.etn.beans.app.GlobalParm.getParm("SESSION_TIMEOUT_MINS");
+				if(timeout == null || timeout.trim().length() == 0) timeout = "60"; //mins
+				Set rs = Etn.execute("select *,  TIMESTAMPDIFF(MINUTE, access_time, now()) as _diff from login where access_id = " +  com.etn.sql.escape.cote(accessid)  );
+				if(rs.next())
+				{
+					String timediff = rs.value("_diff");
+					System.out.println("last access diff : " + timediff);
+					System.out.println("timeout : " + timeout);
+					if(Integer.parseInt(timediff) > Integer.parseInt(timeout))
+					{
+						System.out.println("PORTAL::Authentication::Session timeout");
+					}
+					else
+					{
+						Etn.setContexte(rs.value("name"),rs.value("pass"));
+						isSuperAdminAuthenticated = true;
+					}
+				}
+				else
+				{
+					System.out.println("PORTAL::Authentication::Invalid access id provided");
+				}
+			}
+			if( Etn.getId() == 0 )
+			{
+//				response.setStatus(401);
+				Etn.close();
+				response.sendRedirect(request.getContextPath() + "/login.jsp?errmsg=Your session is expired");
+				return;
+			}
+        } 
+	 else
+	 {
+		isSuperAdminAuthenticated = true;
+	 }
+
+	if(request.getSession().getAttribute("LOGIN") == null)
+	{
+            String req_login_1= "Select pr.profil, l.name,l.pid, p.first_name, p.Last_name,pp.profil_id from login l left join person p on p.person_id=l.pid left join profilperson pp on pp.person_id=l.pid left join profil pr on pr.profil_id = pp.profil_id where l.pid='"+Etn.getId()+"' ";
+            Set res_1=Etn.execute(req_login_1);
+            if(res_1.next())
+            {
+                request.getSession().setAttribute("LOGIN",res_1.value("name"));
+                request.getSession().setAttribute("FIRST_NAME",res_1.value("first_name"));
+                request.getSession().setAttribute("PROFIL_ID",res_1.value("profil_id"));
+                request.getSession().setAttribute("PROFIL",res_1.value("profil"));
+
+		  String accessid = java.util.UUID.randomUUID().toString();
+		  Etn.executeCmd("update login set access_id = '"+accessid+"' where pid =  " + Etn.getId());
+            }
+	}
+
+		if(request.getSession().getAttribute("PROFIL") != null){
+			String profile = (String)request.getSession().getAttribute("PROFIL");
+			//System.out.println("### PRofile is: " + profile);
+			//System.out.println("###isSuperAdminAuthenticated:" + isSuperAdminAuthenticated );
+			if("SUPER_ADMIN".equals(profile) && isSuperAdminAuthenticated == false){
+				//System.out.println("###Redirecting");
+				response.sendRedirect(request.getContextPath() + "/unauthorized.jsp");
+			}
+		}
+
+		Etn.executeCmd("update login set access_time = now() where pid =  " + Etn.getId());
+		//propagate to next element in the filter chain, ultimately JSP/ servlet gets executed
+		chain.doFilter(request, response);
+
+    }
+
+    public void destroy()
+    {
+        this.filterConfig = null;
+    }
+
+    private String convertToHex(byte[] data)
+    {
+        StringBuffer buf = new StringBuffer();
+        for (int i = 0; i < data.length; i++) {
+            int halfbyte = (data[i] >>> 4) & 0x0F;
+            int two_halfs = 0;
+            do {
+                if ((0 <= halfbyte) && (halfbyte <= 9))
+                    buf.append((char) ('0' + halfbyte));
+                else
+                    buf.append((char) ('a' + (halfbyte - 10)));
+                halfbyte = data[i] & 0x0F;
+            } while(two_halfs++ < 1);
+        }
+        return buf.toString();
+    }
+
+    private String MD5(String text) throws NoSuchAlgorithmException, UnsupportedEncodingException
+    {
+        MessageDigest md;
+        md = MessageDigest.getInstance("MD5");
+        byte[] md5hash = new byte[32];
+        md.update(text.getBytes("utf8"), 0, text.length());
+        md5hash = md.digest();
+        return convertToHex(md5hash);
+    }
+
+
+}

@@ -1,0 +1,18 @@
+root { 
+    display: block;
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: black solid 1px;
+    vertical-align: top;
+}
+
+.redTd {
+    color: red;
+}
+
+table {
+    empty-cells: show;
+}

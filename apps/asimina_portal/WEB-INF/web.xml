@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <welcome-file-list>
+    	<welcome-file>process.jsp</welcome-file>
+    </welcome-file-list>
+
+	<filter>
+		<filter-name>AUTHENTICATE</filter-name>
+		<display-name>AUTHENTICATE</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.Authenticate</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AUTHENTICATE</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	
+    <filter>
+		<filter-name>CORSFilter</filter-name>
+		<display-name>CORSFilter</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.CORSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CORSFilter</filter-name>
+		<url-pattern>/custom/*</url-pattern>
+		<url-pattern>/apiv2/*</url-pattern>
+		<url-pattern>/api/*</url-pattern>
+		<url-pattern>/clientapis/*</url-pattern>
+	</filter-mapping>
+
+    <filter>
+        <filter-name>APIKEYAUTHENTICATE</filter-name>
+        <display-name>APIKEYAUTHENTICATE</display-name>
+        <description></description>
+        <filter-class>com.etn.servlet.filter.ApiKeyAuthenticate</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>APIKEYAUTHENTICATE</filter-name>
+        <url-pattern>/api/adm/*</url-pattern>
+        <url-pattern>/api/catalog/*</url-pattern>
+        <url-pattern>/api/portal/*</url-pattern>
+    </filter-mapping>
+
+	<!--<filter>
+        <filter-name>LOGINSESSIONCHECK</filter-name>
+        <display-name>LOGINSESSIONCHECK</display-name>
+        <description></description>
+        <filter-class>com.etn.servlet.filter.LoginSessionCheck</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LOGINSESSIONCHECK</filter-name>
+        <url-pattern>/api/catalog/*</url-pattern>
+    </filter-mapping>-->
+
+	<filter>
+        <filter-name>ApiV2SiteCheck</filter-name>
+        <display-name>ApiV2SiteCheck</display-name>
+        <description></description>
+        <filter-class>com.etn.servlet.filter.APIV2SiteCheck</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ApiV2SiteCheck</filter-name>
+		<url-pattern>/apiv2/orders/*</url-pattern>
+    </filter-mapping>
+
+	<filter>
+        <filter-name>ApiV2AccessToken</filter-name>
+        <display-name>ApiV2AccessToken</display-name>
+        <description></description>
+        <filter-class>com.etn.servlet.filter.APIV2AccessToken</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ApiV2AccessToken</filter-name>
+		<url-pattern>/apiv2/orders/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>ApiSiteCheck</filter-name>
+        <display-name>ApiSiteCheck</display-name>
+        <description></description>
+        <filter-class>com.etn.servlet.filter.ApiSiteCheck</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ApiSiteCheck</filter-name>
+        <url-pattern>/api/adm/*</url-pattern>
+        <url-pattern>/api/catalog/*</url-pattern>
+        <url-pattern>/api/portal/*</url-pattern>
+    </filter-mapping>
+
+	<!-- <filter>
+		<filter-name>SITE_AUTHENTICATE</filter-name>
+		<display-name>SITE_AUTHENTICATE</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.SiteAuthenticate</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>SITE_AUTHENTICATE</filter-name>
+		<url-pattern>/sites/01-moringa-v41/en/*</url-pattern>
+	</filter-mapping> -->
+
+	<filter>
+		<filter-name>XSS_RIGHTS</filter-name>
+		<display-name>XSS_RIGHTS</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.XSSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>XSS_RIGHTS</filter-name>
+		<url-pattern>*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>APPLY_PAGE_TEMPLATE</filter-name>
+		<display-name>APPLY_PAGE_TEMPLATE</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.ApplyPageTemplate</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>APPLY_PAGE_TEMPLATE</filter-name>
+		<url-pattern>/cart/*</url-pattern>
+		<url-pattern>/pages/*</url-pattern>
+		<url-pattern>/custom/*</url-pattern>
+		<url-pattern>/search.jsp</url-pattern>
+	</filter-mapping>
+
+	<error-page>
+            <error-code>404</error-code>
+            <location>/countryspecific/onerror404.jsp</location>
+       </error-page>
+
+	<error-page>
+            <error-code>403</error-code>
+            <location>/countryspecific/accessdenied.jsp</location>
+       </error-page>
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/exception.jsp</location>
+	</error-page>
+    
+<security-constraint>
+	 <web-resource-collection>
+	  <web-resource-name>restricted methods</web-resource-name>
+	  <url-pattern>/*</url-pattern>
+	  <http-method>PUT</http-method>
+	  <http-method>DELETE</http-method>
+	  <http-method>TRACE</http-method>
+	 </web-resource-collection>
+	 <auth-constraint />
+</security-constraint>
+    
+</web-app>

@@ -1,0 +1,242 @@
+<%
+    String url = "";
+    if(request.getParameter("url") != null){
+        url = request.getParameter("url");
+    }
+
+%>
+<html  lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Preview</title>
+<%@ include file="../WEB-INF/include/head2.jsp"%>
+</head>
+    <style>
+        body{
+            min-height: 0px;
+            padding-top :0px;
+        }
+        .btn {
+          display: inline-block;
+          font-weight: $btn-font-weight;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          user-select: none;
+          border: $btn-border-width solid transparent;
+          @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+          @include transition($btn-transition);
+
+          // Share hover and focus styles
+          @include hover-focus {
+            text-decoration: none;
+          }
+
+          &:focus,
+          &.focus {
+            outline: 0;
+            box-shadow: $btn-focus-box-shadow;
+          }
+
+          // Disabled comes first so active can properly restyle
+          &.disabled,
+          &:disabled {
+            opacity: $btn-disabled-opacity;
+            @include box-shadow(none);
+          }
+
+          // Opinionated: add "hand" cursor to non-disabled .btn elements
+          &:not(:disabled):not(.disabled) {
+            cursor: pointer;
+          }
+
+          &:not(:disabled):not(.disabled):active,
+          &:not(:disabled):not(.disabled).active {
+            @include box-shadow($btn-active-box-shadow);
+
+            &:focus {
+              @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+            }
+          }
+        }
+        .feather {width: 16px;vertical-align: text-bottom;}
+
+        .h-100 {
+            height: 100% !important;
+        }
+        .align-items-center {
+            align-items: center !important;
+        }
+        .justify-content-between {
+            justify-content: space-between !important;
+        }
+
+        .d-xl-block {
+            display: block !important;
+        }
+        .preview-container[_ngcontent-serverApp-c86] {
+            height: 100vh;
+            background-color: #212832;
+        }
+        .border-bottom-primary {
+            border-bottom: 3px solid #c5ccd6;
+        }
+        .preview-bar {
+            height: 63px;
+        }
+        .iframe-preview {
+            position: absolute;
+            height: calc(100% - 63px);
+            width: 100%;
+            border: none;
+            margin-top: 63px;
+            background-color: white;
+        }
+        .iframe-tabletToggle {
+            width: 768px;
+            max-height:1024px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .iframe-tabletToggleR {
+            width: 1024px;
+            height:768px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .iframe-mobileToggle {
+            width: 375px;
+            height:667px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .iframe-mobileToggleR {
+            width: 667px;
+            height:375px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .btn-preview:focus, .btn.focus, .btn-rotate:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);;
+        }
+        .btn-preview.active {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);;
+        }
+        .btn-rotate{
+            display:none;
+        }
+        .btn-rotate.active{
+            display:inline-block;
+        }
+    </style>
+<body class="sidebar-lg-show" style="background-color:#333">
+
+<div class="preview-container">
+        <div class="preview-bar bg-white fixed-top py-2 border-bottom-primary">
+            <div class="container-fluid h-100">
+                <div class="row align-items-center justify-content-between h-100">
+                    <div class="col col-auto d-none d-xl-block" style="margin: 0 auto;">
+                        <div class="justify-content-center" style="padding:0 auto">
+                            <button id="desktopToggle" class="btn btn-icon btn-transparent-dark mx-1 btn-preview active">
+                                <i class="nav-icon" data-feather="monitor"></i>
+                            </button><!---->
+                            <button id="tabletToggle" class="btn btn-icon btn-transparent-dark mx-1 btn-preview">
+                                <i class="nav-icon" data-feather="tablet"></i>
+                            </button><!---->
+                            <button id="mobileToggle" class="btn btn-icon btn-transparent-dark mx-1 btn-preview">
+                                <i class="nav-icon" data-feather="smartphone"></i>
+                            </button><!---->
+                            <button id="rotateToggle" class="btn btn-icon btn-transparent-dark mx-1 btn-rotate ml-4">
+                                <i class="nav-icon nave-rotate-90" data-feather="rotate-cw"></i>
+                            </button><!---->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!---->
+        <iframe class="iframe-preview iframe-desktopToggle" src='<%=url%>' width="100%"></iframe>
+    </div>
+
+    <script type="application/javascript">
+
+
+    (function($) {
+
+
+
+        feather.replace();
+
+        $( ".btn-preview" ).click(function() {
+
+            if($(this).hasClass("active")) return; //if we click on current active preview, nothing to do
+
+
+            else {
+
+                $( ".btn-preview" ).each(function() { // if not we check what preview is active and we remove the ifrma class associated and the button active class
+
+                    if($(this).hasClass('active')) {
+                        if($(this).hasClass('rotate')) {
+                            $(".iframe-preview").removeClass("iframe-"+$(this).attr("id")+"R");
+                            $(this).removeClass("rotate");
+                        }
+                        else $(".iframe-preview").removeClass("iframe-"+$(this).attr("id"));
+                        $(this).removeClass("active");
+                    }
+
+                });
+
+                $(this).addClass("active");
+                $(".iframe-preview").addClass("iframe-"+$(this).attr("id"));
+                if( ($(this).attr("id") == "tabletToggle") || ($(this).attr("id") == "mobileToggle") ) $("#rotateToggle").addClass("active");
+                else $("#rotateToggle").removeClass("active");
+
+            }
+        });
+
+        $( ".btn-rotate" ).click(function() {
+
+            $( ".btn-preview" ).each(function() {
+
+                if($(this).hasClass("active")) {
+
+                    if($(this).hasClass("desktopToggle")) return; //if previw is for desktop no rotate
+                    else {
+
+                        if($(this).hasClass("rotate")){
+
+                            $(".iframe-preview").removeClass("iframe-"+$(this).attr("id")+"R");
+                            $(".iframe-preview").addClass("iframe-"+$(this).attr("id"));
+                            $(this).removeClass("rotate");
+
+                        }
+                        else {
+
+                            $(".iframe-preview").removeClass("iframe-"+$(this).attr("id"));
+                            $(".iframe-preview").addClass("iframe-"+$(this).attr("id")+"R");
+                            $(this).addClass("rotate");
+
+                        }
+                    }
+                }
+
+            });
+
+        });
+
+
+
+     })(jQuery);
+    </script>
+
+</body>
+</html>

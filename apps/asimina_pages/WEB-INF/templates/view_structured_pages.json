@@ -1,0 +1,92 @@
+{
+  "system_info": {
+    "catalog_name": "Structured Pages Catalog",
+    "name": "Structured Page 01"
+  },
+  "item_type": "structured_page",
+  "details": [
+    {
+      "template_data": {
+        "sample_data": [
+          {
+            "title": [
+              "Sample data in structed page"
+            ]
+          }
+        ]
+      },
+      "page_settings": {
+        "blocs": [],
+        "system_info": {
+          "path": "struct-page-1",
+          "variant": "all",
+          "template" : "template_name",
+          "full_path" : "full/path",
+          "url" : "published url of the page"
+        },
+        "meta_info": {
+          "meta_description": "",
+          "custom_meta_tags": [],
+          "canonical_url": "canonurl.com",
+          "title": "struct1 test1",
+          "meta_keywords": ""
+        },
+        "internal_info": {
+          "updated_ts": "15/07/2020 20:24:34",
+          "created_ts": "23/01/2020 18:46:45",
+          "site_id": "1",
+          "updated_by": "1",
+          "id": "77",
+          "created_by": "1"
+        },
+        "tags": []
+      },
+      "langue_code": "fr"
+    },
+    {
+      "template_data": {
+        "sample_data": [
+          {
+            "title": [
+              "Sample data in structed page"
+            ]
+          }
+        ]
+      },
+      "page_settings": {
+        "blocs": [],
+        "system_info": {
+          "path": "struct-page-1-en",
+          "variant": "all",
+          "template" : "temp_name",
+          "full_path" : "full/path"
+        },
+        "meta_info": {
+          "meta_description": "",
+          "custom_meta_tags": [],
+          "canonical_url": "canonurl.com",
+          "title": "struct1 test1",
+          "meta_keywords": ""
+        },
+        "internal_info": {
+          "updated_ts": "15/07/2020 20:24:34",
+          "created_ts": "23/01/2020 18:46:45",
+          "site_id": "1",
+          "updated_by": "1",
+          "id": "88",
+          "created_by": "1"
+        },
+        "tags": []
+      },
+      "langue_code": "en"
+    }
+  ],
+  "internal_info": {
+    "updated_ts": "29/09/2020 16:12:35",
+    "created_ts": "21/01/2020 16:39:42",
+    "site_id": "1",
+    "updated_by": "1",
+    "id": "1",
+    "created_by": "1"
+  }
+}

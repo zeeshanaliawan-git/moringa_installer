@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <welcome-file-list>
+    	<welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+    <filter>
+		<filter-name>CORSFilter</filter-name>
+		<display-name>CORSFilter</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.CORSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CORSFilter</filter-name>
+		<url-pattern>/api/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>AUTHENTICATE</filter-name>
+		<display-name>AUTHENTICATE</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.Authenticate</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AUTHENTICATE</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>ACCESS_RIGHTS</filter-name>
+		<display-name>ACCESS_RIGHTS</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.AccessRights</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ACCESS_RIGHTS</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CHECK_SITE_SELECTION</filter-name>
+		<display-name>CHECK_SITE_SELECTION</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.CheckSiteSelection</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CHECK_SITE_SELECTION</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>XSS</filter-name>
+		<display-name>XSS</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.XSSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>XSS</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/e404.html</location>
+	</error-page>
+
+	<session-config>
+	       	<session-timeout>300</session-timeout>
+	</session-config>    
+
+
+</web-app>

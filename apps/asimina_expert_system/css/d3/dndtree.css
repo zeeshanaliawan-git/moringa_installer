@@ -1,0 +1,38 @@
+.d3_dndtree_node {
+    cursor: pointer;
+  }
+
+  .d3_dndtree_overlay{
+      background-color:#eee;
+  }
+   
+  .d3_dndtree_node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+   
+  .d3_dndtree_node text {
+    font-size:10px; 
+    font-family:sans-serif;
+  }
+   
+  .d3_dndtree_link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .d3_dndtree_templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .d3_dndtree_ghostCircle.show{
+      display:block;
+  }
+
+  .d3_dndtree_ghostCircle, .d3_dndtree_activeDrag .d3_dndtree_ghostCircle{
+       display: none;
+  }

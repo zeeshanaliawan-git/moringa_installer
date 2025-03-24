@@ -1,0 +1,276 @@
+body {
+	background-color: #F9F9F9;
+	font-size: 8pt;
+	text-align: center;
+	font-family: arial;
+}
+
+SELECT {
+	font-size: 8pt;
+	font-family: arial;
+}
+
+INPUT {
+	font-size: 8pt;
+	font-family: arial;
+}
+
+table {
+	font-size: 8pt;
+	width: 100%;
+	empty-cells: show;
+	border-collapse: collapse;
+}
+
+.htitle {
+	color: #FF6600;
+	font-size: 14pt;
+	padding-bottom: 3px;
+	padding-top:3px;
+}
+
+.title1 {
+	padding-left: 5px;
+	font-size: 8pt;
+	height: 30px;
+	color: #FF5500;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.textinfo {
+	color: #6E6E6F;
+	font-weight: normal;
+}
+
+.identity {
+	background: url("../img/puce3.png") no-repeat 5px;
+	padding-left: 20px;
+	font-size: 8pt;
+	height: 30px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.critere {
+	background: url("img2/puce3.png") no-repeat 5px;
+	padding-left: 20px;
+	font-size: 8pt;
+	height: 25px;
+	font-weight: bold;
+	width: 15%;
+}
+
+.backbut {
+	cursor: pointer;
+	color: #FF5500;
+	font-size: 8pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}  /*background: url("img/backbut.png") repeat-x top #FF6802;*/
+
+.backbutsearchon,.backbutsearch {text-align: center;height: 30px;
+	cursor: pointer;font-size: 8pt;	margin-top:10px;width: 140px;	
+	background: url("../img/backbutnu.png") no-repeat right;border: 0px;margin: 5px;}
+.backbutsearchon_wide,.backbutsearch_wide {text-align: center;height: 30px;
+	cursor: pointer;font-size: 8pt;	margin-top:10px;width: 240px;	
+	background: url("../img/backbutnu_wide.png") no-repeat right;border: 0px;margin: 5px;}
+.backbutsearch,.backbutsearch_wide {color: #313131;font-weight:bold;}
+.backbutsearchon,.backbutsearchon_wide {color: white;font-weight:bold;}
+
+.backbutreson,.backbutres {text-align: center;width: 55px;height: 30px;margin: 5px;
+	cursor: pointer;font-size: 8pt;		
+	background: url("../img/buscar.png") no-repeat right;}	
+	
+.backbutres{color: #313131;border: 0px;}
+.backbutreson{color: #FF6600;border: 0px;}
+
+table.global {
+	width: 820px;
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+table.recherche {
+	width: 98%;
+	empty-cells: show;
+}
+
+table.widerTable {
+	border:2px solid black;
+	border-collapse:collapse;
+	white-space:nowrap;
+}
+
+caption.widerTable {
+	background-color:lightgrey;
+	border-color:black;
+	border-style:solid;
+	border-width:2px 2px 0;
+	caption-side:top;
+	font-family:arial,sans;
+	font-size:8pt;
+	font-weight:bold;
+}
+
+th.widerTable, td.widerTable {
+	border:1px solid blue;
+	font-family:arial,sans;
+	font-size:8pt;
+	padding:3px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+table.massiveStatusChange {
+	width: 1020px;
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+table.fileStatusChange {
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+table.resultat {
+	margin-top: 5px;
+	border: 1px solid white;
+}
+
+.tri {
+	font-size: 8pt;
+	font-family: arial;
+	color: white;
+	font-weight: normal;
+}
+
+.resultat th {
+	vertical-align: top;
+	background-color: #B0A6A3; /*#dcb;*/
+	color: #444444;
+	font-size: 7pt;
+	cursor: pointer;
+	padding: 1px 1px 1px 1px;
+	font-family: verdana;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.resultat td {
+	border-bottom: 1px solid #B0A6A3;
+	border-right: 1px solid white;
+	padding: 5px 5px 5px 5px
+}
+
+.resultat tr {
+	background-color: #F3F4F4; /*#bcd;*/
+}
+
+tr.ineligible {
+	background-color: #f88;
+	cursor: pointer
+}
+
+tr.cpop {
+	background-color: #800;
+	color: yellow;
+	cursor: pointer
+}
+
+tr.retour {
+	background-color: #f84;
+	cursor: pointer
+}
+
+tr.mauve {
+	background-color: #999;
+}
+
+tr.encours {
+	background-color: #9fa;
+}
+
+tr.echec {
+	background-color: red;
+	color: white;
+	cursor: pointer
+}
+
+tr.echec a {
+	color: white;
+}
+
+a {
+	text-decoration: underline;
+	font-size: inherit;
+	color: black
+}
+
+a:HOVER {
+	text-decoration: none;
+}
+
+.bouton {
+	font-size: 12pt;
+	border: outset 3px black;
+	background-color: #AAA;
+	word-spacing: 20px;
+	width: 100%;
+}
+
+th.bouton {
+	background-color: #ccc;
+}
+
+u {
+	border: solid 1px salmon;
+}
+
+.suivicoOn {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+.suivicoOn,.suivicoOff {
+	cursor: pointer;
+	text-align: center;
+}
+
+.suivicoOff {
+	text-decoration: underline;
+}
+.navigation
+{
+	vertical-align: top;
+	color: #FF6600;
+	font-size: 10pt;
+	padding: 1px 1px 1px 1px;
+	font-family: verdana;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+/*bandeau de navigation de top.jsp*/
+.titletop { font-family: arial;font-size: 10pt;white-space: nowrap;color: #FF6600;font-weight: bold;vertical-align: top;padding-top:0px;}
+.topleft { background: url('../img/backleft.jpg') no-repeat right ;padding-left: 15px;padding-top:0px;}
+.topmiddle { background: url('../img/backmid.jpg') repeat-x top ;vertical-align: top;color: white;
+padding-top:0px; }
+.topright { background: url('../img/backright.jpg') no-repeat left ;padding-right: 15px;padding-top:0px;}
+
+.topmiddle a,.topmiddle a:HOVER{font-size:8pt;}
+.topmiddle a {color: white;text-decoration: none;}
+.topmiddle a:HOVER {color: white;text-decoration: underline;}
+
+/*num�ros pour navigation dans pages de r�sultat*/
+A.number,A.number:HOVER {font-size: 9pt;}
+A.number {color: #444444;text-decoration: none;}
+A.number:HOVER {color: #FF6600;text-decoration: underline;}
+
+#numsel A.number {color: #FF6600;font-size: 10pt;}
+
+h3 {font-weight: normal;color: #FF6600;}

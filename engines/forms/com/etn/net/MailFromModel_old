@@ -1,0 +1,465 @@
+/**
+ * Etance:$Id: MailFromModel.java,v 1.4 2011/02/21 11:31:54 alban Exp $
+*/
+package com.etn.net;
+
+import java.io.*;
+import java.net.URL;
+
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.activation.*;
+
+import java.security.*;
+import java.security.cert.*;
+
+import javax.net.ssl.*;
+import java.util.HashMap;
+import java.util.Properties;
+import java.util.Enumeration;
+import java.util.Date;
+import com.etn.util.ItsDate;
+
+
+import com.etn.lang.ResultSet.Set;
+
+/**
+ * MailFromModel: Ecriture/Envoi d'un mail à partir d'un modèle.
+ * Le modèle comporte des mots commençant par db( case sensitif) 
+ * auxquels seront substitués les valeurs d'un Set (Etn) argument.
+ * Nota: si le Set est null, rien ne sera substitué.
+ * Le comportement par défaut peut être altéré via 3 callbacks 
+ * si la classe est surclassée:
+ * <b>skip</b> : qui ignore une sous partie du modèle.
+ * <b>addSousPart</b> : qui permet d'ajouter une partie positionnée. 
+ * <b>replace</b> : qui permet de surclasser la substitution de valeurs.
+ * On peut aussi ajouter simplement des attachements au message 
+ * original, via le paramètre <b>attachs</b> comportant une liste de 
+ * fichiers. Dans ce cas , les attachemants seront ajoutés en
+ * fin de message, le message devenant MultiPart.
+ * Notas:
+ * Les divers client mails ne respectent pas uniformément la RFC MIME.
+ * En particuler, les outils Microsoft se révèlent incapables
+ * d'exploiter correctement un sous-type Multi. Par exemple, OutLook Express
+ * traite tous les Multipart fils comme "mixed" quelque soit leur type.
+ * Ceci est un MS bug que la classe ne traite évidement pas. Si ceci est
+ * un problème critique, il faut faire un modèle avec un des Ms outils.  
+ * @since JavaMail 1.4
+ * <u>La classe est compilée par défaut avec javamail >= 1.4. Au
+ * cas javamail < 1.4, il faut commenter l'appel attachFile et décommenter
+ * les lignes 3 lignes suivantes.</u>
+*/
+
+
+public class MailFromModel {
+
+protected boolean debug;
+Properties env;
+Session session;
+InternetAddress FROM ;
+InternetAddress REPLY[];
+
+
+/**
+ * Callbacks.
+*/
+
+/**
+ * skip: Ignorer une sous partie du modèle.
+ * @return true si oui
+ * par defaut : false
+ * Trace le niveau et le numéro de la souspart au cas debug.
+*/
+public boolean skip( BodyPart modelpart , String modeltype , int niveau , 
+     int souspart )
+{ 
+  if( debug )
+   System.out.println( "skip-> niveau:"+niveau+" souspart:"+souspart);
+
+  return( false ); 
+}
+/**
+ * addSousPart: Ajouter une sous partie.
+ * par défaut méthode vide.
+ * Trace le niveau et le numéro de la souspart au cas debug.
+*/
+public void addSousPart( MimeMultipart cur , BodyPart lastmodel, int niveau , int souspart )
+{ 
+  if( debug )
+   System.out.println( "addSousPart-> niveau:"+niveau+" souspart:"+souspart);
+}
+
+/**
+ * replace : substitue dans source les mots commençant par dbXXXX par
+ * les valeurs du champ XXXX du Set. Nota XXXX est case insensitif, db 
+ * case sensitif. Si XXXX n'existe pas dans le Set, pas de remplacement.
+ * @param source : le texte à parser.
+ * @param rs : le Set , Si null pas de substitution.
+ * @return le nouveau texte.
+ */
+public String replace( String source , Set rs )
+{
+  if( rs == null ) return( source );
+
+  StringBuilder src = new StringBuilder( source);
+  int i,j,k;
+  String val;
+
+  
+  i = j = 0 ;
+  while( ( i = src.indexOf("db",j) ) != -1 )
+  { 
+    for( k = i+2 ; Character.isLetterOrDigit( src.charAt(k) ); k++ );
+    String col = src.substring(i+2,k);
+    if( ( val = rs.value(col))  != null )
+      { src.replace(i,k,val); j = i + val.length(); }
+    else j = i+2 ;
+  }
+
+ return(src.toString());
+
+}
+
+
+/** 
+  * Extraction du sous type d'un MultiPart pour la méthode setSubType.
+  * @param srcType le type complet du modele.
+  * @return le soustype.
+  * par ex: 
+  * multipart/mixed;
+        boundary="----=_Part_0_724000057.1298006495582"
+  * retourne "mixed" 
+ */
+String getSubType( String srcType )
+{
+   int i = srcType.indexOf('/');
+   int j = ++i;
+   while( Character.isLetterOrDigit( srcType.charAt(j) )) j++;
+   return( srcType.substring(i,j) );
+}
+
+/**
+ * Mise à jour des Headers du Message 
+ * On conserve le type et le content-type du modèle.
+*/
+int setHeaders( MimeMessage to , MimeMessage model , Set rs, String sujet )
+throws Exception
+{ 
+ to.setFrom(FROM);
+ to.setSender(FROM);
+ to.setSentDate(new Date());
+ to.setReplyTo( REPLY);
+ to.setSubject( sujet );
+ to.setRecipients( Message.RecipientType.TO , rs.value("email") );
+
+ for( Enumeration<String> e = model.getAllHeaderLines() ; e.hasMoreElements() ; )
+ {
+   String s = e.nextElement();
+   int i = s.indexOf(':');
+   String tag = s.substring(0,i).trim();
+   if( tag.equalsIgnoreCase("mime-version") )
+     to.setHeader( tag, s.substring( i+1)) ;
+   else if( tag.equalsIgnoreCase("Content-Type") )
+     to.setHeader("Content-Type", s.substring( i+1)) ;
+   // else a voir
+   //System.out.println( s );
+   
+  }
+
+  // debug
+  if( debug ) 
+  for( Enumeration<String> e = to.getAllHeaderLines() ; e.hasMoreElements() ; )
+ {
+   System.out.println( e.nextElement() );
+ }
+
+
+ return(0);
+ 
+}
+
+
+/** 
+ * Remplit le Multipart dest à partir du Multipart source.
+ * substitue les valeurs rs aux variables dbxxx des sous parties
+ * de type texte.
+*/
+
+int setMulti( MimeMultipart dest , MimeMultipart src , Set rs, int niveau )
+throws Exception
+{
+
+  niveau++;
+  
+  // Init header du MultiPart dest
+  dest.setSubType( getSubType(src.getContentType() ));
+  if( debug )
+  System.out.println( "Multipart subpart:"+src.getCount()+"\nsrc:[" +src.getContentType()+ "] \ndest:["+dest.getContentType()+"]");
+
+  // Les parties du Multipart
+  for( int i = 0 ; i < src.getCount() ; i++ )
+  { BodyPart p = src.getBodyPart(i);
+    String type = p.getContentType();
+    if( !skip( p , type, niveau , i ) ) 
+    {
+      if( debug )
+        System.out.println( "Body index "+i+" "+p+" -> "+type );
+
+      if( type.startsWith( "multipart" ) )
+      { MimeMultipart content = (MimeMultipart)p.getContent(), 
+             d2 = new MimeMultipart();
+     
+        setMulti( d2 , content , rs, niveau);
+        MimeBodyPart dbd = new MimeBodyPart();
+        dbd.setContent( d2 );
+        dest.addBodyPart( dbd );
+      }
+      else if( type.startsWith("text") )
+      {
+        MimeBodyPart ps = (MimeBodyPart)p , pd = new MimeBodyPart();
+        /*** Marche pas .... **/
+        //copyHeaders( pd , ps);
+        pd.setHeader("Content-Type", ps.getContentType() );
+          if( debug )
+    System.out.println( "Textsubpart:src:[" +ps.getContentType()+ "] dest:["+pd.getContentType()+"]");
+
+        String z = (String)ps.getContent();
+        z = replace( z , rs );
+       
+        pd.setContent(z,ps.getContentType());
+        //pd.setContent(z,"text/html");
+        dest.addBodyPart(pd);
+       }
+      else // images etc...
+       dest.addBodyPart( p);
+
+   }  // skip
+
+   addSousPart( dest , p, niveau , i );
+
+  }
+ 
+ return(0);
+
+}
+
+  
+/**
+ * setBody: Création du corps du message.
+ * Au cas attachements, encapsule le message dans un MimeMultipart 
+ * de type mixed. La première partie est le modèle traduit de ce 
+ * Multi. Les parties suivantes, la liste des attachements.
+ * @param tosend : le body du message.
+ * @param model  : le body du message modele.
+ * @rs           : Un Set des valeurs à substituer.
+ * @attachs      : Une liste des fichiers à ajouter ou null.
+ * @return       : 0 OK, ou errcode.
+ * @exception    : syntaxe.
+*/
+int setBody( MimePart tosend , MimePart model , Set rs, String attachs[]  )
+throws Exception
+{ 
+  MimeMultipart top = null;
+
+  if( attachs != null && attachs.length > 0 )
+  { /** Il faut un multipart Top **/
+    top = new MimeMultipart();
+    top.setSubType( "mixed" );
+  }
+
+  Object o = model.getContent();
+  
+  if( o instanceof Multipart )
+  { 
+    MimeMultipart mulsrc = (MimeMultipart) o , muldest = new MimeMultipart();
+    if( debug )
+      System.out.println( "Multi instance:" +mulsrc.getCount() );
+
+    setMulti( muldest , mulsrc , rs , 0);
+    if( debug )
+      System.out.println( "Multi instance avt attach:" +muldest.getCount() );
+
+    if( top == null ) // No attach
+       tosend.setContent(muldest);
+    else 
+    { MimeBodyPart p1 = new MimeBodyPart();
+      p1.setContent(muldest);
+      top.addBodyPart( p1 );
+      for( int i = 0 ; i < attachs.length ; i++ )
+       {  MimeBodyPart att = new MimeBodyPart();
+          /** Si javamail >= 1.4 **/
+          att.attachFile(attachs[i]);
+          /** javamail < 1.4 
+          FileDataSource fds = new FileDataSource(attachs[i]);
+          att.setDataHandler(new DataHandler(fds));
+          att.setFileName(fds.getName());
+          */
+
+          top.addBodyPart(att); 
+       }
+       tosend.setContent(top);
+     }
+    //if( debug )
+    //  System.out.println( "Multi instance Apres:" +muldest.getCount() );
+
+  }
+  else  if( o instanceof MimeBodyPart )
+  {
+    MimeBodyPart sPart = ( MimeBodyPart ) o, dPart = null;
+    String type = sPart.getContentType();
+    System.out.println( "MimeBodyPart:" + type);
+  
+     if( type.startsWith("text") )
+      { // Il faut parser...
+        dPart = new MimeBodyPart();
+        //copyHeaders( dPart , sPart);
+        String z = (String)sPart.getContent();
+        z = replace( z , rs );
+        dPart.setContent(z,type);
+        tosend.setContent(dPart,type);
+      } 
+      else tosend.setContent(sPart,type);
+      
+  }
+  else // Part ???
+  if( o instanceof BodyPart )
+  { BodyPart sPart = ( BodyPart ) o, dPart = null;
+    String type = sPart.getContentType();
+    //System.out.println( "BodyPart:" + type);
+    tosend.setContent(sPart,type);
+  }
+  else if(  o instanceof Part )
+  { Part part = (Part) o, dPart = null;
+    String type = part.getContentType();
+    //System.out.println( "BodyPart:" + type);
+    tosend.setContent(part,type);
+  }
+  else
+   tosend.setText( replace(o.toString(),rs) );
+
+
+  return(0);
+}
+
+
+
+/**
+ * @param conf : MAIL_FROM, MAIL_REPLY, mail.smtp.host, debug
+ */
+public MailFromModel( Properties conf )
+throws Exception
+{ 
+  this.env = conf;
+ 
+  FROM = new InternetAddress(env.getProperty("MAIL_FROM"));
+  REPLY = new InternetAddress[1];
+  REPLY[0] = new InternetAddress(env.getProperty("MAIL_REPLY"));
+  session = Session.getDefaultInstance(env, null);
+  debug = (env.get("MAIL_DEBUG") != null  ? true: false) ;
+  session.setDebug( env.get("SMTP_DEBUG") != null ) ;
+
+}
+
+/**
+ * build : Construction du message.
+ * @param modele : modele du mail (valeurs à substituer dbxxxx). 
+ * @param rs : Set contenant les xxxx.
+ * @param sujet : le sujet (utf8).
+ * @param attachs : liste de fichiers à attacher ou null.
+ * @return : 0 OK , ou errcode.
+*/
+public MimeMessage build( InputStream fmodele , Set rs , String sujet,
+   String attachs[] )
+throws Exception
+{
+
+  MimeMessage model= null , tosend = null;
+  MimeMultipart top = null;   // pour attachements
+  int r = -1;
+
+  sujet = replace( sujet, rs );
+  model = new MimeMessage( session , fmodele );
+  tosend = new MimeMessage( session );
+
+  if( ( r = setHeaders( tosend , model , rs, sujet ) ) != 0 )
+     return(null);
+
+  if( attachs != null && attachs.length > 0 )
+  { /** Creation d'un Multipart Top , type mixed... **/
+    top = new MimeMultipart();
+    top.setSubType( "mixed" );
+  }
+
+
+  if( ( r = setBody( tosend , model , rs, attachs ) ) != 0 )
+     return(null);
+
+
+  return(tosend);
+}
+
+/**
+ * Idem build : sans attachs
+ * @see build
+ */
+public MimeMessage build( InputStream fmodele , Set rs , String sujet)
+throws Exception
+{ return( build( fmodele, rs, sujet , null ) ); }
+
+/**
+ * send: construit le message et l'envoit.
+ * @see build
+ * @return : 0 OK , ou errcode.
+*/
+public int send(  InputStream fmodele , Set rs , String sujet, String attachs[] )
+{ 
+  try {
+   MimeMessage tosend = build( fmodele , rs , sujet, attachs );
+   if( tosend == null ) return(1);
+   Transport.send(tosend);
+   return(0);
+  }
+  catch( Exception e ) 
+   { e.printStackTrace();
+     return( -1 );
+   }
+}
+/**
+ * Idem send sans attachements.
+ * @see build
+ */
+public int send(  InputStream fmodele , Set rs , String sujet )
+{ return( send( fmodele,rs,sujet,null ) ); }
+
+/**
+ * writeTo : construit le message et l'ecrit dans le stream o.
+ * @param o : OutputStream où le message sera écrit.
+ * @see build pour autres paramères.
+ * @return : 0 OK , ou errcode.
+*/
+public int writeTo( OutputStream o ,  InputStream fmodele , Set rs , 
+   String sujet, String attachs[] )
+{ 
+  try {
+   MimeMessage tosend = build( fmodele , rs , sujet,attachs );
+   if( tosend == null ) return(1);
+   tosend.writeTo(o);
+   return(0);
+  }
+  catch( Exception e )
+   { e.printStackTrace();
+     return( -1 );
+   }
+}
+
+/** 
+ * Idem writeTo sans attach.
+ * @see build
+ */
+public int writeTo( OutputStream o ,  InputStream fmodele , Set rs ,
+   String sujet )
+{ return( writeTo( o , fmodele , rs , sujet , null ) ); }
+
+
+
+}

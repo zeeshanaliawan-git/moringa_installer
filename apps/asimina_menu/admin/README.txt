@@ -1,0 +1,1 @@
+This folder contains jsps which dont require site selection but require authentication

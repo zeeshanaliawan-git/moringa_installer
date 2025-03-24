@@ -1,0 +1,111 @@
+/*body { background-color: white; font-family: arial,sans-serif; margin: 0;text-align: center;}
+input {font-size: 8pt;}*/
+
+#client { border: 2px solid #FF6600;font-size: 8pt;text-align: left;padding-left: 5px; }
+th { font-weight: bold;background-color: #DEDEDE;padding: 5px; }
+
+#client td {border-bottom: 1px solid #DEDEDE;}
+
+#block {width: 100%;font-size: 8pt;color: black;border: 1px solid #C0C0C0;margin-bottom: 5px;}
+#block td {text-align: center;border-right: 1px solid #DCDEDE;}
+
+#blockb {width: 100%;font-size: 8pt;color: black;border: 1px solid #C0C0C0;margin-bottom: 5px;background: url("img2/client3.png") no-repeat 170px 5px ;}
+#blockb td,#blockb th {text-align: left;padding-bottom: 2px;padding-top: 2px;}
+#blockb th {width: 135px;font-weight: normal;padding-left: 10px;}/*background: url("img2/puce5.png") 5 9px no-repeat;*/
+#blockc {width: 100%;font-size: 8pt;color: black;border: 1px solid #C0C0C0;margin-bottom: 5px;/*background: url("img2/backforopt.png") no-repeat left;*/}
+#blockc td,#blockc th {text-align: left;background: transparent;border-bottom: 1px solid white;padding-bottom: 2px;padding-top: 2px;}
+#blockc th {color: #FF6600;font-weight: bold;background: url("img2/backpage2.png") repeat-y;width: 10%;}
+#blockd {width: 100%;font-size: 8pt;color: black;border: 1px solid #C0C0C0;margin-bottom: 5px;}
+#blockd td,#blockd th {text-align: left;}
+#blockd th {width: 135px;color: black;background-color: #DEDEDE;font-weight: normal;padding-left: 10px;}
+#SI {width: 95%;font-size: 8pt;color: black;border: 1px solid #C0C0C0;margin: 5px;}
+tr.gooff td, tr.gooff td #parc {color: black;background-color: #DEDEDE;}
+tr.goon td, tr.goon td #parc {color: #FF6600;background-color: white;}
+tr.goon td a:hover  {color: #FF6600;background-color: white;}
+tr.gooff td, tr.goon td {padding: 2px;}
+tr.gooff td a {text-decoration: none; color:black;} 
+tr.goon td#click {text-decoration: underline;cursor: pointer;}
+#page, #page:HOVER {font-size: 8pt;padding-bottom: 20px;}
+#page {color: black;text-decoration: none;}
+#page:HOVER {color: #FF6600;text-decoration: underline;}
+/*classes ajout�es par fab*/
+
+div.menutop {border: 1px solid #C5C5C5;height: 50px;border-bottom: 5px solid #C5C5C5;background: url('img2/backtop.jpg') repeat-x bottom ;}
+.titletop { white-space: nowrap;color: #FF6600;font-weight: bold;vertical-align: top;padding-top:0px;}
+.topleft { white-space: nowrap;background: url('img2/backleft.jpg') no-repeat top ;padding-right: 75px;padding-top:0px;}
+.topmiddle { white-space: nowrap;background: url('img2/backmid.jpg') repeat-x top ;vertical-align: top;color: white;padding-top:0px;padding-left: 10px;padding-right: 10px; }
+.topright { white-space: nowrap;background: url('img2/backright.jpg') no-repeat top ;padding-right: 75px;padding-top:0px;}
+
+div.ficheh1 {font-size: 12pt;color: #FF6600; text-align: left;padding: 5px;}
+.normal { color: black;font-size: 8pt;}
+.orange{color: #FF6600;font-size: 8pt;}
+.texte{color: #474747;font-size: 8pt;}
+.texteS{color: #FF6600;font-size: 7pt;}
+.texteN{color: #FF6600;font-size: 8pt;}
+.texteNG{color: #FF6600;font-size: 8pt;font-weight: bold;}
+.infotxt{color: #0C2577;font-size: 8pt;}
+.texteaide{color: #474747;font-size: 7pt;}
+.gras{color:#FF6600;font-size: 8pt;font-weight: bold;display: inline;/* cursor: pointer;*/}
+
+ .texteaide a {text-decoration: underline;color: #474747;}
+ .texteaide a:HOVER {text-decoration: NONE;color: #FF6600;}
+ 
+#simple tr {background-color: transparent;}
+#search tr {background-color: transparent;text-align: left;}
+#search {border: 0px solid #A0A0A0;background: #F8ECDF;width:500px;margin: 5px;}
+#search td {border-bottom: 0px solid #CCCCCC;padding: 2px;padding-left: 20px;}
+.texte{color: #474747;font-size: 8pt;}
+.texteS{color: #FF6600;font-size: 7pt;}
+.texteXS{color: #474747;font-size: 7pt;}
+input.action {color:#FF6600;background-color: white;
+font-weight: bold;border: 1px solid #C8C7C6;cursor: pointer;}
+input.actionon {color:white;background-color: #FF6600;
+font-weight: bold;border: 1px solid #FF5500;cursor: pointer;}
+
+input.actionS {color:#FF6600;background: url("img2/loupe.png") white 1px 0px no-repeat;
+font-weight: bold;border: 1px solid #C8C7C6;cursor: pointer;width: 25px;}
+input.actionM {color:#FF6600;background: url("img2/disk.png") white 3px 1px no-repeat;
+font-weight: bold;border: 1px solid #C8C7C6;cursor: pointer;width: 25px;}
+
+input.other {color:#3E3E3E;background-color: white;
+font-weight: bold;border: 1px solid #C8C7C6;cursor: pointer;}
+/*a {color: #FF6600;text-decoration: underline;}
+a:HOVER {color: black;text-decoration: underline;}*/
+
+.ital { color: red;margin: 0px; }
+dl.norm { color : green; margin: 0px;}
+
+#dv { display: none; position: absolute; left : 200px; top: 200px; 
+      width: 400px; background-color: #fff; 
+      font-family: arial; font-size: 8pt; 
+      border : ridge 3px #ddd;
+    }
+
+#dv2 { display: none; position: absolute; left : 200px; top: 100px;
+      width: 400px; background-color: #fff;
+      font-family: arial; font-size: 8pt;
+      border : ridge 3px #ddd;
+    }
+
+table.fl { font-family: sans-serif; font-size: 80%;  }
+
+th.aa { text-decoration: underline; cursor:pointer; }
+
+#doit { font-size: 9pt; font-weight: 600; 
+        margin: 2px 0 ; padding: 2px; color: red; border: dashed 1px #ccc; }
+
+#plie {  background-color: #888; border: solid 2px #999; color : yellow;
+        height: 10px; width: 20px; }
+        
+.backbutsearchon,.backbutsearch {text-align: center;height: 30px;
+	cursor: pointer;font-size: 8pt;	margin-top:10px;width: 140px;	
+	background: url("../img/backbutnu.png") no-repeat right;border: 0px;margin: 5px;}
+.backbutsearch{color: #313131;font-weight:bold;}
+.backbutsearchon{color: white;font-weight:bold;}
+
+.backbutreson,.backbutres {text-align: center;width: 55px;height: 30px;margin: 5px;
+	cursor: pointer;font-size: 8pt;		
+	background: url("../img/buscar.png") no-repeat right;}	
+	
+.backbutres{color: #313131;border: 0px;}
+.backbutreson{color: #FF6600;border: 0px;}

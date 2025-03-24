@@ -1,0 +1,47 @@
+{
+  "system_info": {
+    "catalog_name": "Structured Content catalog",
+    "name": "1st Content"
+  },
+  "item_type": "structured_content",
+  "details": [
+    {
+      "template_data": {
+        "example_data": [
+          {
+            "question": [
+              "Question 1"
+            ],
+            "answer": [
+              "Answer 1"
+            ]
+          }
+        ]
+      },
+      "langue_code": "fr"
+    },
+    {
+      "template_data": {
+        "example_data": [
+          {
+            "question": [
+              "Question 1"
+            ],
+            "answer": [
+              "Answer 1"
+            ]
+          }
+        ]
+      },
+      "langue_code": "en"
+    }
+  ],
+  "internal_info": {
+    "updated_ts": "29/09/2020 16:12:34",
+    "created_ts": "08/01/2020 13:05:26",
+    "site_id": "1",
+    "updated_by": "1",
+    "id": "1",
+    "created_by": "1"
+  }
+}

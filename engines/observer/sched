@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Pas 2 instances
+ps ax | grep -v grep | grep Observer
+if [ $? -eq 0 ]
+then
+exit 1
+fi
+
+PATH=/home/etn/bin:/usr/local/bin:/usr/bin:/bin
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+java -cp .:lib/* Observer >> sched.log 2>&1 &
+exit 0

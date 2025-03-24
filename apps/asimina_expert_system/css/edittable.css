@@ -1,0 +1,51 @@
+/* tables */
+table.edittable {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.edittable thead tr th, table.edittable tfoot tr th {
+	background-color: #B0A6A3;/*#e6EEEE*/
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.edittable thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.edittable tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+        border-bottom: #ddd 1px outset; border-left: #ddd 1px outset; border-top: #ddd 1px outset; border-right: #ddd 1px outset;
+}
+table.edittable tbody tr.odd td { background-color:#F0F0F6; }
+table.edittable tbody tr.del td { background-color:#FFE6E6; }
+table.edittable tbody tr.zod td { background-color:#FFD6D6; }
+table.edittable tbody tr.remark td { background-color:yellow; }
+table.edittable thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.edittable thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.edittable thead tr .headerSortDown, table.edittable thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+/*
+th, td { width: 140px }
+td { height:30px; }*/
+th.cmd {  width: 16px; }
+td.cmd { width: 16px; cursor:pointer; background-color:#ccc; text-align:center; }
+
+#D1 {  display:none; }
+
+input[text] { font-size: 9pt; height: 18px; width: 120px;}
+#inp { font-size: 9pt; height: 18px; width:120px; }

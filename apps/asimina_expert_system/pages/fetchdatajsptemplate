@@ -1,0 +1,34 @@
+<jsp:useBean id="Etn" scope="session" class="com.etn.beans.Contexte" />
+<%@ page import="com.etn.lang.ResultSet.Set"%>
+<%@ page import="com.etn.sql.escape"%>
+<%@ page import="java.util.HashMap"%>
+<%@ page import="java.util.Map"%>
+
+
+
+<%@ include file="/WEB-INF/include/queryToJson.jsp" %>
+
+
+<%
+	Etn.setSeparateur(2, '\001', '\002');
+	String __jsonid = "##jsonid##";
+	String __es = request.getParameter("__es");
+	if(__es == null) __es = "";
+	boolean loaddefaultvalues = false;
+	if(__es.trim().equals("1")) loaddefaultvalues = true;
+
+	HashMap<String,Integer> queryDescriptions = new HashMap<String, Integer>();
+
+	Map<String, String> queryParams = new HashMap<String, String>();
+	for(Object op : request.getParameterMap().keySet())
+	{
+		queryParams.put((String)op, request.getParameter((String)op));
+	}
+
+	out.write("{");
+	String json = getJsonFromQueries(Etn, __jsonid, queryParams, loaddefaultvalues); 
+	out.write(json);
+	out.write("}");
+
+
+%>

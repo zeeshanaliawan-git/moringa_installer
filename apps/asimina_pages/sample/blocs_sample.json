@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+
+      "item_type": "bloc",
+
+      "system_info": {
+		    "id"  : "89ecce27-2117-4976-b520-8617d3f7b800" //UUID , unique id of bloc
+        "name": "Sample bloc 1",
+        "description": " sample bloc description",
+        "template_id": "sample_template_1", //id(custom_id) of bloc template
+        //if template is feed_view type then follwing fields are required
+        "rss_feed_sort": "title_asc", //values: title_asc, title_desc, date_asc, date_desc
+        "rss_feeds": [
+          "Rss feed name 1",
+          "Rss feed name 2"
+        ]
+      },
+
+      "parameters": {
+        "margin_top": "0",      //in px
+        "margin_bottom": "10",  //in px
+        "start_date": "25/12/2019",
+        "end_date": "30/12/2019",
+        "refresh_interval": "0"  //number, unit: minutes, 0 = never
+      },
+
+      "tags": [
+        {
+          "id": "tag-1",
+          "label": "Tag 1"
+        },
+        {
+          "id": "tag-2",
+          "label": "Tag 2"
+        }
+      ],
+
+      "sections_data": {
+        //key is the section id(custom_id)
+        "global_info": [
+          {
+            //here key is field id(custom_id) or nested section id (custom_id) if any
+            "title": [
+              "global title"
+            ],
+            "desc": [
+              "multiline desc \n new line"
+            ]
+          }
+        ],
+
+        "section_with_nested_section": [
+          {
+            "formatted_field": [
+              "<div>this field can contain formatted(html) text<\/div>\n"
+            ],
+            "select_field": [
+              "red"
+            ],
+            "url_field": [
+              "/url/value/"
+            ],
+            "unlimited_boolean": [
+              "value if on",
+              "value if off"
+            ],
+            "images_field": [
+              {
+                "value": "image-1.jpg",
+                "alt": "image alt text 1"
+              },
+              {
+                "value": "image-2.gif",
+                "alt": "image alt text 1"
+              }
+            ],
+            "nested_section_1": [
+              {
+                "nested_section_text": [
+                  "this is nested field "
+                ]
+              }
+            ]
+          },
+          {
+            "formatted_field": [
+              "<div>section with nested section # 2<\/div>\n"
+            ],
+            "select_field": [
+              "red"
+            ],
+            "url_field": [
+              ""
+            ],
+            "unlimited_boolean": [
+              "value if on"
+            ],
+            "images_field": [{
+              "alt": "",
+              "value": ""
+            }],
+            "nested_section_1": [
+              {
+                "nested_section_text": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

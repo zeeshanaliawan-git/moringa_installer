@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>Search</title>
+<link rel="stylesheet" href="https://img.ke.woopic.com/resources/external/emea/completion/v4-0/sources/css/completion.min.css">  
+<script src="https://img.ke.woopic.com/resources/external/emea/completion/v4-0/sources/js/completion.min.js"></script> 
+
+<style>
+	body { font-family: arial; }
+</style>
+</head>
+<body>
+	<div style='margin:25px; '>
+		Hello
+	</div>
+</body>
+
+<script>
+function ____checkAuthParam()
+{
+	var queryString = window.location.search;
+	var urlParams = new URLSearchParams(queryString);
+	var userconnected = urlParams.get("user-connected");
+	if(!userconnected) userconnected = '';
+	
+	//console.log("user connected : " + userconnected);
+	
+	if(userconnected == 'true')
+	{
+		var __scookiesecure = 'sameSite=strict';
+		if(location.protocol === 'https:') __scookiesecure += ';secure';
+	
+		//console.log("Set auth cookie");
+		var date = new Date();
+		//expires in 45 minutes	
+		date.setTime(date.getTime() + (45 * 60 * 1000));		
+		document.cookie="___wsauth=1; expires="+date.toUTCString()+"; path=/; "+__scookiesecure;
+	}	
+}
+
+____checkAuthParam();
+</script> 
+</html>

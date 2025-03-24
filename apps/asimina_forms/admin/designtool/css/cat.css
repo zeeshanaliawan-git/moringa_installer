@@ -1,0 +1,317 @@
+/*-----------------------------------------------------------------------*/
+/* -----------------------SATURNE V ATHENASYS-2010-----------------------*/
+/*-----------------------------------------------------------------------*/
+
+/*commun-------------------------------------------------*/
+body{font-family: arial, sans-serif;font-size: 8pt;	background: white;/*color: #474747*/}
+body {padding: 0; margin: 0; text-align:center}
+body img{border: 0;}
+
+/*selecteurs-------------------------------------------------*/
+INPUT{font-family: arial;color: black;font-size: 8pt; margin-top: 1px;margin-bottom: 1px;}
+TABLE{font-family: arial;color: black;font-size: 8pt;}
+TEXTAREA{font-family: arial;font-size: 8pt;color: black;}
+SELECT{font-family: arial;font-size: 8pt;color: black;}
+SPAN, PRE{font-size: 8pt;font-family: arial;}
+
+/*general-------------------------------------------------*/
+h1 {color: #333333;font-size: 14pt;font-weight: normal;margin: 0 0 0 0;}
+h2 {color:  #FF6600;font-size: 13pt;font-weight: normal;margin-top: 10px;margin-bottom: 10px;}
+h3 {color: #333333;font-size: 14pt;font-weight: normal;}
+
+.normal {color: black;font-size: 8pt;}
+.orange{color: #FF6600;font-size: 8pt;}
+.texte{color: #474747;font-size: 8pt;}
+.texteS{color: #FF6600;font-size: 7pt;}
+.texteN{color: #FF6600;font-size: 8pt;}
+.infotxt{color: #0C2577;font-size: 8pt;}
+.texteaide{color: #474747;font-size: 7pt;}
+.gras{color:#FF6600;font-size: 8pt;font-weight: bold;display: inline;/* cursor: pointer;*/}
+
+.texteaide a {text-decoration: underline;color: #474747;}
+.texteaide a:HOVER {text-decoration: NONE;color: #FF6600;} 
+a.close{font-size:8pt;color:#666666;text-decoration:none;}
+a.close:HOVER{font-size:8pt;color:#666666;text-decoration:underline;}
+.haut a{color: #404040;text-decoration: none;font-size: 8pt;text-align: center;}
+.haut a:HOVER{color: #FF6600;text-decoration: none;font-size: 8pt;text-transform: inherit;}
+.travaux {font-size: 20pt; color: silver;text-align: center;padding: 20px;}
+
+a.goto, a.goto:HOVER {font-size:8pt;text-decoration:none;padding-left: 15px;line-height: 20px;}
+a.goto{background: url("../img/puceoff.png") no-repeat 2px 5px;color:black;}
+a.goto:HOVER{background: url("../img/puceon.png") no-repeat 2px 5px;color:#FF6600;}
+
+
+#wrapper {
+	margin: 0 auto;
+        width: 1015px;	
+    height: 100%;
+}
+div.container {
+    height: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    width: 1015px;
+    margin-top: 5px;
+    text-align:left;
+}
+
+#content {
+    height: 100%;
+    text-align:left;
+	border-left:1px solid #c8c8c8;
+	border-right:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+	background-color: #F5F5F5;
+	padding:5px;
+	overflow:auto;
+}
+
+#welcomeContent {    
+    text-align:left;
+	border:1px solid #c8c8c8;
+	background-color: #F5F5F5;
+}
+
+#navigationBar
+{
+	background: url("../img/navBar.png");
+	height:30px;
+	padding-top:5px;
+	color:#aaa;
+	border-top:1px solid #c8c8c8;	
+	border-left:1px solid #c8c8c8;	
+	border-right:1px solid #c8c8c8;	
+}
+
+#navigationBar span
+{
+	font-weight:bold;
+	font-size:10pt;
+	padding-right:15px;
+	padding-left:10px;
+}
+
+#navigationBar a
+{
+	color:#555555;
+	text-decoration:none;
+}
+
+div.errorMessage
+{
+    color: RED;
+    font-size: 7pt;
+}
+
+div.modalContainer
+{
+    font-family: arial, sans-serif;font-size: 8pt;
+}
+
+span.requiredMissing
+{
+    font-size: 7pt;
+    color: red;
+}
+
+span.missingAsterik
+{
+    font-size: 10pt;
+    font-weight: bold;
+    color: red;
+}
+
+table.result {border: 0px solid #A0A0A0;width: 100%;}
+
+table.result td {border-bottom: 1px solid #C0C0C0;color: black;padding-left: 5px;
+padding-right: 5px;padding-top: 5px;padding-bottom: 5px; font-size:8pt;}
+table.result th {border-bottom: 1px solid #A0A0A0;border-right: 1px solid #CCCCCC;
+background-color: #C0C0C0;font-size:7pt;/*#DEDEDE*/
+text-align: center;padding: 5px;text-transform: uppercase;color: #3E3E3E; }
+
+table.result tr.resulton td {text-decoration: underline;cursor: pointer;border-top: 1px solid #434343;
+border-bottom: 2px solid #434343;padding-left: 5px;padding-right: 5px;}
+
+.resultoff {text-decoration: none;}
+table.result a, table.result a:HOVER  {color: #3E3E3E;/*background: url('../img2/page.png') no-repeat;*/
+text-decoration: none;line-height: 15px;padding: 2px;background: #DEDEDE;
+border: 1px outset white;}
+table.result a:HOVER {color: black;border: 1px inset white;background: #EEEEEE;color: black;
+}
+
+
+#dialogWindow
+{
+	text-align:left;
+}
+
+td.heading
+{
+	font-weight:bold;
+}
+
+#homeLinks
+{
+	background-color: #F5F5F5; 
+}
+
+#homeSearchDiv
+{
+	padding:2px;
+	background-color: #DEDEDE; 
+	font-weight:bold; 
+	font-size:10pt;
+	cursor:pointer;
+	border-right:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+}
+
+#homePlanningDiv
+{
+	cursor:pointer;
+	padding:2px;
+	background-color: #DEDEDE; 
+	margin: 5px 0px 5px 0px; 
+	font-weight:bold; 
+	font-size:10pt; 
+	border-right:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+}
+
+a.button
+{
+	color: #3E3E3E;
+	text-decoration: none;
+	line-height: 15px;
+	padding: 2px;
+	background: #DEDEDE;
+	border: 1px outset white;
+}
+
+#dialogWindow
+{
+	background-color:#F5F5F5;
+}
+
+div.guestSearchContent
+{
+	border-top:1px solid #c8c8c8;	
+}
+
+#footer
+{
+	padding-top:5px;
+}
+
+#footer a
+{
+	font-weight:bold;
+}
+
+#loginBar
+{
+	background:white;
+}
+
+body a
+{
+	color:black;
+}
+
+#exceptionContent {
+    text-align:left;
+	border:1px solid #c8c8c8;
+	background-color: #F5F5F5;
+	padding:5px;
+}
+
+
+table.searchResult {border: 0px solid #A0A0A0;width: 100%;}
+
+table.searchResult td {border-bottom: 1px solid #C0C0C0;color: black;padding-left: 5px;
+padding-right: 5px;padding-top: 5px;padding-bottom: 5px; font-size:8pt;}
+table.searchResult th {border-bottom: 1px solid #A0A0A0;border-right: 1px solid #CCCCCC;
+background-color: #C0C0C0;font-size:7pt;/*#DEDEDE*/
+text-align: center;padding: 5px;text-transform: uppercase;color: #3E3E3E; }
+
+table.searchResult tr.resulton td {text-decoration: underline;cursor: pointer;border-top: 1px solid #434343;
+border-bottom: 2px solid #434343;padding-left: 5px;padding-right: 5px;}
+
+div.toolTip
+{
+	z-index:1000; 
+	position:absolute; 
+	width:300px; 
+	background-color:white; 
+	visibility:hidden; 
+	border:1px dotted black;
+	padding:1px;
+}
+
+div.breadcrumps
+{
+	font-weight:bold; 
+	font-size: 9pt; 
+	color:#555555;
+	border-bottom:1px solid #C0C0C0;
+	padding-top:2px;
+	padding-bottom:5px;
+}
+
+div.breadcrumps a
+{
+	color:#555555;
+}
+
+.logo{
+	background-image: url('../images/logo.jpg');
+	width:145px;
+	height:131px;
+}
+
+.header{
+	background-color: #F0F0F0;
+	margin-top: 25px;
+}
+
+table.global {
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+.htitle {
+	color: #FF6600;
+	font-size: 14pt;
+	padding-bottom: 3px;
+	padding-top:3px;
+	text-align: center;	
+
+}
+
+table.resultat {
+	margin-top: 5px;
+	border: 1px solid white;
+}
+
+.resultat th {
+	vertical-align: top;
+	background-color: #B0A6A3; /*#dcb;*/
+	color: #444444;
+	font-size: 7pt;
+	cursor: pointer;
+	padding: 1px 1px 1px 1px;
+	font-family: verdana;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.resultat td {
+	border-bottom: 1px solid #B0A6A3;
+	border-right: 1px solid white;
+	padding: 5px 5px 5px 5px
+}
+
+.para{
+	
+}

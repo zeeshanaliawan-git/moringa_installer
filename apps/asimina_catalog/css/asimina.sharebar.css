@@ -1,0 +1,147 @@
+
+.DetailsNews-socialNetworks {
+    margin: 15px 0
+}
+
+@media (min-width:768px) {
+    .DetailsNews-socialNetworks {
+        margin: 20px 0
+    }
+}
+
+.DetailsNews-socialNetworks .SocialNetworks-title {
+    font-size: 14px
+}
+
+.SocialNetworks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.SocialNetworks.isLight a svg path {
+    fill: #000
+}
+
+.SocialNetworks.isLight a:active {
+    background-color: #000!important
+}
+
+.SocialNetworks.isLight a:active svg path,
+.SocialNetworks.isLight a:hover svg path {
+    fill: #fff
+}
+
+.SocialNetworks.isLight .SocialNetworks-backgroundCircle {
+    border-color: #000
+}
+
+.SocialNetworks.isDark a svg path {
+    fill: #fff
+}
+
+.SocialNetworks.isDark a:active {
+    background-color: #fff!important
+}
+
+.SocialNetworks.isDark a:active svg path {
+    fill: #000
+}
+
+.SocialNetworks.isDark .SocialNetworks-backgroundCircle {
+    border-color: #fff
+}
+
+.SocialNetworks-title {
+    display: none
+}
+
+@media (min-width:980px) {
+    .SocialNetworks-title {
+        display: block;
+        margin-right: 15px;
+        font-weight: 700
+    }
+}
+
+.SocialNetworks-background {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0
+}
+
+.SocialNetworks-backgroundCircle {
+    z-index: 0
+}
+
+.SocialNetworks-backgroundCircle,
+.SocialNetworks-colorfulCircle {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.SocialNetworks-colorfulCircle {
+    z-index: 1;
+    opacity: 0
+}
+
+.SocialNetworks a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+
+.SocialNetworks a span {
+    line-height: 0
+}
+
+.SocialNetworks a svg {
+    position: relative;
+    width: 20px;
+    height: auto;
+    z-index: 1
+}
+
+.SocialNetworks a:hover .SocialNetworks-backgroundCircle {
+    opacity: 0
+}
+
+.SocialNetworks a:active .SocialNetworks-backgroundCircle,
+.SocialNetworks a:hover .SocialNetworks-background,
+.SocialNetworks a:hover .SocialNetworks-colorfulCircle {
+    opacity: 1
+}
+
+.SocialNetworks a:active .SocialNetworks-background,
+.SocialNetworks a:active .SocialNetworks-colorfulCircle {
+    opacity: 0
+}

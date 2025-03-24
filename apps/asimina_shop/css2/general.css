@@ -1,0 +1,553 @@
+body {
+	background-color: #F9F9F9;
+	font-size: 8pt;
+	text-align: center;
+	font-family: arial;
+}
+
+SELECT {
+	font-size: 8pt;
+	font-family: arial;
+	/*background-color: #FCF8AE;*/
+	border: 1px solid #CCCCCC;
+}
+
+INPUT {
+	font-size: 8pt;
+	font-family: arial;
+	/*background-color: #FCF8AE;*/
+	border: 1px solid #CCCCCC;
+}
+
+table {
+	font-size: 8pt;
+	empty-cells: show;
+	border-collapse: collapse;
+}
+
+.button {
+	color: white;
+	font-size: 8pt;
+	font-weight:bold;
+	text-align: center;height: 30px;
+	cursor: pointer;margin-top:10px;width: 140px;	
+	background: url("../img/backbutnu.png") no-repeat right;border: 0px;margin: 5px;
+}
+
+.text{
+	color: #333333;
+	font-size: 10pt;
+	font-weight:none;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;	
+}
+
+.mandatory{
+	color: red;
+	font-size: 10pt;
+	font-weight:none;
+	text-align: right;	
+}
+.textred{
+	color: red;
+	font-size: 10pt;
+	font-weight:none;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;	
+}
+.textgrey{
+	color: #6E7679;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;
+}
+.textgreen{
+	color: green;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;		
+}
+.textrecap{
+	color: red;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;	
+}
+.textcompl{
+	color: #FF6600;
+	font-size: 8pt;
+	font-weight:none;
+	text-align: right;	
+	padding-right:2px;
+	padding-top:15px;
+	padding-bottom:5px;
+	text-decoration: underline;	
+	cursor: pointer			
+}
+
+.textcenter{
+	color: black;
+	font-size: 8pt;
+	font-weight:none;
+	text-align: center;	
+	padding-left:2px;
+	padding-top:3px;	
+}
+.texteB{
+	color: black;
+	font-size: 8pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:3px;
+}
+.titlepagemandat{
+	color: grey;
+	font-size: 14pt;
+	font-weight:bold;
+	text-align: right;
+	padding-right:60px;
+}
+.stitlepagemandat{
+	color: black;
+	font-size: 9pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:3px;
+	padding-left:50px;
+}
+.textemandat{
+	color: black;
+	font-size: 9pt;
+	font-weight:none;
+	text-align: left;
+	padding-top:3px;
+	padding-left:60px;
+}
+.mtextemandat{
+	color: black;
+	font-size: 9pt;
+	font-weight:none;
+	text-align: left;
+	padding-top:3px;
+	padding-left:5px;
+}
+.textemandatB{
+	color: black;
+	font-size: 9pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:3px;
+	padding-left:60px;
+}
+.mtextemandatB{
+	color: black;
+	font-size: 9pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:3px;
+	padding-left:5px;
+}
+.texteitalic{
+	color: black;
+	font-size: 8pt;
+	font-weight:none;
+	text-align: left;
+	padding-top:3px;
+	padding-left:60px;
+	font-style: italic;
+}
+
+.stextemandat{
+	color: black;
+	font-size: 9pt;
+	font-weight:none;
+	text-align : justify;
+	padding-left:60px;	
+	padding-right:60px;	
+}			
+.titleorange{
+	color: #FF6600;
+	font-size: 12pt;
+	font-weight:bold;
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;				
+}			
+.title2{
+	color: #6E7679;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;			
+}
+
+.titlebackground{
+	background-color:#DFE2E3;
+	padding-left: 5px;
+	padding-right: 5px;
+	height:20px;
+	color: black;
+	font-size: 10pt;
+	text-align: left;
+	font-weight:none;
+}
+
+.price_recap{
+	background-color:#DFE2E3;
+	text-align:right;
+	padding-right: 5px;
+	height:30px;
+	color:#FF6600;
+	font-size: 10pt;
+	font-weight:none;
+}
+
+.titlebackground2{
+	border-top:1px solid #E5E5E5/*#CCCCCC*/;
+	/*border-top:2px solid #D4D4D4;*/
+	padding-left: 5px;
+	height:20px;
+	color: #FF6600 /*#4D4D4D*/;
+	font-size: 10pt;
+	text-align: left;
+	font-weight:bold;
+}
+.tdbhead{
+	color: black;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:15px;
+	padding-bottom:5px;		
+}
+.tdbtitle{
+	color: white;
+	font-size: 8pt;
+	font-weight:bold;
+	background-color:#FF6600;
+	text-align: left;
+	padding:2px 2px 2px 2px;
+
+}
+
+.texteUnderline{
+	color: black;
+	font-size: 8pt;
+	text-decoration: underline;
+}
+
+.htitle {
+	color: #FF6600;
+	font-size: 14pt;
+	padding-bottom: 3px;
+	padding-top:3px;
+	text-align: center;	
+}
+
+.textebackground{
+	color: white;
+	font-size: 12pt;
+	font-weight:bold;
+	background-color:#FF6600;
+	text-align: left;
+	padding:3px 3px 3px 3px;
+}
+
+.texteaide{
+	color: #474747;
+	font-size: 7pt;
+	text-align: left;	
+}
+
+.titlepage{
+	color: #000D41;
+	font-size: 14pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:20px;		
+}
+
+
+.titleporta{
+	color: #FF6600;
+	font-size: 14pt;
+	font-weight:bold;
+	text-align: left;
+	padding-top:20px;		
+}
+
+.title1 {
+	padding-left: 5px;
+	font-size: 8pt;
+	height: 30px;
+	color: #FF5500;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.textinfo {
+	color: #6E6E6F;
+	font-weight: normal;
+}
+
+.textBonPorta{
+	color: black;
+	font-size: 10pt;
+	font-weight:bold;
+	text-align: left;	
+	padding-left:5px;
+	padding-top:3px;	
+}
+.identity {
+	background: url("../img/puce3.png") no-repeat 5px;
+	padding-left: 20px;
+	font-size: 8pt;
+	height: 30px;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.critere {
+	background: url("img2/puce3.png") no-repeat 5px;
+	padding-left: 20px;
+	font-size: 8pt;
+	height: 25px;
+	font-weight: bold;
+	width: 15%;
+}
+
+.backbut {
+	cursor: pointer;
+	color: #FF5500;
+	font-size: 8pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}  /*background: url("img/backbut.png") repeat-x top #FF6802;*/
+
+.backbutsearchon,.backbutsearch {text-align: center;height: 30px;
+	cursor: pointer;font-size: 8pt;	margin-top:10px;width: 140px;	
+	background: url("../img/backbutnu.png") no-repeat right;border: 0px;margin: 5px;}
+.backbutsearchon_wide,.backbutsearch_wide {text-align: center;height: 30px;
+	cursor: pointer;font-size: 8pt;	margin-top:10px;width: 240px;	
+	background: url("../img/backbutnu_wide.png") no-repeat right;border: 0px;margin: 5px;}
+.backbutsearch,.backbutsearch_wide {color: #313131;font-weight:bold;}
+.backbutsearchon,.backbutsearchon_wide {color: white;font-weight:bold;}
+
+.backbutreson,.backbutres {text-align: center;width: 55px;height: 30px;margin: 5px;
+	cursor: pointer;font-size: 8pt;		
+	background: url("../img/buscar.png") no-repeat right;}	
+	
+.backbutres{color: #313131;border: 0px;}
+.backbutreson{color: #FF6600;border: 0px;}
+
+table.global {
+	width: 820px;
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+	text-align: center;
+}
+
+table.recherche {
+	width: 98%;
+	empty-cells: show;
+}
+
+table.widerTable {
+	border:2px solid black;
+	border-collapse:collapse;
+	white-space:nowrap;
+}
+
+caption.widerTable {
+	background-color:lightgrey;
+	border-color:black;
+	border-style:solid;
+	border-width:2px 2px 0;
+	caption-side:top;
+	font-family:arial,sans;
+	font-size:8pt;
+	font-weight:bold;
+}
+
+th.widerTable, td.widerTable {
+	border:1px solid blue;
+	font-family:arial,sans;
+	font-size:8pt;
+	padding:3px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+table.massiveStatusChange {
+	width: 1020px;
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+table.fileStatusChange {
+	border: 1px solid #CCCCCB;
+	background-color: white;
+	padding: 5px 5px 5px;
+}
+
+table.resultat {
+	margin-top: 5px;
+	border: 1px solid white;
+}
+
+.tri {
+	font-size: 8pt;
+	font-family: arial;
+	color: white;
+	font-weight: normal;
+}
+
+.resultat th {
+	vertical-align: top;
+	background-color: #B0A6A3; /*#dcb;*/
+	color: #444444;
+	font-size: 7pt;
+	cursor: pointer;
+	padding: 1px 1px 1px 1px;
+	font-family: verdana;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.resultat td {
+	border-bottom: 1px solid #B0A6A3;
+	border-right: 1px solid white;
+	padding: 5px 5px 5px 5px
+}
+
+.resultat tr {
+	background-color: #F3F4F4; /*#bcd;*/
+}
+
+tr.ineligible {
+	background-color: #f88;
+	cursor: pointer
+}
+
+tr.cpop {
+	background-color: #800;
+	color: yellow;
+	cursor: pointer
+}
+
+tr.retour {
+	background-color: #f84;
+	cursor: pointer
+}
+
+tr.mauve {
+	background-color: #999;
+}
+
+tr.encours {
+	background-color: #9fa;
+}
+
+tr.echec {
+	background-color: red;
+	color: white;
+	cursor: pointer
+}
+
+tr.echec a {
+	color: white;
+}
+
+a {
+	text-decoration: underline;
+	font-size: inherit;
+	color: black;
+}
+
+a:HOVER {
+	text-decoration: none;
+}
+
+.bouton {
+	font-size: 12pt;
+	border: outset 3px black;
+	background-color: #AAA;
+	word-spacing: 20px;
+	width: 100%;
+}
+
+th.bouton {
+	background-color: #ccc;
+}
+
+u {
+	border: solid 1px salmon;
+}
+
+.suivicoOn {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+.suivicoOn,.suivicoOff {
+	cursor: pointer;
+	text-align: center;
+}
+
+.suivicoOff {
+	text-decoration: underline;
+}
+.navigation
+{
+	vertical-align: top;
+	color: #FF6600;
+	font-size: 10pt;
+	padding: 1px 1px 1px 1px;
+	font-family: verdana;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+
+/*menu top-----
+div.menutop {border: 1px solid #C5C5C5;height: 50px;border-bottom: 3px solid #C5C5C5;background: url('../img/backtop.jpg') repeat-x bottom ;}
+.titletop {font-size: 10pt;white-space: nowrap;color: #FF6600;font-weight: bold;padding-right: 2px;}
+.topleft {font-size: 8pt;background: url('../img/backleft.jpg') no-repeat top ;padding-right: 70px;padding-top:0px;}
+.topmiddle {font-size: 8pt;background: url('../img/backmid.jpg') repeat-x top ;vertical-align: top;color: white;padding-top:0px;padding-left: 2px;padding-right: 2px; }
+.topright {font-size: 8pt;background: url('../img/backright.jpg') no-repeat top ;padding-right: 70px;padding-top:0px;}
+.topmiddle a {text-decoration: none;color: white;}
+.topmiddle a:HOVER {text-decoration: underline;color: white;}
+*/
+
+/*numéros pour navigation dans pages de résultat*/
+A.number,A.number:HOVER {font-size: 9pt;}
+A.number {color: #444444;text-decoration: none;}
+A.number:HOVER {color: #FF6600;text-decoration: underline;}
+
+#numsel A.number {color: #FF6600;font-size: 10pt;}
+
+h3 {font-weight: normal;color: #FF6600;}
+
+a.lienaide {
+	text-decoration: none;
+	color: white;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	height:15px;
+	padding-right: 5px;
+}

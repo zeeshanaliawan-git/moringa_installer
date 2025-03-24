@@ -1,0 +1,6 @@
+# Front-2 Server Backend Process
+
+*/10 * * * * /opt/${linux_user}/pjt/${appprefix}_engines/cachesync/sched 1>/dev/null 2>&1
+*/9 * * * *  /opt/${linux_user}/pjt/${appprefix}_engines/observer/sched 1>/dev/null 2>&1
+*/10 * * * * /opt/${linux_user}/bin/sync_client_files.sh >> /opt/${linux_user}/bin/sync_client_files.log 2>&1
+0 */1 * * * /opt/${linux_user}/bin/sync_admin_files.sh >> /opt/${linux_user}/bin/sync_admin_files.log 2>&1

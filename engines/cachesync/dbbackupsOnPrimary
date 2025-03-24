@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+/usr/local/mysql/bin/mysqldump -u root cote_catalog > /home/amea/replication/cc.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_prod_catalog > /home/amea/replication/cpc.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_portal > /home/amea/replication/cp.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_prod_portal > /home/amea/replication/cpp.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_pages > /home/amea/replication/cote_pages.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_ckeditor > /home/amea/replication/cote_ckeditor.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_forms > /home/amea/replication/cote_forms.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_shop > /home/amea/replication/cote_shop.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_prod_shop > /home/amea/replication/cote_prod_shop.sql
+
+/usr/local/mysql/bin/mysqldump -u root cote_commons > /home/amea/replication/cote_commons.sql
+

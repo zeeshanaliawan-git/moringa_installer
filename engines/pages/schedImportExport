@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Pas 2 instances
+ps ax | grep -v grep | grep ' asimina_pages.jar com/etn/pages/SchedulerImportExport Scheduler.conf'
+if [ $? -eq 0 ]
+then
+exit 1
+fi
+
+PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+java -cp asimina_pages.jar com/etn/pages/SchedulerImportExport Scheduler.conf   >> schedImportExport.log 2>&1 &
+echo $! >"$PWD"/schedImportExport.pid
+
+exit 0

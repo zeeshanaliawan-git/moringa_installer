@@ -1,0 +1,161 @@
+.bloc_div{
+	min-height: 200px;
+	max-height: 230px;
+}
+
+.bloc_form_edit{
+	position: relative;
+	border : 2px dashed lightgrey;
+	min-height: 400px;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+.bloc_edit{
+	position: relative;
+	border : 2px solid lightgrey;
+	overflow-y: auto;
+}
+
+.bloc_edit .bloc_edit_buttons {
+	display : none;
+}
+
+.bloc_edit_buttons, .sort_start{
+	display : block !important;
+	margin-top : 5px;
+	right : 5px;
+	z-index: 99 !important;
+}
+ 
+.bloc_edit_buttons .feather{
+	width: 16px;
+}
+
+.bloc_field_edit{
+	position: relative;
+	border : 2px dashed lightgrey;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.card-line {
+	border-color:transparent; 
+	padding:0 1.25rem !important;
+	/* border-color:#bbb; */
+}
+
+.card-body {
+	padding: 0.25rem !important;
+}
+
+.form-control{border-color:#bbb}
+
+.card-line:hover {
+	background-color:#eee; 
+	border-color:rgb(200, 206, 211);
+	border-radius:4px; 
+}
+
+.activeField{
+	border:2px solid transparent;
+	padding:10px;
+}
+
+.activeField:hover{
+	border:2px dashed #999; 
+	background-color:#fff; 
+	z-index:5 
+}
+
+.activeField .field-edit, .activeField .field-edit-bgnd{
+	display:none;  
+}
+
+.activeField:hover .field-edit{
+	display:block;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	margin-top:0px;
+	padding:10px; 
+	z-index:10000; 
+}
+
+.card-line .line-edit{
+	display:none;  
+}
+
+.card-line:hover .line-edit{
+	display:block;
+	position: absolute; 
+	right:10px;
+	margin-top:0px; 
+	z-index:1
+}
+
+.btn-xs, .btn-group-xs > .btn {
+	padding: 0.15rem 0.2rem;
+	font-size: 0.5625rem;
+	line-height: 1;
+	border-radius: 0.2rem;
+}				
+
+
+.activeField:hover .field-edit-bgnd{
+	display:block;
+	background-color:#222 !important; 
+	opacity:0.8;
+	z-index:1000;
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.process-modal{
+	max-width: 1200px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #c8ced3;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+.nav-tabs .nav-link.active {
+    color: #2f353a;
+    background: #fff;
+    border-color: #c8ced3;
+    border-bottom-color: #fff;
+}
+
+.tab-content {
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid #c8ced3;
+}
+
+.tab-content .tab-pane {
+    padding: 1rem;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.drag-drop-zone ul {
+    list-style-type: none;
+}

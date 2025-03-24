@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "item_type": "page",
+      "system_info": {
+        "name": "Sample Page 1",
+        "path": "/sample/page-1", //relative url path
+        "langue_code": "en",  //values: en, fr
+        "variant": "all"  //values: all,logged,anonymous
+        //Combination of  <path,langue_code,variant> should be unique for each page
+      },
+
+      "meta_info": {
+        "title": "Homepage",
+        "canonical_url": "homepage.com",
+        "meta_keywords": "meta,keys,words",
+        "meta_description": "meta description",
+        "template_id": "0",
+        "custom_meta_tags": [
+          {
+            "meta_name": "custom metatag name 1",
+            "meta_content": "custom metatag content 1"
+          },
+          {
+            "meta_name": "custom metatag name 2",
+            "meta_content": "custom metatag content 2"
+          }
+        ]
+      },
+
+      "tags": [
+        {
+          "id": "tag-1",
+          "label": "Tag 1"
+        },
+        {
+          "id": "tag-2",
+          "label": "Tag 2"
+        }
+      ],
+
+      "blocs": [
+        "89ecce27-2117-4976-b520-8617d3f7b800",
+        "uuid-of-bloc-2",
+        "uuid-of-bloc-3",
+      ]
+    }
+  ]
+}

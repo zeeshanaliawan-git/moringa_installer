@@ -1,0 +1,58 @@
+
+/* sidebar menu */
+.sidebar .nav-dropdown-items .nav-item {padding: 0px 0px 0px 0px;list-style: none;}
+@media (max-width: 767px){.sidebar .nav-dropdown-items .nav-item {padding: 0px 0px 0px 0px;list-style: none;}}
+/* icon */
+.feather {width: 16px;height: 16px;vertical-align: text-bottom;}
+
+/* Modal */
+.modal-xl {max-width: 1200px;}
+	
+/* text cut elipsis */
+.ellipsis {text-overflow: ellipsis;white-space: nowrap; overflow: hidden;}
+
+/* switch */
+.TriSea-technologies-Switch > input[type="checkbox"] {display: none;}
+.TriSea-technologies-Switch > label {cursor: pointer;height: 0px; position: relative; width: 40px;}
+.TriSea-technologies-Switch > label::before {background: rgb(0, 0, 0);box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);border-radius: 8px;content: '';height: 16px;margin-top: -8px;position:absolute;opacity: 0.3;transition: all 0.4s ease-in-out;width: 40px;}
+.TriSea-technologies-Switch > label::after {background: rgb(255, 255, 255);border-radius: 16px;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);content: '';height: 24px;left: -4px;margin-top: -8px;position: absolute;top: -4px;transition: all 0.3s ease-in-out; width: 24px;}
+.TriSea-technologies-Switch > input[type="checkbox"]:checked + label::before {background: inherit; opacity: 0.5;}
+.TriSea-technologies-Switch > input[type="checkbox"]:checked + label::after {background: inherit;left: 20px;}
+.label-default {background-color: #777;}
+.label-primary {background-color: #428bca;}
+.label-publish {background-color: #28a745;}
+.label-unpublish {background-color: #dc3545;}
+.label-publimod {background-color: #f16e00;}
+
+.TriSea-technologies-Switch.bg-publish > label::after{background: #28a745;}
+.TriSea-technologies-Switch.bg-publish > label::before {background: #28a745;}
+.TriSea-technologies-Switch.bg-unpublish > label::after{background: #dc3545;}
+.TriSea-technologies-Switch.bg-unpublish > label::before {background: #dc3545;}
+.TriSea-technologies-Switch.bg-publimod > label::after{background: #f16e00;}
+.TriSea-technologies-Switch.bg-publimod > label::before {background: #f16e00;}
+
+/* background color */
+.bg-lg1{background-color:#eee}
+.bg-lg2{background-color:#ddd}
+.bg-lg3{background-color:#ccc}
+.bg-lg4{background-color:#bbb}
+.bg-white{background-color:#fff; color:#000}
+.bg-black{background-color:#000; color:#fff}
+.bg-orange{background-color:#f16e00}
+	
+
+
+/*Required*/
+@media (max-width: 576px){.modal-dialog.modal-dialog-slideout {width: 80%}}
+.modal-dialog-slideout {height: 100%; margin: 0 0 0 auto;background: #fff;overflow:scroll}
+.modal.fade .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(100%,0);transform: translate(100%,0);}
+.modal.fade.show .modal-dialog.modal-dialog-slideout {-webkit-transform: translate(0,0);transform: translate(0,0);flex-flow: column;}
+.modal-dialog-slideout .modal-content{border: 0;}
+
+/* sortable bloc */
+#sortable {list-style-type: none;padding-left:0; border:none; background-color:#fff}
+#sortable li {border:2px solid #fff; background-color:#fff; margin:10px 0px}
+#sortable li:hover {border:2px dashed #ddd; background-color:#fff; margin:10px 0px}
+#sortable li.new-bloc {border:2px dashed #ddd; background-color:#fff; margin:10px 0px}
+#sortable li .bloc-edit{display:none;  }
+#sortable li:hover .bloc-edit{display:block;position: absolute; right:40px;margin-top:10px }

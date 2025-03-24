@@ -1,0 +1,1 @@
+javac -cp ".:../lib/*" com/etn/asimina/authentication/*.java

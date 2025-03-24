@@ -1,0 +1,101 @@
+/*********************************************************	MENU	******************************************************************************/
+
+ul.topnav {
+	list-style: none;
+	margin: 0;
+	float: left;
+	/*width: 980px;*/
+	background: #222;
+	font-size: 1.1em;
+	/*background: #000;*/
+	vertical-align: middle;
+}
+ul.topnav li {
+	float: left;
+	/*font-weight:bold;*/
+	margin: 0;
+	padding: 0 3px 0 0;
+	position: relative;
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+	line-height: 20px;
+}
+ul.topnav li a:hover{
+	/*font-weight:bold;*/
+	color:#FF6600;
+	background: black;
+	line-height: 20px;
+}
+ul.topnav li span {
+	width: 15px;
+	height: 35px;
+	float: left;
+	background: url(/dev_ckeditor/img/subnav_btn.png) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} 
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute;
+	left: 0; top: 45px;
+	background: white;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 180px;
+	border: 1px solid #D9D9D9;
+	
+	/**/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(/PIE.htc);
+	border-radius: 5px 5px 5px 5px;	
+	
+	/**/
+	 
+  	-moz-box-shadow: 5px 5px 5px #aaa; 
+  	-webkit-box-shadow: 5px 5px 5px #aaa; 
+  	box-shadow: 5px 5px 5px #C0C0C0; 
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	/*border-bottom: 1px solid #CCCCCC;*/
+	clear: both;
+	width: 180px;
+	
+
+}
+
+html ul.topnav li ul.subnav li a {
+	width: 150px;
+	background:  white center;	
+	color: black;
+	padding: 5px;
+	padding-left: 20px;
+
+}
+html ul.topnav li ul.subnav li a:hover { 
+	background: #EEEEEE  no-repeat 0px center;
+	color:#FF6600;
+	/*font-weight: bold;*/
+
+}
+ul.topnav li ul.subnav li.secondLevel ul.subnav2{
+	list-style: none;
+	position: absolute;
+	left: 170px; top: 0px;
+	background: #ACAAAA;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 180px;
+	/*border: 1px solid #CCCCCC;*/
+
+}
+
+/*********************************************************	MENU - FIN	******************************************************************************/

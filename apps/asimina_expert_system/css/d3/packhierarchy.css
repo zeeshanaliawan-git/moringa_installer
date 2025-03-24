@@ -1,0 +1,30 @@
+.d3_ph_text {
+  font-size: 10px;
+  pointer-events: none;
+  font-family: arial;
+}
+
+.d3_ph_text.parent {
+  fill: #1f77b4;
+}
+
+.d3_ph_circle {
+  fill: #ccc;
+  stroke: #999;
+  pointer-events: all;
+}
+
+.d3_ph_circle.parent {
+  fill: #1f77b4;
+  fill-opacity: .1;
+  stroke: steelblue;
+}
+
+.d3_ph_circle.parent:hover {
+  stroke: #ff7f0e;
+  stroke-width: 1px;
+}
+
+.d3_ph_circle.child {
+  pointer-events: none;
+}

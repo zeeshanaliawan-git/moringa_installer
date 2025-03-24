@@ -1,0 +1,111 @@
+
+/* Top Menu */
+.etn-orange-portal-- .o-topbar {
+    background-color : #000 !important;
+    border-color : #000 !important;
+    color : rgb(255, 255, 255) !important;
+}
+
+/* Main Menu */
+.etn-orange-portal-- #o-secondtopmenu {
+    background-color : #000 !important;
+    border-bottom-color : #000 !important;
+    color : rgb(255, 255, 255) !important;
+}
+
+/* Mega Menu */
+.etn-orange-portal-- .o-nav li.active .o-megamenu {
+    background-color : rgb(186, 132, 132);
+    border-bottom-color : rgb(95, 245, 8);
+
+}
+.etn-orange-portal-- .o-megamenu div.o-h4 a,
+.etn-orange-portal-- .o-nav li.active .o-megamenu li p,
+.etn-orange-portal-- .o-nav li.active .o-megamenu li a{
+    color : rgb(107, 58, 58) !important;
+}
+
+
+
+/* Mega Menu Toolbar */
+.etn-orange-portal-- .o-megamenu .o-toolbar {
+    background-color : #000 !important;
+    border-bottom-color : #000;
+
+}
+.etn-orange-portal-- .o-nav li .o-submenu.o-has-toolbar .o-toolbar a{
+    color : #fff !important;
+}
+
+
+.o-orange-bt {
+    padding: 14px 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+.o-orange-bt.hover,
+.o-orange-bt:hover {
+    background-color : #fff ;
+    color : #000 ;
+}
+.o-orange-bt:active {
+    background-color: #f16e00;
+    border-color: #f16e00;
+    color: #fff;
+    }
+
+.hr.selectable {
+    background-color : rgb(255, 255, 255) !important;
+    border-color : rgb(0, 0, 0) !important;
+    color : rgb(0, 0, 0) !important;
+}
+
+.gray-area.selectable {
+    background-color : #eee !important;
+    border-color : rgba(0,0,0,0)!important;
+    color : #000 !important;
+}
+
+/* Footer Top */
+
+footer.etn-orange-portal-- .o-socialbar.o-black{
+    border-color : rgb(51, 51, 51) !important;
+}
+footer.etn-orange-portal-- .o-socialbar.o-black,
+.etn-orange-portal-- div#o-followbar {
+    background-color : rgb(79, 34, 34) !important;
+    color : rgb(173, 67, 67) !important;
+}
+
+/* Footer Main */
+
+footer.etn-orange-portal--  nav.o-menu {
+    background-color : rgb(133, 81, 81) !important;
+}
+footer#etn-mosse-footer.etn-orange-portal-- .o-border-bottom.o-shortcut{
+    background-color :  rgb(133, 81, 81) !important;
+    border-color :  rgb(51, 51, 51) !important;
+}
+footer.etn-orange-portal--  nav.o-menu li a,
+footer#etn-mosse-footer.etn-orange-portal-- .o-border-bottom.o-shortcut a
+{
+    color :  rgb(247, 74, 74) !important;
+}
+
+
+
+/* Footer Bottom */
+footer.etn-orange-portal-- .o-f14.o-ft13,
+footer.etn-orange-portal-- .o-legal
+{
+    background-color : rgb(74, 46, 46) !important;
+}
+footer.etn-orange-portal-- .o-legal a p{
+    color : rgb(173, 67, 67) !important;
+}

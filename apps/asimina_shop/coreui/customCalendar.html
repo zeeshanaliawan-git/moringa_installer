@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v2.0.0
+* @link https://coreui.io
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+
+<html lang="en">
+  <head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>CoreUI Free Bootstrap Admin Template</title>
+    <!-- Icons-->
+    <link href="node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+    <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // Shared ID
+      gtag('config', 'UA-118965717-3');
+      // Bootstrap ID
+      gtag('config', 'UA-118965717-5');
+    </script>
+  </head>
+  <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+    <header class="app-header navbar">
+      <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="#">Dev Shop 1.2.5</a>
+      <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show"><span class="navbar-toggler-icon"></span></button>
+      <ul class="nav navbar-nav d-md-down-none">
+        <li class="nav-item px-3"><a class="nav-link" href="#">Dashboard</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#">Users</a></li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item d-md-down-none"><a class="nav-link" href="#"><i class="icon-bell"></i><span class="badge badge-pill badge-danger">5</span></a></li>
+        <li class="nav-item d-md-down-none"><a class="nav-link" href="#"><i class="icon-list"></i></a></li>
+        <li class="nav-item d-md-down-none"><a class="nav-link" href="#"><i class="icon-location-pin"></i></a></li>
+        <li class="nav-item dropdown"><a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com"></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header text-center"><strong>Account</strong></div><a class="dropdown-item" href="#"><i class="fa fa-bell-o"></i> Updates<span class="badge badge-info">42</span></a><a class="dropdown-item" href="#"><i class="fa fa-envelope-o"></i> Messages<span class="badge badge-success">42</span></a><a class="dropdown-item" href="#"><i class="fa fa-tasks"></i> Tasks<span class="badge badge-danger">42</span></a><a class="dropdown-item" href="#"><i class="fa fa-comments"></i> Comments<span class="badge badge-warning">42</span></a>
+            <div class="dropdown-header text-center"><strong>Settings</strong></div><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a><a class="dropdown-item" href="#"><i class="fa fa-wrench"></i> Settings</a><a class="dropdown-item" href="#"><i class="fa fa-usd"></i> Payments<span class="badge badge-secondary">42</span></a><a class="dropdown-item" href="#"><i class="fa fa-file"></i> Projects<span class="badge badge-primary">42</span></a>
+            <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fa fa-shield"></i> Lock Account</a><a class="dropdown-item" href="#"><i class="fa fa-lock"></i> Logout</a>
+          </div>
+        </li>
+      </ul>
+      <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show"><span class="navbar-toggler-icon"></span></button>
+    </header>
+    <div class="app-body">
+      <div class="sidebar">
+        <nav class="sidebar-nav">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="nav-icon icon-speedometer"></i> Dashboard<span class="badge badge-primary">NEW</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="shop.html"> Orders</a></li>
+            <li class="nav-item"><a class="nav-link" href="typography.html"> Processes</a></li>
+            <li class="nav-item nav-dropdown"><a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon icon-puzzle"></i> Admin</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item"><a class="nav-link" href="genericformmapping.html"> Generic Form to Process Mapping</a></li>
+                <li class="nav-item"><a class="nav-link" href="genericfieldsettings.html"> Generic Forms Field Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="tracking.html"> Order Tracking Visible</a></li>
+                <li class="nav-item"><a class="nav-link" href="orderfieldsetting.html"> Orders Form Field Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="profileManagement.html"> Profile Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="supplier.html"> Supplier</a></li>
+                <li class="nav-item"><a class="nav-link" href="userManagement.html"> User Mangement</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="customCalendar.html"> Calendar</a></li>
+            <li class="nav-item"><a class="nav-link" href="_gestion.html"> Asimina</a></li>
+            <li class="nav-item nav-dropdown"><a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon icon-cursor"></i> Customers</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item"><a class="nav-link" href="profileManagement.html"><i class="nav-icon icon-cursor"></i> Profils</a></li>
+                <li class="nav-item"><a class="nav-link" href="clientManagement.html"><i class="nav-icon icon-cursor"></i> Customers Profils</a></li>
+              </ul>
+            </li>
+            <li class="nav-item nav-dropdown"><a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon icon-star"></i> Profil</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item"><a class="nav-link" href="changePassword.html"> Change Password</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+      </div>
+      <main class="main">
+        <!-- Breadcrumb-->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item"><a href="#">Admin</a></li>
+          <li class="breadcrumb-item active">Dashboard</li>
+          <!-- Breadcrumb Menu-->
+          <li class="breadcrumb-menu d-md-down-none">
+            <div class="btn-group" role="group" aria-label="Button group"><a class="btn" href="#"><i class="icon-speech"></i></a><a class="btn" href="./"><i class="icon-graph"></i>  Dashboard</a><a class="btn" href="#"><i class="icon-settings"></i>  Settings</a></div>
+          </li>
+        </ol>
+        <div class="container-fluid">
+          <div class="animated fadeIn">
+            <div class="card">
+              <div class="card-header">Calendar</div>
+              <div class="card-body bg-light">
+                <form class="form-horizontal" id="filter" name="filter" method="post" role="form">
+                  <input type="hidden" name="requestType" value="loadCalendar">
+                  <input id="sd" type="hidden" name="sd" value="">
+                  <input id="ed" type="hidden" name="ed" value="">
+                  <input id="defaultDate" type="hidden" name="defaultDate" value="2018-12-24">
+                  <input id="switchResourceCalendar" type="hidden" name="switchResourceCalendar" value="1">
+                  <input id="dateAction" type="hidden" name="dateAction" value="">
+                  <input id="resseldate" type="hidden" name="resseldate" value="">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="numP"> Order ID</label>
+                        <div class="col-sm-9">
+                          <input class="form-control" id="numP" type="text" name="numP" size="10" placeholder="0" value="">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="d1"> Order Date</label>
+                        <div class="col-sm-9">
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <input class="form-control hasDatepicker" id="d1" type="text" name="d1" value="" size="10" maxlength="10" placeholder="From">
+                            </div>
+                            <div class="col-sm-6">
+                              <input class="form-control hasDatepicker" id="d2" type="text" name="d2" value="" size="10" maxlength="10" placeholder="To">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="firstName"> First Name</label>
+                        <div class="col-sm-9">
+                          <input class="form-control" id="firstName" type="text" name="firstName" size="10" maxlength="100" value="">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="services"><a href="/dev_catalog/admin/catalogs/selectcatalog.jsp" style="color:black;text-decoration:underline" target="_blank">Services</a></label>
+                        <div class="col-sm-9">
+                          <select class="form-control" id="services" multiple="" size="4" name="services">
+                            <option value=""></option>
+                            <option value="Absence Product">Absence Product</option>
+                            <option value="Daily News">Daily News</option>
+                            <option value="Yoga By Shan">Yoga By Shan</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="state">State</label>
+                        <div class="col-sm-9">
+                          <select class="form-control" id="state" multiple="" name="state" size="4">
+                            <option value="#">All</option>
+                            <option value="OrderToProcess">A traiter</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="orderRef"> Order Reference</label>
+                        <div class="col-sm-9">
+                          <input class="form-control" id="orderRef" type="text" name="orderRef" size="10" maxlength="100" placeholder="" value="">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="email">E-mail</label>
+                        <div class="col-sm-9">
+                          <input class="form-control" id="email" type="text" name="email" size="10" maxlength="100" value="">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="surname"> Surname</label>
+                        <div class="col-sm-9">
+                          <input class="form-control" id="surname" type="text" name="surname" size="10" maxlength="100" value="">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="resources"><a href="/dev_catalog/admin/resources.jsp" style="color:black;text-decoration:underline" target="_blank">Resource</a></label>
+                        <div class="col-sm-9">
+                          <select class="form-control" id="resources" multiple="" name="resources" size="4">
+                            <option value="Adnan">Adnan</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-sm-3 control-label" for="secondary_resources"><a href="/dev_catalog/admin/resources.jsp" style="color:black;text-decoration:underline" target="_blank">Secondary Resource</a></label>
+                        <div class="col-sm-9">
+                          <select class="form-control" id="secondary_resources" multiple="" name="secondary_resources" size="4">
+                            <option value="Asad">Asad</option>
+                            <option value="Garage Booking">Garage Booking</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <div role="group" aria-label="controls">
+                        <button class="btn btn-success" id="search" type="button" name="Search">Search</button>
+                        <button class="btn btn-primary" type="button" name="Search" onclick="printDiv()">Print Calendar</button>
+                        <button class="btn btn-default" type="button" onclick="clearForm()">Reset</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">Calendar
+                <div class="card-header-actions">0 Record found</div>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="app-footer">
+      <div><a href="https://coreui.io">Etancesys</a><span>&copy; 2018 Etancesys.</span></div>
+    </footer>
+    <!-- CoreUI and necessary plugins-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/pace-progress/pace.min.js"></script>
+    <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+    <script src="node_modules/@coreui/coreui/dist/js/coreui.min.js"></script>
+    <!-- Plugins and scripts required by this view-->
+    <script src="node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/js/custom-tooltips.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

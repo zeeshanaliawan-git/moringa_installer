@@ -1,0 +1,212 @@
+/*********************************************************	DYNAMIC CONTENT	******************************************************************************/
+.dynamic-content{
+	border: 1px solid grey;
+	width: 100%;
+	height: 100%;
+	color: darkgray;
+}
+
+.dynamic-content.data-processed{
+	border: none;
+}
+
+/*********************************************************	TEMPLATE	******************************************************************************/
+
+.o-etn-ck-black{
+	min-height: 165px;
+	position: relative;
+	background-color: #000 !important;
+	max-width: 17%;
+	margin-left: 1%
+}
+
+.o-etn-ck-black_image{
+	max-width: 220px;
+	max-height: 124px;
+	margin-bottom: 12px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.o-etn-ck-black_link{
+	text-decoration: none;
+	color: #f16e00;
+	position: absolute;
+	left: 5%;
+	top: 135px;
+	color: #fff !important;
+}
+
+.o-etn-ck-container{
+	width: 220px;
+	min-height: 400px;
+	vertical-align:
+	top; margin: 0px 20px 0px 10px;
+	position: relative;
+}
+
+.o-etn-ck-container_link{
+	position: relative;
+	display: inline;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+
+.o-etn-ck-container_img{
+	border: 0px;
+	vertical-align: middle;
+	max-width: 120px;
+	max-height: 220px;
+}
+
+.o-etn-ck-prod_div{
+	margin-bottom: 30px !important;
+	height: 50px !important;
+}
+
+.o-etn-ck-prod_name{
+	margin-bottom: 5px;
+	height: 40px;
+	max-width: 150px;
+	font-size: 1.9rem;
+	line-height: 2.1rem;
+	letter-spacing: -0.015em;
+}
+
+.o-etn-ck-prod_new{
+	padding: 7px 10px 7px 30px !important;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	letter-spacing: -0.015em;
+}
+
+.o-etn-ck-price_div{
+	font-size: 1.5rem;
+	line-height: 1.7rem;
+	letter-spacing: -0.015em;
+}
+
+.o-etn-ck-price{
+	font-size: 1.9rem;
+	line-height: 2.1rem;
+	letter-spacing: -0.015em;
+	color: #f16e00 !important;
+	border-color: #f16e00 !important;
+	display: block;
+}
+
+.o-etn-ck-detail_link{
+	padding: 14px 20px 14px 20px;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	border: 1px solid;
+	border-image-source: none;
+	border-image-slice: 100% 100% 100% 100%;
+	border-image-width: 1 1 1 1;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: stretch;
+	border-color: #000;
+	font-size: 14px;
+	line-height: 1em;
+	display: inline-block;
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	bottom: 0px;
+}
+
+.o-etn-ck-familie_container{
+	position: relative;
+	min-height: 35%;
+	overflow: hidden;
+	display: block;
+	width: 21%;
+	margin-left: 2%
+}
+
+.o-etn-ck-familie_main_link{
+	background-color: #000000;
+	min-height: 165px;
+	max-width: 100%;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.o-etn-ck-familie{
+	min-height: 20px;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	line-height: 0.6em;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+.o-etn-ck-familie_detail{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	letter-spacing: -0.015em;
+}
+
+.o-etn-ck-familie2{
+	min-height: 30px;
+	background-color: #000;
+	margin: 0px;
+	padding: 5px 0px 0px 10px;
+}
+
+.o-etn-ck-familie_bottom_link{
+	color: #f16e00;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	letter-spacing: -0.015em;
+}
+
+/*********************************************************	TEMPLATE	******************************************************************************/
+
+
+/* #form_template {
+	float: left;
+	padding: 2%;
+	border: 1px solid #aaaaaa;
+	border-radius: 3px;
+	background-color: #fbf8f8;
+}
+ */
+.o-drag_element {
+	border: 1px solid #aaaaaa;
+	border-radius: 6px;
+	background-color: #e4e3e3;
+	min-height: 5%;
+	text-align: center;
+	padding: 5px;
+	cursor: move;
+}
+
+/* .o-dropped_element {
+	border: 1px solid #aaaaaa;
+	border-radius: 6px;
+	background-color: #ffffff;
+	min-height: 5%;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+*/
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0; 
+}
+
+ 

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+aside{
+/*	background-color: #efefef;*/
+}
+.selectable{
+	cursor: pointer;
+}
+.selectable:hover{
+  outline: 2px dashed red;
+}
+.components{
+	padding-left: 0;
+}
+.components >li {
+	list-style-type: none;
+	border-bottom: 1px solid #aaa;
+	padding: 10px 15px;
+}
+.components >li:last-child{
+	border-bottom: none;
+}
+header{
+	margin-bottom: 15px;
+}
+div hr{
+	border-color: inherit ;
+}
+
+  .nav.navbar-nav .active{
+    font-weight: bold;
+  color:#000;
+}
+.nav.navbar-nav .active a{
+  background-color: transparent;
+}

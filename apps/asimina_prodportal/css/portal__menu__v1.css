@@ -1,0 +1,49 @@
+#topmenu {
+    width: 100%;
+    z-index: 10;
+}
+
+.black {
+    font: 13px/16px Arial,sans-serif;
+}
+
+.sticky {
+    border-top: 0 none;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.black {
+    background-color: #000 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #232323 !important;
+}
+
+#topmenu > #topmenucontent {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#topmenu > #topmenucontent {
+    background: #000 none repeat scroll 0 0;
+    box-sizing: border-box;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+
+.color_white, .color_white * {
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+.color_orange, .color_orange * {
+    border-color: #f16e00 !important;
+    color: #f16e00 !important;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="icon/icon-menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M25,10 L5,10 C3.896,10 3,9.104 3,8 C3,6.896 3.896,6 5,6 L25,6 C26.104,6 27,6.896 27,8 C27,9.104 26.104,10 25,10 Z M25,17.5 L5,17.5 C3.896,17.5 3,16.604 3,15.5 C3,14.396 3.896,13.5 5,13.5 L25,13.5 C26.104,13.5 27,14.396 27,15.5 C27,16.604 26.104,17.5 25,17.5 Z M25,25 L5,25 C3.896,25 3,24.104 3,23 C3,21.896 3.896,21 5,21 L25,21 C26.104,21 27,21.896 27,23 C27,24.104 26.104,25 25,25 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

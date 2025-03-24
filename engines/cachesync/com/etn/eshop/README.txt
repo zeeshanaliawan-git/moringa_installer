@@ -1,0 +1,1 @@
+Connector DB name will always be <country>_portal because we have to fetch the configs from that database to continue

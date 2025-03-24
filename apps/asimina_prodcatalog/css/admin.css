@@ -1,0 +1,35 @@
+#admin-tabs{
+	width:100%;
+	margin:20px auto; position:relative;
+}
+#admin-navigation{
+	margin:0 0 10px; padding:0; 
+	list-style:none;
+}
+#admin-navigation li{ 
+	display:inline; 
+}
+#admin-navigation li a{
+	text-decoration:none; padding:10px; 
+	margin-right:0px;
+	background:#f9f9f9;
+	color:#333; outline:none;
+	font-family:Arial; font-size:12px; text-transform:uppercase;
+}
+#admin-navigation li a:hover{
+	background:#999; 
+	color:#f0f0f0;
+}
+#admin-navigation li.selected a{
+	background:#999;
+	color:#f0f0f0;
+}
+#admin-container{  
+	width:100%;
+	font-family:Arial; font-size:13px;
+}
+#admin-container div{ 
+	background:#fff;
+}
+
+	

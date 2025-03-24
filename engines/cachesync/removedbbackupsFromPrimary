@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd /home/amea/replication/
+rm *.sql

@@ -1,0 +1,111 @@
+
+/*
+#col_filter{
+	background-color: silver;
+	height: 100%;
+}
+
+.modele_term{
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#aaa{
+	border: 1px solid yellow;
+	
+}
+
+.modele_term_info .modele_img{
+		
+	width:120px;
+	
+}*/
+
+
+/*onglet liste terminaux et fiche */
+.onglet_fiche_g{
+	font-size: 14px;
+	display: inline;
+	border: 2px black solid;
+	border-bottom: 0;
+	cursor: pointer;
+}
+
+.onglet_fiche2_g{
+	font-size: 14px;
+	display: inline;
+	border-bottom: 2px black solid;
+	cursor: pointer;
+}
+
+.onglet_fiche_g a,.onglet_fiche2_g a{
+	margin: 50px;
+	padding-top: 150px;
+	
+}
+/*onglet liste terminaux et fiche - fin */
+
+.modele_term{
+	height: 40px;
+	font-weight: bold;
+	
+}
+
+.titre_rubrique_term{
+	
+}
+
+
+/* logo promo*/
+
+.promo{
+	position:absolute;
+	width:100%;
+	left:-1px;
+}
+
+.promo a{
+	float:right;
+	clear:right;
+	
+}
+
+
+.titre_rubrique_term h4{
+	border-bottom: 1px solid silver;
+	
+}
+
+/* logo promo - fin */
+
+/* voir détails 
+.voir_details{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 35%;
+	display: none;
+}
+
+.voir_details input[type=button] {
+	border:0;
+	background-color: #FF6600;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	width: 60%;
+	height: 30px;
+	position:absolute;
+	z-index: 100px;
+	
+	
+}
+
+vois détails - fin */
+
+/*
+.modele_term_info2{
+	position: absolute;
+	top: -75px;
+    
+}*/

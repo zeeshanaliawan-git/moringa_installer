@@ -1,0 +1,22 @@
+(function() {
+  var prev;
+ 
+    document.body.onmouseover = handler;
+ 
+  
+  function handler(event) {
+    if (event.target === document.body ||
+        (prev && prev === event.target)) {
+      return;
+    }
+    if (prev) {
+      prev.className = prev.className.replace(/\bhighlight\b/, '');
+      prev = undefined;
+    }
+    if (event.target) {
+      prev = event.target;
+      prev.className += "highlight";
+    }
+  }
+  
+})();

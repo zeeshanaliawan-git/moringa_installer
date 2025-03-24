@@ -1,0 +1,2422 @@
+/*
+version 1.7
+*/
+
+
+/*
+Hard-link created between dev_catalog/css and dev_portal/menu_resources/css
+*/
+
+
+/* General Styles */
+
+.etn-orange-portal-- .o-dib {
+    display: inline-block;
+}
+
+.etn-orange-portal-- a.o-active {
+    color: #f16e00;
+}
+
+.etn-orange-portal-- .o-mobile-menu-bt {
+    display: none;
+}
+
+.etn-orange-portal-- .o-megamenu .o-closeMenu {
+    display: none;
+}
+
+#etn-mosse-header {
+    z-index: 100;
+    /* font-size: 12px; */
+}
+
+
+/* .o-cart-bt {
+    width: 140px;
+} */
+
+.o-cart-bt {
+    background-color: transparent;
+    border: none !important;
+    width: auto;
+    padding: 6px 10px;
+    position: relative;
+    /* height: 29px !important; */
+}
+
+.o-cart-bt #cartCount {
+    background: orange;
+    font-size: 11px;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+.login-section {
+    color: white;
+}
+
+#etn-mosse-header .o-topbar ul.o-nav li.o-lang {
+    margin-left: 15px;
+}
+
+#etn-mosse-header .o-topbar ul.o-nav li.o-lang>a {
+    padding-top: 9px;
+}
+
+.internal .login-section a {
+    color: white;
+}
+
+.cart-section>button {
+    padding-right: 0;
+}
+
+#login-cart-section {
+    width: 120px;
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.o-topbar>.o-container {
+    display: flex;
+    justify-content: stretch;
+}
+
+.o-topbar>.o-container>ul.o-nav li:first-child>a {
+    padding-left: 0;
+}
+
+.logged-in {
+    display: inline-block;
+}
+
+.logged-in button svg g {
+    fill: white;
+}
+
+.o-cart-bt svg {
+    height: 20px;
+}
+
+.o-cart-bt span {
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+.etn-orange-portal-- li>p:empty {
+    display: block !important;
+}
+
+.etn-orange-portal-- li.o-menu-heading>p {
+    display: block !important;
+}
+
+.etn-orange-portal-- .o-mobile-menu-bt {
+    display: none;
+}
+
+.etn-orange-portal-- .o-dib {
+    display: inline-block;
+}
+
+.etn-orange-portal-- nav.o-main.o-active .o-toolbar .o-container a {
+    padding: 10px 0;
+    display: block;
+}
+
+.etn-orange-portal-- input[type="text"]:focus,
+.etn-orange-portal-- input[type="text"]:active {
+    border-color: #f16e00 !important;
+}
+
+.etn-orange-portal-- .o-toolbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.etn-orange-portal-- .o-topbar {
+    top: 0px;
+    width: 100%;
+    z-index: 11000;
+    height: 40px;
+}
+
+.etn-orange-portal-- .o-topbar ul.o-nav {
+    padding: 0;
+}
+
+.etn-orange-portal-- #o-secondtopmenu>.o-container {
+    position: static;
+    text-align: left;
+}
+
+
+/* Toolbar */
+
+.etn-orange-portal-- .o-nav li .o-submenu.o-has-toolbar .o-toolbar a {
+    border: none !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    font-size: 1.5em !important;
+    display: inline-block !important;
+    /* width: 100% !important; */
+    text-align: right;
+    padding: 10px;
+    text-decoration: none !important;
+    margin: 0 !important;
+    max-width: 110px;
+    /* float: right; */
+}
+
+.etn-orange-portal-- .o-toolbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.etn-orange-portal-- nav .o-toolbar.o-black.visible-xs-block {
+    display: none;
+}
+
+.etn-orange-portal-- nav.o-main.o-active .o-toolbar.o-black.visible-xs-block {
+    display: block !important;
+    width: 100%;
+    float: left;
+    position: relative;
+    clear: both;
+    top: 50px;
+    text-align: right;
+}
+
+.etn-orange-portal-- .o-nav li .o-has-toolbar {
+    padding-bottom: 40px !important;
+}
+
+.etn-orange-portal-- .o-nav li .o-has-toolbar .o-toolbar a img {
+    width: 14px;
+}
+
+.etn-orange-portal-- nav.o-main.o-active .o-toolbar .o-container a {
+    padding: 10px 0;
+    display: block;
+}
+
+.etn-orange-portal-- input[type="text"]:focus,
+.etn-orange-portal-- input[type="text"]:active {
+    border-color: #f16e00 !important;
+}
+
+
+/* Main Menu Bar - Header */
+
+.etn-orange-portal-- #o-secondtopmenu>.o-container {
+    position: static;
+    text-align: left;
+}
+
+.etn-orange-portal-- #o-secondtopmenu {
+    top: 40px;
+}
+
+.etn-orange-portal-- .o-navbar>.o-container>a {
+    display: inline-block;
+    z-index: 11;
+    position: relative;
+}
+
+.etn-orange-portal-- .o-nav li .o-has-toolbar {
+    padding-bottom: 40px !important;
+}
+
+.etn-orange-portal-- .o-nav li .o-submenu.o-has-toolbar .o-toolbar a {
+    border: none !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    font-size: 1.5em !important;
+    display: inline-block !important;
+    width: 100% !important;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none !important;
+    margin: 0 !important;
+    max-width: 130px;
+    float: right;
+}
+
+.etn-orange-portal-- .o-nav li .o-has-toolbar .o-toolbar a img {
+    width: 14px;
+}
+
+.etn-orange-portal-- .o-nav li .o-submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+
+.etn-orange-portal-- .o-nav li.o-active .o-submenu {
+    display: block;
+}
+
+.etn-orange-portal-- .o-nav li.o-active .o-submenu>li {
+    padding: 10px 12px;
+    padding-bottom: 0px;
+    padding-right: 8px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.etn-orange-portal-- .o-nav li.o-submenu-parent.o-active .o-submenu li:last-child {
+    padding-bottom: 8px;
+}
+
+.etn-orange-portal-- .o-nav li.o-submenu-parent.o-active>a>img {
+    content: url("../img/arrow_down.png");
+}
+
+.etn-orange-portal-- .o-nav li.o-active .o-submenu li a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.etn-orange-portal-- .o-nav li.o-active .o-submenu li a:hover {
+    text-decoration: none;
+    color: #f16e00 !important;
+}
+
+.etn-orange-portal-- .o-nav>li>a:focus,
+.etn-orange-portal-- .o-nav>li>a:hover,
+.etn-orange-portal-- .o-nav>li>a.o-active {
+    color: #f16e00 !important;
+    background-color: inherit;
+}
+
+.etn-orange-portal-- .o-nav>li {
+    position: relative;
+}
+
+.etn-orange-portal-- .o-nav>li>#o-followbar {
+    position: absolute;
+    display: none;
+    border: 1px solid #000 !important;
+    border-top: none !important;
+    text-align: left;
+    left: -1px;
+    z-index: 1000;
+}
+
+
+/*width: 133px;*/
+
+.etn-orange-portal-- .o-nav>li.o-submenu-parent {
+    text-align: center;
+    border-left: none !important;
+    border-right: 1px solid #000 !important;
+    z-index: 1000;
+}
+
+.etn-orange-portal-- .o-nav>li.o-submenu-parent.o-active {
+    background-color: #fff;
+}
+
+.etn-orange-portal-- .o-nav>li.o-submenu-parent.o-active a {
+    color: #f16e00 !important;
+}
+
+.etn-orange-portal-- .o-nav>li div#followbar.o-grid {
+    padding: 19px;
+}
+
+.etn-orange-portal-- .o-nav>li.o-active>#followbar.o-grid {
+    width: 120px;
+}
+
+.etn-orange-portal-- .o-nav>li.o-active>#o-followbar {
+    display: block;
+}
+
+.etn-orange-portal-- .o-nav>li>a {
+    padding: 10px 12px;
+    padding-bottom: 0;
+}
+
+.etn-orange-portal-- nav.o-main>ul>li {
+    position: static;
+}
+
+.etn-orange-portal-- .o-logo {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    margin: 15px 25px 3px 0px;
+}
+
+.etn-orange-portal-- .o-nav li .o-megamenu {
+    /*width: 960px;*/
+    display: none;
+    position: absolute;
+    left: -1px;
+    z-index: 1000;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.etn-orange-portal-- .o-nav li.active .o-megamenu {
+    display: block;
+}
+
+.etn-orange-portal-- nav.o-main li:hover>a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 88%;
+    height: 19px;
+    width: 100%;
+}
+
+.etn-orange-portal-- .o-megamenu>div {
+    /* margin-top: 12px; */
+    margin-top: 0px;
+}
+
+.etn-orange-portal-- .o-megamenu>.o-container {
+    /* padding-top: 30px; */
+    padding-top: 0px;
+    overflow-y: auto;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-h4 {
+    margin-bottom: 30px;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-h4 a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-h4 a:hover {
+    text-decoration: none;
+    color: #f16e00 !important;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-h4 a:hover~img {
+    content: url("../img/chevron_right_orange.png");
+    height: auto;
+}
+
+.etn-orange-portal-- .o-megamenu .o-color-black * {
+    color: #000 !important;
+}
+
+.etn-orange-portal-- .o-megamenu ul li {
+    margin-top: 8px;
+    padding-left: 0;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a {
+    color: #000 !important;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.etn-orange-portal-- .o-megamenu ul p {
+    color: #000 !important;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a img {
+    margin-top: 1px;
+    margin-bottom: -1px;
+    margin-left: 0px;
+    opacity: 0;
+    transition: all 0.5s;
+    width: 7px;
+    height: auto;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a img.o-menu-gabarit {
+    opacity: 1;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a img.o-menu-gabarit:hover {
+    margin: 0;
+}
+
+.etn-orange-portal-- .o-megamenu .o-row {
+    margin-bottom: 25px;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a:hover {
+    color: #f16e00 !important;
+    text-decoration: none;
+}
+
+.etn-orange-portal-- .o-megamenu ul li a:hover img {
+    transition: all 0.2s;
+    opacity: 1;
+    margin-left: 3px;
+    height: auto;
+}
+
+.etn-orange-portal-- .o-megamenu .o-closeMenu {
+    position: absolute;
+    right: 0px;
+    bottom: -35px;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-menu-side {
+    height: 210px;
+    max-height: 320px;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-menu-side>div.o-cloud {
+    background: url("../img/gabarit_cloud.png") center top no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-menu-side p {
+    color: #000 !important;
+}
+
+.etn-orange-portal-- .o-megamenu div.o-menu-side .o-gabarit p {
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    /*padding-top: 66px;*/
+    padding-top: 34%;
+    width: 130px;
+}
+
+.etn-orange-portal-- .o-navbar {
+    border-radius: 0;
+    z-index: 9999;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-buy {
+    display: none;
+    position: relative;
+    float: right;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search {
+    position: relative;
+    float: right;
+    top: 45px;
+    margin-right: 0;
+    transition: all 1s;
+    z-index: 50;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper {
+    position: absolute;
+    top: 101%;
+    left: -1px;
+    opacity: 1;
+    height: 0;
+    background-color: #000;
+    transition: height 0.5s;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper.o-active {
+    opacity: 1;
+    height: 60px;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container {
+    position: relative;
+    right: -50px;
+    opacity: 0;
+    transition: all 0.5s;
+    display: none;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper.o-active .o-container {
+    display: block;
+    right: 0;
+    opacity: 1;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container input {
+    vertical-align: bottom;
+    float: right;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding-left: 35px;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container img {
+    position: absolute;
+    right: 388px;
+    top: 20px;
+    width: 17px;
+    height: auto;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container img.o-close-it {
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    width: 14px;
+    cursor: pointer;
+    height: auto;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container img.o-close-it.o-active {
+    opacity: 1;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search a {
+    text-decoration: none;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search a img {
+    vertical-align: bottom;
+    height: auto;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search input {
+    width: 104px;
+    height: 30px;
+    background: #eee;
+    border: none;
+    margin-right: 12px;
+    transition: all 0.3s;
+    font-size: 1.6rem;
+    outline: none;
+    color: #000 !important;
+    font-weight: normal;
+}
+
+.etn-orange-portal-- .o-navbar .o-container .o-search input:focus {
+    width: 160px;
+    max-width: calc(-542vw);
+}
+
+footer.etn-orange-portal-- .portal-col-5 li:first-child>span.expand {
+    display: none;
+}
+
+footer.etn-orange-portal-- {
+    text-align: left;
+}
+
+footer.etn-orange-portal-- .o-black {
+    text-align: left;
+}
+
+.etn-orange-portal-- .o-nav-pills>li.o-active>a,
+.etn-orange-portal-- .o-nav-pills>li.o-active>a:hover,
+.etn-orange-portal-- .o-nav-pills>li.o-active>a:focus {
+    color: #f16e00 !important;
+    background-color: transparent;
+}
+
+@media (min-width: 992px) {
+    .etn-orange-portal-- .o-container {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .etn-orange-portal-- .o-container {
+        width: 960px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+    .etn-orange-portal-- .o-fm8 {
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm9 {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm10 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm11 {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm12 {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm13 {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm14 {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-fm15 {
+        font-size: 1.5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm16 {
+        font-size: 1.6rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm17 {
+        font-size: 1.7rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm18 {
+        font-size: 1.8rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm20 {
+        font-size: 2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm22 {
+        font-size: 2.2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm25 {
+        font-size: 2.5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm30 {
+        font-size: 3rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm32 {
+        font-size: 3.2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm40 {
+        font-size: 4rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm50 {
+        font-size: 5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm60 {
+        font-size: 6rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm70 {
+        font-size: 7rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm80 {
+        font-size: 8rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-fm90 {
+        font-size: 9rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-cart span {
+        display: none;
+    }
+    .etn-orange-portal-- nav.o-main a.o-mobile-menu-bt {
+        display: none !important;
+    }
+    .etn-orange-portal-- .o-search span {
+        display: none;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search {
+        top: 40px;
+        margin-right: 0px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search a.o-search-bt span {
+        display: none;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search img {
+        width: 20px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 3px;
+        height: auto;
+    }
+    /*.etn-orange-portal-- .o-navbar .o-container .o-search-dropdown {
+position: absolute;
+top: 50px;
+left: 0px;
+padding: 0px 8px;
+background-color: #000;
+width: 100%;
+display: block;
+z-index: 11;
+border-top: solid 1px #666;
+border-color: #666 !important;
+opacity: 0;
+transition: all 0.2s;
+max-height: 0px;
+}*/
+    /*.etn-orange-portal-- .o-navbar .o-container .o-search-dropdown.o-active {
+opacity: 1;
+padding: 15px 8px;
+max-height: 1000px;
+}
+.etn-orange-portal-- .o-navbar .o-container .o-search-dropdown input {
+border: solid 2px #fff;
+height: 36px;
+padding: 0px 0px 0px 30px;
+margin-right: 10px;
+background: url('../img/search-white.png') bottom 12px left 8px no-repeat;
+background-size: 13px;
+color: #fff;
+width: calc(46%);
+border-radius: 0px;
+}
+.etn-orange-portal-- .o-navbar .o-container .o-search-dropdown a.o-orange-button {
+padding: 12.5px 20px;
+text-decoration: none;
+font-size: 1.5rem;
+line-height: 1em;
+display: inline-block;
+background: #f16e00;
+color: #fff;
+}
+.etn-orange-portal-- .o-navbar .o-container .o-search-dropdown a.o-orange-button {
+vertical-align: top;
+display: none;
+}*/
+    .etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper {
+        top: 103%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .etn-orange-portal-- .login-section>form {
+        margin-top: 10px;
+    }
+    #etn-mosse-header>.o-lang-bar {
+        display: none !important;
+    }
+    #login-cart-section {
+        width: auto;
+        display: flex !important;
+        float: right;
+        margin-right: 90px;
+        margin-top: 3px;
+        justify-content: flex-end;
+    }
+    .logged-in {
+        right: -6px;
+        position: absolute;
+        top: 1px;
+        width: 119px;
+    }
+    .logged-in span.hailing {
+        display: none;
+    }
+    .logged-in a {
+        white-space: nowrap;
+        /*text-overflow: ellipsis;*/
+        max-width: 80px;
+        overflow: hidden;
+    }
+    .login-section button {
+        padding: 0px 10px;
+    }
+    .o-cart-bt {
+        float: right;
+        margin-top: 5px;
+    }
+    .login-section {}
+    .login-section button.o-login-bt {
+        font-size: 20px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+ 
+    header#etn-mosse-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .etn-orange-portal-- .o-cart-bt {
+        border: none !important;
+        background: none !important;
+        width: auto;
+        background-color: transparent !important;
+    }
+    .etn-orange-portal-- .o-cart-bt .o-cart-label {
+        display: none;
+    }
+    .etn-orange-portal-- .o-cart-bt svg {
+        margin-right: 8px;
+    }
+    .etn-orange-portal-- .o-cart-bt span#cartCount {
+        background: orange;
+        font-size: 11px;
+        line-height: 1.2em;
+        vertical-align: top;
+        position: absolute;
+        right: -4px;
+        top: -3px;
+    }
+    .etn-orange-portal-- nav.o-main .o-extra-bar {
+        display: none !important;
+        position: relative;
+        overflow: hidden;
+        height: auto;
+    }
+    .etn-orange-portal-- nav.o-main.o-active .o-extra-bar {
+        display: block !important;
+    }
+    .etn-orange-portal-- .o-megamenu div.o-menu-side {
+        overflow: hidden;
+    }
+    .etn-orange-portal-- nav.o-main.o-active .o-toolbar.o-black.o-visible-xs-block {
+        display: block !important;
+        position: relative !important;
+    }
+    .etn-orange-portal-- nav.o-main.o-active .o-toolbar.o-black.o-visible-xs-block a {
+        color: transparent !important;
+    }
+    #etn-mosse-header.etn-orange-portal-->.o-sitetype-bar.o-extra-bar {
+        display: none !important;
+    }
+    .etn-orange-portal-- nav.o-main .o-extra-bar ul li {
+        height: auto;
+    }
+    .etn-orange-portal-- nav.o-main .o-extra-bar ul li a {
+        color: #fff;
+        font-size: 0.9em;
+    }
+    .etn-orange-portal-- .o-megamenu .o-closeMenu {
+        display: block;
+    }
+    .etn-orange-portal-- nav.o-main.o-active {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .etn-orange-portal-- .o-megamenu ul li a img {
+        margin-top: -4px;
+    }
+    .etn-orange-portal-- .o-col-lg-3.o-col-md-3.o-col-sm-6.o-col-xs-6.o-gabarit-image img.o-menu-gabarit {
+        width: 100%;
+    }
+    .etn-orange-portal-- .o-col-lg-3.o-col-md-3.o-col-sm-6.o-col-xs-6.o-gabarit-image:nth-child(even) {
+        padding-left: 0;
+        padding-right: 30px;
+        margin-bottom: 15px;
+    }
+    .etn-orange-portal-- .o-col-lg-3.o-col-md-3.o-col-sm-6.o-col-xs-6.o-gabarit-image .o-phantom-button {
+        display: none;
+    }
+    .etn-orange-portal-- .o-col-lg-3.o-col-md-3.o-col-sm-6.o-col-xs-6.o-gabarit-image .o-menu-heading.o-has-childs {
+        background-image: none;
+    }
+    .etn-orange-portal-- .o-megamenu div.o-menu-side>div {
+        width: 100%;
+        /*max-width: 320px;*/
+        height: 320px !important;
+        -webkit-background-size: 210px !important;
+        background-size: 210px !important;
+    }
+    img.o-close-it {
+        width: 15px;
+        height: 15px;
+    }
+    footer nav.o-menu {
+        clear: both;
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        overflow: hidden;
+        height: auto;
+    }
+    footer .o-shortcut,
+    footer .o-legal {
+        width: 100%;
+        float: left;
+    }
+    footer .o-shortcut .o-container>div {
+        display: block !important;
+        clear: both;
+        min-height: 50px;
+    }
+    footer .o-menu+.o-f14.o-ft13 {
+        height: auto;
+        display: block;
+        width: 100%;
+        clear: both;
+        overflow: hidden;
+    }
+    .etn-orange-portal-- .o-network4g .o-row>* {
+        width: 100%;
+        display: block;
+        margin-bottom: 0 !important;
+    }
+    .etn-orange-portal-- .o-topbar.o-sticky {
+        position: relative;
+        top: auto;
+    }
+    .etn-orange-portal-- #o-secondtopmenu {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-bottom: 0 !important;
+    }
+    .etn-orange-portal-- .o-logo {
+        height: 35px;
+        display: inline-block;
+        margin: 7px 15px 0px 0px;
+    }
+    .etn-orange-portal-- .o-mobile-menu-bt {
+        width: 24px;
+        vertical-align: bottom;
+        display: none;
+        cursor: pointer;
+        height: 24px;
+        margin-top: 0;
+    }
+    .etn-orange-portal-- .o-mobile-menu-bt img {
+        width: 100%;
+        height: auto;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-buy {
+        display: inline-block;
+        top: 14px;
+        margin-right: 0px;
+        margin-right: 22px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-buy img {
+        width: 27px;
+        height: auto;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search {
+        top: 14px;
+        margin-right: 0px;
+        right: 45px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search a.o-search-bt span {
+        display: none;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search img {
+        width: 20px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 3px;
+        height: auto;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-dropdown {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        padding: 0px 8px;
+        background-color: #000;
+        width: 100%;
+        display: block;
+        z-index: 11;
+        border-top: solid 1px #666;
+        border-color: #666 !important;
+        opacity: 0;
+        transition: all 0.2s;
+        max-height: 0px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-dropdown.o-active {
+        opacity: 1;
+        padding: 15px 8px;
+        max-height: 1000px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-dropdown input {
+        border: solid 2px #fff;
+        height: 36px;
+        padding: 0px 0px 0px 30px;
+        margin-right: 10px;
+        background: url("../img/search-white.png") bottom 12px left 8px no-repeat;
+        background-size: 13px;
+        color: #fff;
+        width: calc(46%);
+        border-radius: 0px;
+        height: auto;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-dropdown a.o-orange-button {
+        padding: 12.5px 20px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 1em;
+        display: inline-block;
+        background: #f16e00;
+        color: #fff;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-dropdown a.o-orange-button {
+        vertical-align: top;
+        display: none;
+    }
+    .etn-orange-portal-- nav {
+        width: 28px;
+        height: 21px;
+        vertical-align: top;
+        float: right;
+        margin: 17px 0px 0px 21px;
+    }
+    .etn-orange-portal-- nav.o-main.o-active {
+        height: 100%;
+    }
+    .etn-orange-portal-- nav.o-main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: transparent;
+        padding: 0px;
+        z-index: 10;
+        border-bottom: none;
+        opacity: 1;
+        /*transition: all 0.2s;*/
+        overflow-x: hidden;
+        /* overflow-y: auto; */
+        /*old value*/
+        overflow-y: hidden;
+        width: 100% !important;
+        margin-top: 50px;
+        height: 0px;
+    }
+    /*     .etn-orange-portal-- nav.o-main>ul {
+        opacity: 0;
+        position: relative !important;
+        height: auto ;
+        background-color: white;
+        transition: all 0.2s;
+        top: 50px;
+    } */
+    .etn-orange-portal-- nav.o-main>ul li .o-toolbar.o-black {
+        display: none;
+    }
+    .etn-orange-portal-- nav.o-main .o-toolbar.o-black {
+        display: none;
+    }
+    .etn-orange-portal-- nav.o-main>ul.o-nav {
+        opacity: 0;
+        position: relative !important;
+        height: auto;
+        background-color: white;
+        transition: all 0.2s;
+        margin-top: 0px;
+    }
+    .etn-orange-portal-- nav.o-main.o-active ul.o-nav {
+        opacity: 1;
+        max-height: 1000px;
+        border-top: none !important;
+        overflow: visible;
+        /*         // overflow-y: scroll;
+        // padding-bottom: 50px; */
+    }
+    .etn-orange-portal-- nav.o-main>ul>li {
+        display: block;
+        position: relative;
+        min-height: 50px;
+        margin-bottom: -1px;
+        width: 100%;
+    }
+    .etn-orange-portal-- nav.o-main * {
+        color: #000;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper {
+        top: 100%;
+    }
+    .etn-orange-portal-- nav.o-main>ul>li,
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul .o-menu-heading {
+        padding-left: 0;
+        padding-right: 0;
+        /*height: 100%;*/
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 98% 14px;
+        border-top: 1px solid #ccc !important;
+        width: 100%;
+        clear: both;
+        overflow: hidden;
+        margin-top: 0;
+        transition: all 0.5s;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul .o-menu-heading p {
+        padding-bottom: 10px;
+        padding: 10px 12px;
+        width: 100%;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu .o-container ul li.o-menu-heading p:empty {
+        display: block !important;
+        height: 0 !important;
+        padding: 0 !important;
+    }
+    /* .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul p {
+
+    }*/
+    .etn-orange-portal-- nav.o-main>ul>li.o-has-childs,
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul .o-menu-heading.o-has-childs {
+        background-image: url("../img/chevron_right_black.png");
+    }
+    .etn-orange-portal-- .o-megamenu div.o-h4 {
+        display: none;
+    }
+    .etn-orange-portal-- nav.o-main>ul>li a {
+        padding-bottom: 10px;
+        width: 85%;
+        cursor: pointer;
+        color: #000 !important;
+    }
+    .etn-orange-portal-- nav.o-main>ul>li:hover,
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul .o-menu-heading.o-has-childs:hover {
+        background-image: url("../img/chevron_right_orange.png");
+        background-repeat: no-repeat;
+        background-position: 98% 14px;
+    }
+    .etn-orange-portal-- nav.o-main>ul>li .o-phantom-button {
+        content: "";
+        width: 48px;
+        height: 40px;
+        display: block;
+        background-color: transparent;
+        z-index: 1000;
+        position: absolute;
+        right: 0;
+        top: 0;
+        /*border-left: 1px solid gray;*/
+        cursor: pointer;
+    }
+    .etn-orange-portal-- .o-nav li:hover .o-megamenu {
+        display: none;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu .o-container {
+        padding: 0;
+        margin: 0;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu .o-row {
+        margin-bottom: 0;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active {
+        display: block;
+        position: relative;
+        transition: all 0.5s;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul.o-active li {
+        clear: both;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul p {
+        background-color: #f6f6f6;
+        font-weight: normal;
+        padding: 10px 12px;
+        text-indent: 10px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul li.o-menu-heading~li {
+        background-color: #e6e6e6;
+        font-weight: normal;
+        /* padding: 10px 12px;*/
+        text-indent: 30px;
+        cursor: pointer;
+        border-top: 1px solid #bbb !important;
+        margin-top: 0;
+        z-index: 9999;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul li.o-menu-heading~li a {
+        display: block;
+        width: 100%;
+        padding: 10px 12px;
+    }
+    .etn-orange-portal-- .o-nav li.o-has-childs .o-megamenu .o-container ul {
+        clear: both;
+        overflow: hidden;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container .o-col-lg-3.o-col-md-3:last-child ul p {
+        border-bottom: 1px solid #ccc !important;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul li.o-menu-heading:hover {
+        color: #f16e00 !important;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul li {
+        display: none;
+    }
+    .etn-orange-portal-- .o-nav li .o-megamenu.o-active .o-container ul.o-active>li {
+        display: block;
+    }
+    .etn-orange-portal-- .o-megamenu div.o-menu-side>div.o-cloud {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .etn-orange-portal-- .o-maxwidth {
+        max-width: 320px;
+        margin: 0px auto;
+    }
+    .etn-orange-portal-- .o-ft8 {
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft9 {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft10 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft11 {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft12 {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft13 {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft14 {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        letter-spacing: -0.015em;
+    }
+    .etn-orange-portal-- .o-ft15 {
+        font-size: 1.5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft16 {
+        font-size: 1.6rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft17 {
+        font-size: 1.7rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft18 {
+        font-size: 1.8rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft20 {
+        font-size: 2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft22 {
+        font-size: 2.2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft25 {
+        font-size: 2.5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft30 {
+        font-size: 3rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft32 {
+        font-size: 3.2rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft40 {
+        font-size: 4rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft50 {
+        font-size: 5rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft60 {
+        font-size: 6rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft70 {
+        font-size: 7rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft80 {
+        font-size: 8rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-ft90 {
+        font-size: 9rem;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+    .etn-orange-portal-- .o-mobile-menu-bt {
+        display: block;
+    }
+    .etn-orange-portal-- .o-nav.o-nav-pills.o-active .o-has-toolbar {
+        display: none;
+    }
+    .etn-orange-portal-- nav .o-megamenu.o-color-black.o-submenu.o-has-toolbar.o-active {
+        display: block;
+    }
+    .etn-orange-portal-- .o-nav li .o-has-toolbar {
+        padding-bottom: 0 !important;
+    }
+    .etn-orange-portal-- .o-megamenu .o-closeMenu {
+        display: none;
+    }
+    footer.etn-orange-portal-- .portal-col-5 {
+        border-bottom: none;
+        width: 100% !important;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        min-height: auto;
+        padding: 0;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:not(:first-child) {
+        display: none;
+    }
+    footer.etn-orange-portal-- .portal-col-5.o-expanded li:not(:first-child) {
+        display: block;
+    }
+    footer.etn-orange-portal-- .portal-col-5:first-child li:first-child {
+        border-top: none !important;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:first-child {
+        border-top: 1px solid #333 !important;
+        /*        border-bottom: 1px solid white;*/
+        padding: 20px 0;
+        padding-left: 3%;
+        margin-bottom: 0;
+        transition: all 0.5s;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:first-child>span.expand {
+        background-image: url("../img/arrow_down_white.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 4%;
+        cursor: pointer;
+        position: absolute;
+        right: 3%;
+        top: 0;
+        -webkit-background-size: contain;
+        background-size: contain;
+        max-width: 16px;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li {
+        padding-left: 3%;
+        position: relative;
+        transition: all 0.5s;
+    }
+    footer.etn-orange-portal-- .portal-col-5:last-child {
+        border-bottom: 1px solid #333 !important;
+    }
+    footer.etn-orange-portal-- nav.o-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    footer.etn-orange-portal-- div#o-followbar {
+        padding-left: 0 !important;
+    }
+    footer.etn-orange-portal-- div#o-followbar>p {
+        margin: 17px 20px 0px 0px !important;
+    }
+    footer.etn-orange-portal-- .o-shortcut {
+        display: none;
+    }
+}
+
+@media all and (max-width: 640px) {
+    footer .o-shortcut {
+        width: 50%;
+        float: left;
+    }
+    footer .o-shortcut .o-container>div {
+        display: block !important;
+        clear: both;
+    }
+    footer.etn-orange-portal-- nav.o-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    footer.etn-orange-portal-- .portal-col-5 {
+        border-bottom: none;
+        width: 100% !important;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        min-height: auto;
+        padding: 0;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:not(:first-child) {
+        display: none;
+    }
+    footer.etn-orange-portal-- .portal-col-5.o-expanded li:not(:first-child) {
+        display: block;
+    }
+    footer.etn-orange-portal-- .portal-col-5:first-child li:first-child {
+        border-top: none !important;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:first-child {
+        border-top: 1px solid #333 !important;
+        /*        border-bottom: 1px solid white;*/
+        padding: 20px 0;
+        padding-left: 3%;
+        margin-bottom: 0;
+        transition: all 0.5s;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li:first-child>span.expand {
+        background-image: url("../img/arrow_down_white.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 4%;
+        cursor: pointer;
+        position: absolute;
+        right: 3%;
+        top: 0;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+    footer.etn-orange-portal-- .portal-col-5 li {
+        padding-left: 3%;
+        position: relative;
+        transition: all 0.5s;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container input {
+        width: 100%;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container img {
+        right: auto;
+        left: 25px;
+    }
+    .etn-orange-portal-- .o-navbar .o-container .o-search-input-wrapper .o-container img.o-close-it {
+        display: none;
+    }
+    .etn-orange-portal-- nav.o-main>ul>li .o-phantom-button {
+        content: "";
+        width: 48px;
+        height: 48px;
+        display: block;
+        background-color: transparent;
+        z-index: 1000;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    footer.etn-orange-portal-- .o-shortcut {
+        display: none;
+    }
+    footer.etn-orange-portal-- .o-container.o-legal.o-black.o-color-white {
+        width: 100%;
+    }
+    footer.etn-orange-portal-- .o-container.o-legal.o-black.o-color-white a {
+        padding: 10px;
+        padding-left: 0;
+        display: block;
+    }
+    footer.etn-orange-portal-- div#o-followbar>p {
+        margin: 17px 20px 0px 0px;
+    }
+}
+
+.etn-orange-portal-- .login-section form {
+    text-transform: initial !important;
+}
+
+.etn-orange-portal-- .login-section form input[type="text"],
+.etn-orange-portal-- .login-section form input[type="password"],
+.etn-orange-portal-- .login-section form select,
+.etn-orange-portal-- .login-section form select option {
+    color: #000 !important;
+}
+
+.etn-orange-portal-- .login-section form select {
+    font-size: 12px;
+}
+
+.etn-orange-portal-- .login-section form input,
+.etn-orange-portal-- .login-section form input[type="submit"] {
+    border: none;
+    color: black;
+    padding: 7px;
+    /* margin-right: 10px; */
+    text-align: left;
+    font-size: 14px;
+    float: left;
+    /* margin-top: 1px; */
+    width: 100%;
+}
+
+.etn-orange-portal-- .login-section form input[type="submit"],
+.etn-orange-portal-- .login-section form input[type="button"] {
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.etn-orange-portal-- .login-section a {
+    padding: 0px;
+    font-size: 14px !important;
+    margin-top: 0px;
+}
+
+.etn-orange-portal-- .login-section input.o-signout {
+    margin-top: 10px;
+}
+
+.etn-orange-portal-- .login-section a {
+    font-size: 0.75em;
+}
+
+.etn-orange-portal-- .login-section>form {
+    margin-top: 0px;
+}
+
+.etn-orange-portal-- .login-section a.o-myaccount {
+    display: inline-block;
+    padding-left: 0;
+    font-size: 1em;
+    color: #f16e00;
+}
+
+.etn-orange-portal-- nav .o-toolbar.o-black.o-visible-xs-block {
+    display: none !important;
+}
+
+.etn-orange-portal-- nav.o-main.o-active .o-toolbar.o-black.o-visible-xs-block {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    clear: both;
+    top: 50px;
+    text-align: right;
+}
+
+.etn-orange-portal-- nav.o-main.o-active .o-toolbar.o-black.o-visible-xs-block {
+    top: auto;
+    /*bottom: 100%;*/
+    position: fixed;
+    height: 40px;
+    z-index: 9999;
+}
+
+.login-section .logged-in .hailing {
+    font-size: 14px;
+}
+
+.login-section button {
+    background-color: transparent !important;
+    border: none !important;
+    /* width: 140px; */
+    /*padding: 6px 10px;*/
+    outline: none;
+    /*margin-top: 8px;*/
+    font-size: 18px;
+    /*vertical-align: top;*/
+    padding-top: 6px;
+}
+
+.login-section .o-signup-link {
+    font-weight: normal;
+    display: inline-block;
+    /*margin: 0 auto;*/
+    padding: 5px;
+    float: none;
+    width: 80%;
+    min-width: 50px;
+    max-width: 90px;
+    margin-top: 7px;
+}
+
+.login-section.o-active button span {
+    color: #ff6600 !important;
+}
+
+ul#ui-id-1 {
+    padding: 0;
+    list-style: none;
+    background: white;
+    width: 300px !important;
+    border: none;
+}
+
+ul#ui-id-1 li a {
+    display: block;
+    padding: 10px 5px;
+    font-weight: normal;
+}
+
+ul#ui-id-1 li:hover a {
+    background-color: orange;
+    color: #fff;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+@font-face {
+    font-family: icon-orange;
+    src: url(../fonts/icon-orange.woff2) format("woff2"), url(../fonts/icon-orange.woff) format("woff");
+    font-style: normal;
+    font-weight: 400
+}
+
+.icon-1013-Reseau,
+.icon-2for1cinematicket,
+.icon-3g,
+.icon-4G-Cam--Live-80,
+.icon-4G-Cam-Camera-80,
+.icon-4G-Cam-Compact,
+.icon-4G-Cam-Inbox80,
+.icon-4G-Cam-Outbox-80,
+.icon-4G-Cam-Rec-80,
+.icon-4g,
+.icon-4g-cam,
+.icon-4g-plus,
+.icon-Accessability,
+.icon-Add,
+.icon-Add-person,
+.icon-Adult,
+.icon-Adultcode,
+.icon-Age-rating-12,
+.icon-Age-rating-16,
+.icon-Age-rating-17,
+.icon-Age-rating-18,
+.icon-Age-rating-3,
+.icon-Age-rating-4,
+.icon-Age-rating-7,
+.icon-Age-rating-9,
+.icon-Alias-numbers,
+.icon-Apartment-building,
+.icon-Apps,
+.icon-Apps-disabled,
+.icon-Archive,
+.icon-Art,
+.icon-Auditorium,
+.icon-Baby,
+.icon-Betting,
+.icon-Book-award,
+.icon-Boxes,
+.icon-Business-everywhere,
+.icon-CD,
+.icon-CPU,
+.icon-Calculator,
+.icon-Calendar-fixtures-results,
+.icon-Calendar-football-match,
+.icon-Car-park,
+.icon-Car-pooling,
+.icon-Casting,
+.icon-Categories,
+.icon-Change-wallpaper-1,
+.icon-Child,
+.icon-Children-channel,
+.icon-Coat-hanger,
+.icon-Collective-class-training,
+.icon-Colour-Call,
+.icon-Comedy-channel,
+.icon-Comic,
+.icon-Comments,
+.icon-Concierge-bell,
+.icon-Courier,
+.icon-Crop,
+.icon-Currency-brazilian-real,
+.icon-Currency-dollar,
+.icon-Currency-sterling,
+.icon-Currency-yen,
+.icon-Decrease-test-size,
+.icon-Defibrillator,
+.icon-Digital-frame,
+.icon-Discovery-offer,
+.icon-Discussion-author,
+.icon-Discussion-more,
+.icon-Doctor,
+.icon-Doctors-bag,
+.icon-Doctors-communicating,
+.icon-Document-compose,
+.icon-Documentary,
+.icon-Eco-mode,
+.icon-Elderly-person,
+.icon-Email-replied,
+.icon-Empty-trash,
+.icon-End-call,
+.icon-Entertainment-channel,
+.icon-Ethenet,
+.icon-Excel,
+.icon-Expand-screen,
+.icon-Factory,
+.icon-Fast-delivery,
+.icon-Favorite-music,
+.icon-Featured,
+.icon-Filter-effects,
+.icon-Fire-extinguisher,
+.icon-Firewall,
+.icon-Football-match,
+.icon-Football-quiz,
+.icon-Forward,
+.icon-Forward-curved-arrow,
+.icon-Free-up-space,
+.icon-Full-screen-view,
+.icon-Gallery,
+.icon-Gas-tank,
+.icon-HDMI-Card,
+.icon-Health-patient,
+.icon-Heart-rate,
+.icon-Heartbeats,
+.icon-Home-1,
+.icon-Homelive,
+.icon-Horoscopes,
+.icon-Hourglass,
+.icon-IT-infrastructure,
+.icon-Im-driving,
+.icon-Incoming-call-curved-arrow,
+.icon-Increase-test-size,
+.icon-Information-data,
+.icon-Internet-security-desktop,
+.icon-Internet-security-mobile,
+.icon-Internet-security-password,
+.icon-Internet-security-server,
+.icon-Interventions,
+.icon-Keypad,
+.icon-La-Cle,
+.icon-Language,
+.icon-Latest,
+.icon-Le-Bloc,
+.icon-Leave-session,
+.icon-Link,
+.icon-Lock-screen-settings,
+.icon-Maintenance-man,
+.icon-Map,
+.icon-Medal,
+.icon-Medical-app,
+.icon-Medical-app-phone,
+.icon-Medical-files,
+.icon-Message-download,
+.icon-Microscope,
+.icon-Missed-call-boxed-arrow,
+.icon-Missed-call-curved-arrow,
+.icon-Mobile-backup-restore,
+.icon-Modem,
+.icon-Modifier-delete,
+.icon-Modifier-download,
+.icon-Modifier-favorite,
+.icon-More-dots,
+.icon-Music-artist,
+.icon-Music-genre,
+.icon-Mute-microphone,
+.icon-My-Office-Phone,
+.icon-NFC-tag,
+.icon-Nature,
+.icon-Network-add,
+.icon-Network-livebox,
+.icon-Notification,
+.icon-Notification-Bell,
+.icon-On-board-unit,
+.icon-Orange-Detente,
+.icon-Orange-Experts-Class-Training,
+.icon-Orange-Experts-Copy-Keep,
+.icon-Orange-Experts-One2One-Coach,
+.icon-Orange-Football-Club,
+.icon-Orange-Guest,
+.icon-Orange-Messenger-1,
+.icon-Orange-garden,
+.icon-Orange-rewards,
+.icon-Orange-security-suite,
+.icon-POS-payment,
+.icon-Package,
+.icon-Package-content,
+.icon-Parrasol,
+.icon-Pause,
+.icon-Payment-euro,
+.icon-Pencil,
+.icon-Photo-dialer,
+.icon-Pills,
+.icon-Play,
+.icon-Quirky-stories,
+.icon-Quiz,
+.icon-Radiography,
+.icon-Real-time,
+.icon-Record-1,
+.icon-Redo,
+.icon-Remote-control-1,
+.icon-Replay-boxed-arrow,
+.icon-Reply-boxed-arrow,
+.icon-Reply-curved-arrow,
+.icon-Restaurant,
+.icon-Restrictied-content,
+.icon-SD-card-1,
+.icon-Scales,
+.icon-School,
+.icon-Science,
+.icon-Scissors,
+.icon-Send,
+.icon-Send-to-person,
+.icon-Server,
+.icon-Share-wifi,
+.icon-Shop,
+.icon-Shopping,
+.icon-Show-front-back-camera,
+.icon-Shower,
+.icon-Silent,
+.icon-Simplicity,
+.icon-Skip-backward,
+.icon-Skip-forward,
+.icon-Sleep,
+.icon-Smart-Sensor,
+.icon-Smart-electric-meter,
+.icon-Smart-heating-switch,
+.icon-Sport-channel,
+.icon-Start-services,
+.icon-Stop-video,
+.icon-Storage-cloud,
+.icon-Street,
+.icon-Stretcher,
+.icon-Sudoku,
+.icon-Syncronise,
+.icon-TV-series,
+.icon-Taxi,
+.icon-Thumb-down,
+.icon-Thumb-up,
+.icon-Top-10,
+.icon-Trading,
+.icon-USB,
+.icon-Undo,
+.icon-Unmissable,
+.icon-Value,
+.icon-Vinyl,
+.icon-WPT,
+.icon-Warehouse,
+.icon-Warning-important,
+.icon-Warningimportant,
+.icon-Wholesale-retail,
+.icon-Widget,
+.icon-about-event,
+.icon-accessibility-cognition,
+.icon-accessibility-dexterity,
+.icon-accessibility-hearing,
+.icon-accessibility-mobility,
+.icon-accessibility-speech,
+.icon-accessibility-vision,
+.icon-accessory-headphones,
+.icon-accessory-shop,
+.icon-add-more,
+.icon-address-book,
+.icon-administrator,
+.icon-advertising,
+.icon-aeroplane,
+.icon-age-rating-mono-12,
+.icon-age-rating-mono-16,
+.icon-age-rating-mono-17,
+.icon-age-rating-mono-18,
+.icon-age-rating-mono-3,
+.icon-age-rating-mono-4,
+.icon-age-rating-mono-7,
+.icon-age-rating-mono-9,
+.icon-agriculture,
+.icon-airbox-auto,
+.icon-alarm-clock,
+.icon-alarm-off,
+.icon-all-channels,
+.icon-antenna,
+.icon-anti-spam,
+.icon-antivirus,
+.icon-arrow-down,
+.icon-arrow-next,
+.icon-arrow-previous,
+.icon-arrow-up,
+.icon-assistance,
+.icon-attachment,
+.icon-avatar,
+.icon-backup,
+.icon-banking,
+.icon-battery-1-bar,
+.icon-battery-2-bar,
+.icon-battery-charging,
+.icon-battery-empty,
+.icon-battery-full,
+.icon-battery-full-2,
+.icon-bill-euro,
+.icon-billboard,
+.icon-birthday,
+.icon-bluetooth,
+.icon-book-download,
+.icon-bookmark,
+.icon-bookmark-smart,
+.icon-broadcast,
+.icon-burst-mode,
+.icon-business-invoices,
+.icon-business-lounge,
+.icon-business-telephonie,
+.icon-buy,
+.icon-buy-back-euro,
+.icon-buzz,
+.icon-calendar-30,
+.icon-calendar-day,
+.icon-calendar-month,
+.icon-calendar-week,
+.icon-calendaralarm,
+.icon-call,
+.icon-call-forward,
+.icon-call-invite,
+.icon-call-log,
+.icon-camera,
+.icon-change-wallpaper,
+.icon-charger,
+.icon-check-your-balance,
+.icon-checkbox-tick,
+.icon-child-protection,
+.icon-cineday-silhouette,
+.icon-clock,
+.icon-cloud-backup,
+.icon-commercial-representitive,
+.icon-community-sms,
+.icon-conference-call,
+.icon-connected-object,
+.icon-connection,
+.icon-construction,
+.icon-contact-card,
+.icon-control-centre,
+.icon-control-mydata,
+.icon-copy,
+.icon-crane,
+.icon-currency-converter,
+.icon-currency-euro,
+.icon-data-protection,
+.icon-data-services,
+.icon-decoder,
+.icon-delete,
+.icon-device-connected-printer,
+.icon-device-desktop-computer,
+.icon-device-desktop-computer-connected,
+.icon-device-fixed-line-phone,
+.icon-device-laptop-computer,
+.icon-device-laptop-computer-connected,
+.icon-device-manager,
+.icon-device-managment-express,
+.icon-device-smart-phone,
+.icon-device-status,
+.icon-device-tablet,
+.icon-device-tablet-connected,
+.icon-device-tv,
+.icon-dialler,
+.icon-disable-apps,
+.icon-document-stack,
+.icon-document-word,
+.icon-document-zip,
+.icon-done-modifier,
+.icon-download,
+.icon-draft,
+.icon-dual-sim-packaging,
+.icon-easy-internet,
+.icon-ebook,
+.icon-edashboard,
+.icon-edit-draft,
+.icon-edit-email,
+.icon-edit-image,
+.icon-electric-car,
+.icon-electric-car-charging,
+.icon-electricity-provider,
+.icon-elevator,
+.icon-email,
+.icon-email-forwarded,
+.icon-emap,
+.icon-emergency-firemen,
+.icon-emergency-police,
+.icon-emergency-service,
+.icon-emergency-sos,
+.icon-employees-1,
+.icon-epg,
+.icon-erase,
+.icon-error-severe,
+.icon-event-agenda,
+.icon-event-organiser,
+.icon-event-speaker,
+.icon-expert,
+.icon-external-drive,
+.icon-family-place,
+.icon-favourite,
+.icon-filter,
+.icon-finance,
+.icon-fire,
+.icon-flexible-storage,
+.icon-folder-camera,
+.icon-folder-document,
+.icon-folder-favourite,
+.icon-folder-sd,
+.icon-football,
+.icon-forward-the-number,
+.icon-frame-care,
+.icon-frame-connectivity,
+.icon-frame-family,
+.icon-frame-fun,
+.icon-frame-home,
+.icon-frame-money,
+.icon-frame-my-customers,
+.icon-frame-on-the-move,
+.icon-frame-performance,
+.icon-frame-security,
+.icon-frame-tariff,
+.icon-frame-teamwork,
+.icon-frame-tech,
+.icon-frame-wellbeing,
+.icon-frame-work,
+.icon-free-tag,
+.icon-front-end-dashboard,
+.icon-games,
+.icon-gauge-counter,
+.icon-gauge-mon-reseau,
+.icon-gauge-rate,
+.icon-gaugecapacity,
+.icon-generic-document,
+.icon-geolocation,
+.icon-hands-free,
+.icon-health,
+.icon-health-monitor,
+.icon-help-guide,
+.icon-history,
+.icon-home,
+.icon-home-alarm,
+.icon-homescreen,
+.icon-hospital,
+.icon-hotel,
+.icon-image,
+.icon-image-file,
+.icon-improvement,
+.icon-inbox,
+.icon-info,
+.icon-international-globe,
+.icon-internationaltv,
+.icon-internet,
+.icon-internet-browser,
+.icon-internet-usage,
+.icon-keeper,
+.icon-keyboard,
+.icon-lightbulb-sh,
+.icon-ligue-1,
+.icon-live,
+.icon-livebox,
+.icon-livebox-info,
+.icon-livebox-phone,
+.icon-location-pin-compass,
+.icon-lock,
+.icon-logistics,
+.icon-logout,
+.icon-manage-android,
+.icon-managing-equipment,
+.icon-map-pin,
+.icon-medical-chart,
+.icon-menu,
+.icon-messaging,
+.icon-messaging-compose-sms,
+.icon-messaging-unified,
+.icon-messaging-untitled-compose,
+.icon-microphone,
+.icon-mini-games,
+.icon-mirroring,
+.icon-mobile-applications,
+.icon-mobile-box,
+.icon-mobile-data-toggle,
+.icon-mobile-insurance,
+.icon-mobile-network-coverage,
+.icon-mobile-security,
+.icon-mobile-setup,
+.icon-modifier-add,
+.icon-modifier-new,
+.icon-modifier-no-access,
+.icon-modifier-synchro,
+.icon-modifier-upload,
+.icon-modifier-wizard,
+.icon-mon-reseau,
+.icon-money,
+.icon-move-to-folder,
+.icon-multi-sim,
+.icon-multiple-timezone,
+.icon-music-file,
+.icon-music-player,
+.icon-my-account,
+.icon-my-bill-uk,
+.icon-my-boutique,
+.icon-my-essential,
+.icon-my-essential-tablet,
+.icon-my-livebox,
+.icon-my-media,
+.icon-my-orange,
+.icon-my-plug,
+.icon-my-services,
+.icon-my-travels,
+.icon-networks,
+.icon-new,
+.icon-newspaper,
+.icon-nfc,
+.icon-no-sim,
+.icon-nouveau-contract-social,
+.icon-numero-unique,
+.icon-office,
+.icon-oil-and-gas,
+.icon-online-help,
+.icon-orange-Photography,
+.icon-orange-assistant,
+.icon-orange-cash,
+.icon-orange-corporate,
+.icon-orange-events,
+.icon-orange-experts-expert,
+.icon-orange-experts-insurance,
+.icon-orange-experts-orange-business-consultant,
+.icon-orange-experts-orange-startup-smartphone,
+.icon-orange-experts-recycle,
+.icon-orange-experts-repair,
+.icon-orange-experts-tranquil,
+.icon-orange-foundation,
+.icon-orange-gesture,
+.icon-orange-jobs,
+.icon-orange-messenger,
+.icon-orange-money,
+.icon-orange-pro,
+.icon-orange-protect,
+.icon-orange-radio,
+.icon-orange-reflections,
+.icon-orange-travel,
+.icon-orange-tv,
+.icon-orange-wallet,
+.icon-orange-wifi,
+.icon-orangewallet,
+.icon-organisation,
+.icon-outbox,
+.icon-outdoor-sports-mountain-biking,
+.icon-outdoor-sports-skiing,
+.icon-parabole-tv,
+.icon-parental-control,
+.icon-pass-video,
+.icon-pda-device,
+.icon-pdf-file,
+.icon-personal-smartphone-trainer,
+.icon-phone-advisor,
+.icon-phone-fund,
+.icon-phone-protection,
+.icon-picture-messaging,
+.icon-pioneering,
+.icon-play-and-win,
+.icon-playmode-random,
+.icon-polls,
+.icon-popout-care,
+.icon-popout-connectivity,
+.icon-popout-family,
+.icon-popout-fun,
+.icon-popout-home,
+.icon-popout-money,
+.icon-popout-my-customers,
+.icon-popout-on-the-move,
+.icon-popout-performance,
+.icon-popout-security,
+.icon-popout-tariff,
+.icon-popout-teamwork,
+.icon-popout-tech,
+.icon-popout-wellbeing,
+.icon-popout-work,
+.icon-portfolio,
+.icon-power,
+.icon-powerpoint-file,
+.icon-presentation,
+.icon-previous,
+.icon-printer,
+.icon-profileringtone,
+.icon-public-transport,
+.icon-publish,
+.icon-ratings-stars,
+.icon-recommend,
+.icon-record,
+.icon-recycle-device,
+.icon-relationship,
+.icon-reload,
+.icon-remote-control,
+.icon-remove-modifier,
+.icon-report,
+.icon-responsible,
+.icon-restore-to-phone,
+.icon-rewards,
+.icon-ringtones,
+.icon-running,
+.icon-scan-ticket,
+.icon-sd-card,
+.icon-search,
+.icon-servers,
+.icon-settings,
+.icon-setup-and-repair,
+.icon-setup-and-repair-cog,
+.icon-setup-internet,
+.icon-share,
+.icon-shipping,
+.icon-shop-pin,
+.icon-shop-subscriptions,
+.icon-showroom-mobile-pro,
+.icon-signal-1-5,
+.icon-signal-2-5,
+.icon-signal-3-5,
+.icon-signal-4-5,
+.icon-signal-5-5,
+.icon-signal-boost,
+.icon-sim,
+.icon-simple-mode,
+.icon-smart-home,
+.icon-smart-lightswitch,
+.icon-smart-powerstation,
+.icon-smart-tap,
+.icon-smart-watch,
+.icon-social-network,
+.icon-software-update,
+.icon-startup-wizard,
+.icon-stocks,
+.icon-stop-secret,
+.icon-store-locator,
+.icon-subscription-package,
+.icon-support,
+.icon-surveillance-camera,
+.icon-target-location,
+.icon-tarif,
+.icon-tariff,
+.icon-task-list,
+.icon-team-connect,
+.icon-temperature,
+.icon-terms-conditions,
+.icon-text-alerts,
+.icon-tick,
+.icon-tick-circle,
+.icon-tickets,
+.icon-top-up-dollar,
+.icon-top-up-euro,
+.icon-top-up-uk-bank,
+.icon-touch-screen,
+.icon-town,
+.icon-townhall,
+.icon-track-your-delivery,
+.icon-track-your-order,
+.icon-trash,
+.icon-tv-plus,
+.icon-unique,
+.icon-unknown-file,
+.icon-unlimited-calls,
+.icon-unlocked,
+.icon-upload,
+.icon-usb-key,
+.icon-vehicle,
+.icon-video,
+.icon-video-file,
+.icon-video-meeting2,
+.icon-video-phone,
+.icon-vip-contact,
+.icon-virtual-gamepad,
+.icon-visual-voicemail,
+.icon-vod-portrait,
+.icon-volte,
+.icon-volume-high,
+.icon-volume-low,
+.icon-volume-mid,
+.icon-volume-none,
+.icon-vowifi,
+.icon-vvm-message-read-full,
+.icon-web-cam,
+.icon-web-fax-widget,
+.icon-widget-tour,
+.icon-wifi,
+.icon-wifi-0,
+.icon-wifi-1,
+.icon-wifi-2,
+.icon-wps-pairing,
+.icon-zoom-in,
+.icon-zoom-out {
+    font-family: icon-orange, sans-serif!important;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-avatar::before {
+    content: "\e944";
+}
+
+#mobile-menu-right {
+    z-index: 99999;
+    position: relative;
+    min-width: 190px;
+    text-align: right;
+    padding-top: 15px;
+}
+
+#mobile-menu-right>div,
+#mobile-menu-right>a {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+#mobile-menu-right a>img {
+    vertical-align: baseline;
+}
+
+#mobile-menu-right .cart-section button {
+    padding: 0;
+}
+
+#mobile-menu-right .search-section a>img {
+    width: 18px;
+    height: auto;
+}
+
+#moringaheadersearchfield {
+    background: transparent !important;
+}

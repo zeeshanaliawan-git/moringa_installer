@@ -1,0 +1,15 @@
+#!/bin/sh
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+
+echo "Starting pages engine"
+"$BASEDIR"/sched
+
+echo "Starting partoo engine"
+"$BASEDIR"/schedPartoo
+
+echo "Starting import export engine"
+"$BASEDIR"/schedImportExport
+
+exit 0

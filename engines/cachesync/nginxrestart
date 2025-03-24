@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+#echo '741852963' | sudo -S /etc/init.d/apache2 restart
+sudo service nginx restart
+

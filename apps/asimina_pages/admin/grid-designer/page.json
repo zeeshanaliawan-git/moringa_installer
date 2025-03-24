@@ -1,0 +1,42 @@
+{
+    "data": {
+        "page": {
+            "layout": "react-grid-layout",
+            "page_id": "123",
+            "components": [
+                {
+                    "page_id": "123",
+                    "index_key": "0",
+                    "component_id": "a907eebc-e115-11e9-8d4b-20474771e1a6",
+                    "property_values": [
+                        {
+                            "value": "12.33",
+                            "property_id": "a907eebc-e115-11e9-8d4b-20474771e112"
+                        },
+                        {
+                            "value": "true",
+                            "property_id": "a907eebc-e115-11e9-8d4b-20474771e113"
+                        },
+                        {
+                            "value": "{\"hello\":\"world\"}",
+                            "property_id": "a907eebc-e115-11e9-8d4b-20474771e154"
+                        },
+                        {
+                            "value": "abcd",
+                            "property_id": "a907eebc-e115-11e9-8d4b-20474771e1a6"
+                        }
+                    ],
+                    "y_cord": "0",
+                    "component_name": "Autocomplete",
+                    "width": "3",
+                    "page_item_id": "1",
+                    "x_cord": "0",
+                    "height": "3"
+                }
+            ],
+            "name": "AA Dev Page 01"
+        }
+    },
+    "message": "",
+    "status": 1
+}

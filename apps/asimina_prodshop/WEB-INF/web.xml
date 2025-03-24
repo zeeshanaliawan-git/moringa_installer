@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5"> 
+
+    <description>
+     Eshop
+    </description>
+    <display-name>Eshop</display-name>
+
+	<filter>
+		<filter-name>AUTHENTICATE</filter-name>
+		<display-name>AUTHENTICATE</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.Authenticate</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AUTHENTICATE</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+		<url-pattern>/uploads/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>ACCESS_RIGHTS</filter-name>
+		<display-name>ACCESS_RIGHTS</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.AccessRights</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ACCESS_RIGHTS</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CHECK_SITE_SELECTION</filter-name>
+		<display-name>CHECK_SITE_SELECTION</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.CheckSiteSelection</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CHECK_SITE_SELECTION</filter-name>
+		<url-pattern>/ibo.jsp</url-pattern>
+		<url-pattern>/customCalendar.jsp</url-pattern>
+		<url-pattern>/processStatus.jsp</url-pattern>
+		<url-pattern>/mail_sms/modele.jsp</url-pattern>
+		<url-pattern>/dashboard/dashboard.jsp</url-pattern>
+		<url-pattern>/viewProcess.jsp</url-pattern>
+		<url-pattern>/admin/orderTrackingVisible.jsp</url-pattern>
+		<url-pattern>/admin/fieldSettings.jsp</url-pattern>
+		<url-pattern>/admin/manageProfil.jsp</url-pattern>
+		<url-pattern>/admin/serviceColors.jsp</url-pattern>
+		<url-pattern>/admin/storeEmailsManagement.jsp</url-pattern>
+		<url-pattern>/admin/supplier.jsp</url-pattern>
+		<url-pattern>/admin/userManagement.jsp</url-pattern>
+		<url-pattern>/admin/blockedUserConfig.jsp</url-pattern>
+	</filter-mapping>
+	
+
+	<filter>
+		<filter-name>XSS</filter-name>
+		<display-name>XSS</display-name>
+		<description></description>
+		<filter-class>com.etn.servlet.filter.XSSFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>XSS</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+        <servlet>
+                <servlet-name>DisplayChart</servlet-name>
+                <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+                <servlet-name>DisplayChart</servlet-name>
+                <url-pattern>/servlet/DisplayChart</url-pattern>
+        </servlet-mapping>
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/exception.jsp</location>
+	</error-page>
+
+<security-constraint>
+         <web-resource-collection>
+          <web-resource-name>restricted methods</web-resource-name>
+          <url-pattern>/*</url-pattern>
+          <http-method>PUT</http-method>
+          <http-method>DELETE</http-method>
+          <http-method>TRACE</http-method>
+         </web-resource-collection>
+         <auth-constraint />
+</security-constraint>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/e404.html</location>
+	</error-page>
+
+	<session-config>
+	       	<session-timeout>300</session-timeout>
+	</session-config>    
+
+</web-app>

@@ -1,0 +1,279 @@
+{
+  "internal_info": {
+    "created_by": "1",
+    "created_ts": "18/07/2019 16:03:59",
+    "id": "685",
+    "updated_by": "1",
+    "updated_ts": "23/11/2020 19:07:40"
+  },
+  "item_type": "product",
+  "system_info": {
+    "catalog_uuid": "4ab8f444-1503-11eb-1984-20474771e1a6",
+    "name": "Oneplus 3T",
+    "uuid": "e3963451-a964-11e9-1984-00505609e97f",
+    "folder": {
+      "uuid": "6b77c894-273d-11ec-8a25-525400ac535d",
+      "name": "Huawei"
+    }
+  },
+  "details": {
+    "allow_comments": "0",
+    "allow_complaints": "0",
+    "allow_questions": "0",
+    "allow_ratings": "0",
+    "app_id": "",
+    "brand_name": "OnePlus",
+    "bundle_prices": "",
+    "cart_prod_url": "",
+    "cart_url": "",
+    "cart_url_params": "",
+    "catalog_id": "123",
+    "catalog_uuid": "4ab8f444-1503-11eb-1984-20474771e1a6",
+    "color": "",
+    "combo_prices": "",
+    "created_by": "1",
+    "created_on": "18/07/2019 16:03:59",
+    "currency": "",
+    "currency_frequency": "",
+    "device_type": "",
+    "discount_prices": "",
+    "familie_id": "0",
+    "id": "685",
+    "image_actual_name": "",
+    "image_name": "",
+    "import_source": "",
+    "installment_options": "",
+    "invoice_nature": "",
+    "is_new": "0",
+    "link_id": "",
+    "migrated_id": "",
+    "order_seq": "",
+    "pack_details": "",
+    "payment_cash_on_delivery": "1",
+    "payment_online": "1",
+    "price": "",
+    "price_sent": "",
+    "primary_resource": "",
+    "product_type": "product",
+    "product_type_custom": "",
+    "product_uuid": "e3963451-a964-11e9-1984-00505609e97f",
+    "promo_price": "",
+    "rating_count": "",
+    "rating_score": "",
+    "secondary_resource": "",
+    "service_available_days": "",
+    "service_available_start_time": "00,15,30,45",
+    "service_duration": "",
+    "service_end_time": "",
+    "service_gap": "0",
+    "service_max_slots": "1",
+    "service_resources": "",
+    "service_schedule": "",
+    "service_start_time": "",
+    "show_basket": "1",
+    "show_quickbuy": "0",
+    "show_store_locator": "0",
+    "sort_variant": "cda",
+    "stock": "",
+    "store_locator_prod_url": "",
+    "store_locator_url": "",
+    "store_locator_url_params": "",
+    "subscription_recurring": "no",
+    "subscription_require_email": "0",
+    "subscription_require_phone": "0",
+    "updated_by": "1",
+    "updated_on": "23/11/2020 19:07:40",
+    "version": "43"
+  },
+  "details_lang": [
+    {
+      "langue_code": "fr",
+      "url" : "published url of the product of lang",
+      "currency": "",
+      "features": "",
+      "name": "Oneplus 3T",
+      "pricesent": "",
+      "summary": "",
+      "description": {
+        "essentials_alignment": "zig_zag_right",
+        "main_features": "<p>francais</p>",
+        "page_path": "OnePlus-OnePlus-3",
+        "seo": "Oneplus  is the best !",
+        "seo_canonical_url": "OnePlus-OnePlus-3.html",
+        "seo_title": "OnePlus Oneplus 3T |",
+        "summary": "<h2><span style=\"color:#e74c3c\">Oneplus&nbsp;</span> is the <strong>best </strong>!</h2>",
+        "video_url": ""
+      },
+      "essential_blocks": [
+        {
+          "actual_file_name": "oneplus 3T _3_.jpg",
+          "block_text": "<p>OnePlus essential block 01</p>",
+          "file_name": "oneplus 3T _3_.jpg",
+          "image_label": "oneplus 3T (3)",
+          "order_seq": "1"
+        }
+      ],
+      "tabs": [
+        {
+          "content": "<p>tab 100 content</p>",
+          "name": "Tab 100",
+          "order_seq": "1"
+        }
+      ],
+      "images": [
+        {
+          "actual_file_name": "aa-dev-catalog_essentials_en_1_123.jpg",
+          "image_file_name": "aa-dev-catalog_essentials_en_1_123.jpg",
+          "image_label": "Chai",
+          "sort_order": "1"
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "attribute_name": "OS",
+      "attribute_type": "specs",
+      "attribute_value": "Android"
+    }
+  ],
+  "tags": [
+    {
+      "id": "mobile",
+      "label": "Mobile"
+    }
+  ],
+  "variants": [
+    {
+      "uuid":"abc",
+      "commitment": "0",
+      "frequency": "month",
+      "is_active": "0",
+      "is_default": "1",
+      "is_show_price": "1",
+      "order_seq": "2",
+      "price": "1.00",
+      "sku": "oneplus32red",
+      "sticker": "none",
+      "stock": "2",
+      "variant_attributes": [
+        {
+          "attribute_name": "Storage",
+          "attribute_value": "32GB",
+          "color" : "#0000ff",
+          "small_text": "storage"
+        },
+        {
+          "attribute_name": "Extra",
+          "attribute_value": "No Gift Warp"
+        }
+      ],
+      "variant_details": [
+        {
+          "action_button_desktop": "",
+          "action_button_desktop_url": "",
+          "action_button_mobile": "",
+          "action_button_mobile_url": "",
+          "langue_code": "fr",
+          "main_features": "",
+          "name": "Red 32GB",
+          "variant_resources": [
+            {
+              "actual_file_name": "oneplus 3T _1_.png",
+              "label": "oneplus 3T (1)",
+              "path": "oneplus 3T _1_.png",
+              "sort_order": "1",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "action_button_desktop": "dle2",
+          "action_button_desktop_url": "http://www.dle2.com",
+          "action_button_mobile": "mle2",
+          "action_button_mobile_url": "http://www.mle2.com",
+          "langue_code": "en",
+          "main_features": "",
+          "name": "Red 32GB anglais",
+          "variant_resources": [
+            {
+              "actual_file_name": "oneplus 3T _1_.png",
+              "label": "oneplus 3T (1)",
+              "path": "oneplus 3T _1_.png",
+              "sort_order": "1",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "action_button_desktop": "dla2",
+          "action_button_desktop_url": "http://www.dla2.com",
+          "action_button_mobile": "mla2",
+          "action_button_mobile_url": "http://www.mla2.com",
+          "langue_code": "ar",
+          "main_features": "",
+          "name": "Red 32GB arabic",
+          "variant_resources": [
+            {
+              "actual_file_name": "oneplus 3T _1_.jpg",
+              "label": "oneplus 3T (1)",
+              "langue_code": "fr",
+              "path": "oneplus 3T _1_.jpg",
+              "sort_order": "0",
+              "type": "image"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "promotions": [{
+      "id": "",
+      "name": "",
+      "visible_to": "all",
+      "order_seq": "1",
+      "start_date": "26/05/2021 00:00:00",
+      "end_date": "",
+      "flash_sale_quantity": "100",
+      "discount_type": "fixed",
+      "discount_value": "1",
+      "frequency": "none",
+      "duration": "10",
+      "flash_sale": "quantity",
+      "details_lang": [
+        {
+          "langue_code": "fr",
+          "title": "",
+          "description": ""
+        }
+      ],
+      "rules": [{
+        "applied_to_type": "tag",
+        "applied_to_value": ""
+      }]
+    }],
+  "comewiths": [{
+      "id": "",
+      "name": "",
+      "visible_to": "logged",
+      "order_seq": "",
+      "title": "AA Comewith 01",
+      "start_date": "27/05/2021 13:07:00",
+      "end_date": "",
+      "variant_type": "default",
+      "comewith": "gift",
+      "type": "optional",
+      "applied_to_type": "sku",
+      "applied_to_value": "",
+      "details_lang": [
+        {
+          "langue_code": "fr",
+          "description": ""
+        }
+      ],
+      "rules": [{
+        "associated_to_type": "tag",
+        "associated_to_value": ""
+      }]
+    }]
+}

@@ -1,0 +1,13 @@
+REPOSITORY 3
+ROOT_WEB /eshop/
+URL_REQUETEUR /eshop/requeteur/
+CHEMIN	/usr/local/tomcat/webapps/eshop/
+CACHE_REQUETEUR /usr/local/tomcat/cache_eshop
+PDF	/usr/local/tomcat/webapps/eshop/chart/pdf/
+XLS	/usr/local/tomcat/webapps/eshop/chart/xls/
+URL_CHART  http://localhost:8080/eshop/
+APPLI	REQUETEUR2	
+INCREMENT 1
+SEQ_INTERVAL 1
+UPLOAD_FOLDER	/usr/local/tomcat/webapps/eshop/WEB-INF/upload_file
+EXEC_FOLDER /usr/local/tomcat/webapps/eshop/WEB-INF/classes

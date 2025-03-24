@@ -1,0 +1,1796 @@
+[
+  {
+    "id": 1,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 9,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "1558707600",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "lessthan",
+      "message": "Plus que <span>100 articles</span>"
+    },
+    "flag": {
+      "type": "venteflash",
+      "message": "Vente flash",
+      "additional": "Plus que 100 articles"
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "450 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": "1558707600"
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "2 200 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "2 200 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "2 200 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "2 200 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "2 500 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "2 500 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "2 500 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "2 500 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "2 000 000 <span>GNF</span>", "oldPrice": "3 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "2 000 000 <span>GNF</span>", "oldPrice": "3 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "2 lines",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": ""
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "comingsoon",
+      "message": "Bientôt disponible"
+    },
+    "flag": {
+      "type": "nouveau",
+      "message": "Nouveau",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 200 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 500 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "2 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "2 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "",
+      "newPrice": "",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 200 000 <span>GNF</span>", "oldPrice": "13 200 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 500 000 <span>GNF</span>", "oldPrice": "13 500 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "12 000 000 <span>GNF</span>", "oldPrice": "14 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 7,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 <span>GNF</span>",
+      "oldPrice": "2 000 000 <span>GNF</span>"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "unavailable",
+      "message": "Indisponible pour le moment"
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "promotion",
+      "message": "Promotion",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "bientotdisponible",
+      "message": "Bientôt disponible",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 9,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "1558707600",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "lessthan",
+      "message": "Plus que <span>100 articles</span>"
+    },
+    "flag": {
+      "type": "venteflash",
+      "message": "Vente flash",
+      "additional": "Plus que 100 articles"
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "450 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": "1558707600"
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "2 lines",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": ""
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "comingsoon",
+      "message": "Bientôt disponible"
+    },
+    "flag": {
+      "type": "nouveau",
+      "message": "Nouveau",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "",
+      "newPrice": "",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 7,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 <span>GNF</span>",
+      "oldPrice": "2 000 000 <span>GNF</span>"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "unavailable",
+      "message": "Indisponible pour le moment"
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "promotion",
+      "message": "Promotion",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "venteflash",
+      "message": "Vente flash",
+      "additional": "Plus que 100 articles"
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 9,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "1558707600",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "lessthan",
+      "message": "Plus que <span>100 articles</span>"
+    },
+    "flag": {
+      "type": "venteflash",
+      "message": "Vente flash",
+      "additional": "Plus que 100 articles"
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "450 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": "1558707600"
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "2 lines",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": ""
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "comingsoon",
+      "message": "Bientôt disponible"
+    },
+    "flag": {
+      "type": "nouveau",
+      "message": "Nouveau",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": "comingsoon", "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 GNF", "oldPrice": "" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "",
+      "newPrice": "",
+      "oldPrice": ""
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "", "newPrice": "", "oldPrice": "" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 7,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 <span>GNF</span>",
+      "oldPrice": "2 000 000 <span>GNF</span>"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "unavailable",
+      "message": "Indisponible pour le moment"
+    },
+    "flag": {
+      "type": "",
+      "message": "",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffd600", "colorName": "Jaune", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": false, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 10,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "20€ de remboursement différé",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "promotion",
+      "message": "Promotion",
+      "additional": ""
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Huawei",
+    "subtitle1": "Mate 9",
+    "subtitle2": "",
+    "rating": 8,
+    "reviews": 10000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "specifications": [
+      "Compatible 4G+ (débit jusqu'à 223 Mbits/s) et 4G (débit jusqu'à 100 Mbits/s ou 150Mbits/s)",
+      "Ecran Retina HD 4,7 pouces avec 3D Touch",
+      "Puce A9 avec coprocesseur de mouvement M9",
+      "Appareil photo iSight 12 Mégapixels. Vidéos 4K. Live Photos."
+    ],
+    "flatRate": {
+      "text": "À partir de",
+      "newPrice": "1 000 000 GNF",
+      "oldPrice": "2 000 000 GNF"
+    },
+    "baseRate": {
+      "text": "Prix seul",
+      "newPrice": "11 000 000 GNF",
+      "oldPrice": "13 000 000 GNF"
+    },
+    "aPartirDeDetail": "À partir de",
+    "timestamp": "",
+    "payback": "",
+    "das": "DAS : 0.87 W/Kg",
+    "availability": {
+      "type": "",
+      "message": ""
+    },
+    "flag": {
+      "type": "venteflash",
+      "message": "Vente flash",
+      "additional": "Plus que 100 articles"
+    },
+    "info": "Payez votre mobile en plusieurs fois sans frais, <a href=\"#\">en savoir plus</a>",
+    "discounts": [
+      {
+        "icon": false,
+        "title": "250 GNF de remise immédiate",
+        "subtitle": "du 15/11/2018 au 08/012019",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      },
+      {
+        "icon": true,
+        "title": "350 GNF de remboursement différé",
+        "subtitle": "",
+        "dropdownContent": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "timestamp": ""
+      }
+    ],
+    "variationsList": [
+      {
+        "storageCapacity": "32 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "32 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#ffd600", "colorName": "Jaune", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "64 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "128 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#000000", "colorName": "Noir", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#ffffff", "colorName": "Blanc", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#cd3c14", "colorName": "Rouge", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      },
+      {
+        "storageCapacity": "256 go", "color": "#527edb", "colorName": "Bleu", "inStock": true, "flatRate": [{ "text": "À partir de", "newPrice": "1 000 000 <span>GNF</span>", "oldPrice": "2 000 000 <span>GNF</span>" }], "baseRate": [{ "text": "Prix seul", "newPrice": "11 000 000 <span>GNF</span>", "oldPrice": "13 000 000 <span>GNF</span>" }], "shipment": "Expédié à partir du 01/01/2019", "warning": {"title":  "Avance à payer :", "content":  "Minimun 400 GNF à la commande selon le choix du paiement"}
+      }
+    ]
+  }
+]

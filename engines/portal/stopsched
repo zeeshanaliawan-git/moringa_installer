@@ -1,0 +1,23 @@
+#!/bin/sh
+
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+touch _stop
+
+mysql -u asimina cleandb_portal -h 127.0.0.1 -P 3306 -e "select semfree('D002');"
+sleep 5
+
+pid=`cat sched.pid`
+
+kill -0 $pid 2>/dev/null && kill $pid 2>/dev/null
+
+sleep 1
+if kill -0 $pid 2>/dev/null
+then
+echo "echec terminaison $pid"
+else
+echo "$pid terminate"
+fi
+
+exit 0
+

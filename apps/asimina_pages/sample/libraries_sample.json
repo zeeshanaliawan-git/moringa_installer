@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "item_type": "library",
+      "system_info": {
+        "name": "Libary Name 1"
+      },
+      "body_files": [
+        {
+          "name": "sample1.js",
+          "type": "js"
+        },
+        {
+          "name": "sample1.css",
+          "type": "css"
+        }
+      ],
+      "head_files": [
+        {
+          "name": "sample2.js",
+          "type": "js"
+        },
+        {
+          "name": "sample2.css",
+          "type": "css"
+        }
+      ]
+    },
+    {
+      "item_type": "library",
+      "system_info": {
+        "name": "Libary Name 2"
+      },
+      "body_files": [
+        {
+          "name": "sample1.js",
+          "type": "js"
+        },
+        {
+          "name": "sample1.css",
+          "type": "css"
+        }
+      ],
+      "head_files": [
+        {
+          "name": "sample2.js",
+          "type": "js"
+        },
+        {
+          "name": "sample2.css",
+          "type": "css"
+        }
+      ]
+    }
+  ]
+}

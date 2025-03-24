@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#echo '741852963' | sudo -S /etc/init.d/apache2 stop
+sudo service nginx stop

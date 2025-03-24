@@ -1,0 +1,1 @@
+INSERT INTO config (CODE,val) VALUES('ENGINE_NAME','Shop');

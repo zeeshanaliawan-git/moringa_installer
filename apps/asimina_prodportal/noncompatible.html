@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+    <title>Not compatible</title>
+
+    <style type="text/css" media="screen">
+        body{
+            background-color: #aaa;
+
+        }
+        .etn-orange-portal-- .o-message{
+            background-color: #fff;
+            padding: 30px 60px;
+        }
+        .etn-orange-portal-- .o-message h1{
+            font-size: 30px;
+        }
+        .etn-orange-portal-- .o-message p{
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .etn-orange-portal-- .o-message button.o-orange{
+            background: none;
+            border: none;
+            color:white;
+            padding: 7px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="etn-orange-portal--">
+        <div class="o-container o-message" id='enmsg' style='display:none'>
+              <h1>Incompatible internet browser</h1>
+              <p>Your browser is out of date. Please download the updated version for an optimal experience on our portal.</p>
+        </div>
+        <div class="o-container o-message" id='frmsg' style='display:none'>
+              <h1>Navigateur internet incompatible</h1>
+              <p>Votre navigateur n'est pas à jour. Veuillez télécharger la version actualisée pour avoir une expérience optimale sur notre portail.</p>
+        </div>
+    </div>
+</body>
+<script>
+function getParameter(name) 
+{
+    var url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'), results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var lg = getParameter("lg");
+var obj = document.getElementById(lg+'msg');
+if(obj === null) document.getElementById("enmsg").style.display = "block";
+else document.getElementById(lg+'msg').style.display = "block";
+
+</script>
+</html>

@@ -1,0 +1,138 @@
+/* V20180918-1*/
+
+/* standard margins */
+.dis-b{display:block}
+.dis-n{display:none}
+
+/* standard margins */
+.m-t-5{margin-top:5px !important}
+.m-t-10{margin-top:10px !important}
+.m-t-15{margin-top:15px !important}
+.m-t-20{margin-top:20px !important}
+.m-t-25{margin-top:25px !important}
+.m-t-30{margin-top:30px !important}
+.m-t-35{margin-top:35px !important}
+.m-t-40{margin-top:40px !important}
+.m-t-45{margin-top:45px !important}
+.m-t-50{margin-top:50px !important}
+
+.m-r-0{margin-right:0px !important}
+.m-r-5{margin-right:5px !important}
+.m-r-10{margin-right:10px !important}
+.m-r-15{margin-right:15px !important}
+.m-r-20{margin-right:20px !important}
+.m-r-25{margin-right:25px !important}
+
+.m-b-10{margin-bottom:10px !important}
+.m-b-15{margin-bottom:15px !important}
+.m-b-20{margin-bottom:20px !important}
+.m-b-25{margin-bottom:25px !important}
+
+.m-l-0{margin-left:0px !important}
+.m-l-5{margin-left:5px !important}
+.m-l-10{margin-left:10px !important}
+.m-l-15{margin-left:15px !important}
+.m-l-20{margin-left:20px !important}
+.m-l-25{margin-left:25px !important}
+
+.m-l-40{margin-left:40px !important}
+.m-l-45{margin-left:45px !important}
+
+
+
+.p-t-10{padding-top:10px !important}
+.p-t-15{padding-top:15px !important}
+.p-t-20{padding-top:20px !important}
+.p-t-25{padding-top:25px !important}
+.p-t-30{padding-top:30px !important}
+.p-t-35{padding-top:35px !important}
+.p-t-40{padding-top:40px !important}
+.p-t-45{padding-top:45px !important}
+
+.p-l-5{padding-left:5px !important}
+.p-l-10{padding-left:10px !important}
+.p-l-15{padding-left:15px !important}
+.p-l-20{padding-left:20px !important}
+.p-l-25{padding-left:25px !important}
+.p-l-30{padding-left:30px !important}
+.p-l-35{padding-left:35px !important}
+
+.p-lr-5{padding-left:5px !important; padding-right:5px !important;}
+.p-lr-10{padding-left:10px !important; padding-right:10px !important;}
+.p-lr-15{padding-left:15px !important; padding-right:15px !important;}
+.p-lr-20{padding-left:20px !important; padding-right:20px !important;}
+.p-lr-25{padding-left:25px !important; padding-right:25px !important;}
+.p-lr-30{padding-left:30px !important; padding-right:30px !important;}
+.p-lr-35{padding-left:35px !important; padding-right:35px !important;}
+
+/* text weight */
+.t-bold{font-weight:bold}
+
+/* text alignement */
+.ta-c{text-align:center}
+.ta-l{text-align:left}
+.ta-r{text-align:right}
+
+/* text color */
+.c-green{color:#4caf50}
+.c-red{color:#f44336}
+.c-orange{color:#ff6600}
+
+/* background */
+.bg-table{background-color:#aaa}
+
+/* form */
+.field-order{width:50px}
+
+/* table */
+tr.v-a-t td, td.v-a-t {vertical-align:top !important}
+tr.v-a-m td, td.v-a-m {vertical-align:middle !important}
+tr.v-a-b td, td.v-a-b {vertical-align:bottom !important}
+
+table.keyfeatures input.form-control{max-width:150px}
+table.tb1px td{border:1px solid #efefef}
+
+/* title section */
+.t-s-grey{background-color:#9e9e9e; color:#fff; font-size:20px; padding:5px 0px 5px 10px}
+.t-s-orange{background-color:#f16e00; color:#fff; font-size:20px; padding:5px 0px 5px 10px}
+.t-s-underline{; color:#000; font-size:20px; padding:5px 0px 5px 10px; border-bottom:1px solid #ddd;margin-bottom:20px}
+.mo-separator{border-bottom:1px solid #ccc}
+
+/* menu */
+.menu-level0 td p{margin-left:5px;padding-top:10px }
+.menu-level1 td p{margin-left:10px;padding-top:15px }
+.menu-level2 td p{margin-left:25px;padding-top:15px}
+.menu-level3 td p{margin-left:40px;padding-top:15px}
+.menu-level0 td{background-color:#000; color:#fff}
+.menu-level1 td{background-color:#fcf8e3}
+.menu-level2 td{background-color:#d9edf7}
+.menu-level3 td{background-color:#dff0d8}
+.menu_select td{background-color:#f16e00 !important; color:#000 !important}
+
+/* accordion */
+.moringa-accordion .card-header{background-color:#d9edf7; border-color:#bce8f1; padding:.5rem 1.25rem;}
+.moringa-accordion .card-title a{font-size:1.2rem; font-weight:bold; color:#23527c}
+.moringa-accordion .panel-collapse{padding:20px}
+.moringa-accordion h3{margin-bottom:0}
+/* Icons */
+.oi{
+  line-height:1.3125 !important;
+}
+.oi.oi-x{
+  top:0px;
+  /* font-size:10px */
+}
+.oi.oi-data-transfer-upload{
+  top:0px; font-size:10px
+}
+
+.oi{
+  top: 0;
+}
+
+table.table-vam td {vertical-align:middle !important}
+label.is-required::after {margin-left: 6px;font-weight: 700;color: #f10000;content: "*";}
+
+/* to delete */
+/*.table td,.table th{border: 1px solid #ccc;}
+.table tr{font-size: 13px;}*/

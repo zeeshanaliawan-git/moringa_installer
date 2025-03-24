@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "item_type": "bloc_template",
+      "system_info": {
+        "name": "Sample Template 1",
+        "custom_id": "sample_template_1", // unique template id, only alphanumeric and undescore allowed
+        "type": "block",   // allowed values :  "block" , "feed_view"
+        "description": "Description of sample template 1 "
+      },
+      "resources": {
+        "libraries": ["Library 1", "Library 2"],
+        "code": "Freemarker template code e.g. <h1>${global_info.title} </h1>",
+        "js": " var test = 'js code'; ",
+        "css": " .sample{\n display: none;\n }"
+      },
+      "sections": [
+        {
+          "name": "Global Info",
+          "custom_id": "global_info", // unique section id (only alphanumeric and underscore)
+          "nb_items": "1",  // number , 0 = unlimited
+          "fields": [
+            {
+              "name": "Title",
+              "custom_id": "title", // unique field id (for this section)
+              "type": "text",  // possible values: text, multiline_text, text_formatted, select, image, url
+              "nb_items": "1", // number , 0 = unlimited
+              "value": "",    // used in some field types to define options
+              "default_value": "default title", //default value of field when its bloc is created , see below sample format for each type
+            },
+            {
+              "name": "Description",
+              "custom_id": "desc",
+              "type": "multiline_text",
+              "nb_items": "1",
+              "value": "",
+              "default_value": "multiline desc \n new line",
+            }
+          ],
+          "sections": [],   // nested sections , see below for example
+        },
+        {
+          "name": "Section with nested sections",
+          "custom_id": "section_with_nested_section",
+          "nb_items": "0",
+          "fields": [
+            {
+              "name": "Formatted field",
+              "custom_id": "formatted_field",
+              "type": "text_formatted",
+              "nb_items": "1",
+              "value": "",
+              "default_value": "<div>this field can contain formatted(html) text</div>",
+            },
+            {
+              "name": "Color Select Field",
+              "custom_id": "select_field",
+              "type": "select",
+              "nb_items": "1",
+              "value": "[[\"red\",\"Red\"],[\"white\",\"White\"]]",
+              "default_value": "white",
+            },
+            {
+              "name": "URL field",
+              "custom_id": "url_field",
+              "type": "url",
+              "nb_items": "2",
+              "value": "",
+              "default_value": "/sample/url/",
+            },
+            {
+              "name": "Unlimited boolean",
+              "custom_id": "unlimited_boolean",
+              "type": "boolean",
+              "nb_items": "0",
+              "value": "{\"on\":\"value if on\",\"off\":\"value if off\"}",
+              "default_value": "value if off",
+            },
+            {
+              "name": "Images field",
+              "custom_id": "images_field",
+              "type": "image",
+              "nb_items": "0",
+              "value": "",
+              "default_value": "image-name.jpg,image alt text",
+            }
+          ],
+          "sections": [
+            {
+              //nested sections has exact same format
+              //can contain nested sections
+              //but only 2 level nested section max are allowed
+              "name": "Nested Section 1",
+              "custom_id": "nested_section_1",
+              "nb_items": "1",
+              "fields": [
+                {
+                  "name": "Nested Section text",
+                  "custom_id": "nested_section_text",
+                  "type": "text",
+                  "nb_items": "1",
+                  "value": "",
+                  "default_value": "",
+                }
+              ],
+              "sections": [
+              ],
+            },
+          ],
+        },
+      ]
+    }
+  ]
+}
