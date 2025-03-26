@@ -623,6 +623,14 @@ echo "Starting Package Installation"
 
 installer_1(){
 
+# NodeJS Installation 
+
+log_info "1 -  NodeJS Installation"
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+apt install -y nodejs
+node -v || log_warn "NodeJS installation failed"
+npm -v || log_warn "NPM installation failed"
+
 # ImageMagick installation
 log_info "2 - ImageMagick installation"
 apt install -y imagemagick
