@@ -7,7 +7,7 @@ then
 exit 1
 fi
 
-PATH=/home/etn/bin:/usr/local/bin:/usr/bin:/bin
+PATH=/home/asimina/bin:/usr/local/bin:/usr/bin:/bin
 
 
 BASEDIR=$(dirname "$0")

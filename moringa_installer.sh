@@ -451,7 +451,8 @@ main() {
     echo ""
     execute_db_command "update config set val = substr(uuid(), 1,8) where code = 'ADMIN_PASS_SALT';" "${dbprefix}_commons"
     execute_db_command "update config set val = substr(uuid(), 1,8) where code = 'CLIENT_PASS_SALT';" "${dbprefix}_commons"
-    execute_db_command "insert currencies value ('${currency_code}');" "${dbprefix}_commons"
+    #execute_db_command "insert currencies value ('${currency_code}');" "${dbprefix}_commons"
+    execute_db_command "insert into currencies (currency_code) value ('${currency_code}');" "${dbprefix}_commons"
     sleep 2s
 
     # Update database : ${dbprefix}_catalog
